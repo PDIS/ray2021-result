@@ -1,0 +1,55 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ray2021
+  labels:
+    app: ray2021
+    job: <JOB>
+spec:
+  selector:
+    matchLabels:
+      app: ray2021
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+        - name: nginx
+          image: <IMAGE>
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ray2021
+  labels:
+    app: ray2021
+    job: <JOB>
+spec:
+  ports:
+    - port: 80
+      protocol: TCP
+  selector:
+    app: ray2021
+
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: ray2021
+  labels:
+    app: ray2021
+    job: <JOB>
+spec:
+  rules:
+    - host: <DOMAIN>
+      http:
+        paths:
+          - backend:
+              serviceName: ray2021
+              servicePort: 80
