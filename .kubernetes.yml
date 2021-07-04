@@ -19,10 +19,10 @@ spec:
         - name: nginx
           image: <IMAGE>
           imagePullPolicy: Always
-          imagePullSecrets:
-            - name: gitlab
           ports:
             - containerPort: 80
+      imagePullSecrets:
+        - name: gitlab
 
 ---
 apiVersion: v1
