@@ -4,7 +4,7 @@ metadata:
   name: ray2021
   labels:
     app: ray2021
-    job: <JOB>
+    job: "<JOB>"
 spec:
   selector:
     matchLabels:
@@ -13,7 +13,7 @@ spec:
   template:
     metadata:
       labels:
-        app: nginx
+        app: ray2021
     spec:
       containers:
         - name: nginx
@@ -29,7 +29,7 @@ metadata:
   name: ray2021
   labels:
     app: ray2021
-    job: <JOB>
+    job: "<JOB>"
 spec:
   ports:
     - port: 80
@@ -44,7 +44,7 @@ metadata:
   name: ray2021
   labels:
     app: ray2021
-    job: <JOB>
+    job: "<JOB>"
 spec:
   rules:
     - host: <DOMAIN>
