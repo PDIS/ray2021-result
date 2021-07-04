@@ -1,11 +1,26 @@
 stages:
-  - build
+  - build hexo
+  - build image
 
-build:
-  stage: build
+build hexo:
+  stage: build hexo
   tags:
     - docker
   image: node:16
   script:
     - npm install
     - npx hexo generate
+  artifacts:
+    paths:
+      - public
+    expire_in: 30 mins
+
+build image:
+  stage: build image
+  tags:
+    - docker-builder
+  script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker build . -t $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME
+    - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME
+  
