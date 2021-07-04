@@ -29,7 +29,9 @@ deploy:
   stage: deploy
   tags:
     - docker
-  image: bitnami/kubectl:1.21
+  image: 
+    name: bitnami/kubectl:1.21
+    entrypoint: [""]
   environment:
     name: development
     url: https://ray2021.k8s.pdis.dev
