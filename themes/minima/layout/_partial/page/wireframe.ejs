@@ -1,0 +1,14 @@
+<section>
+  <div class="row">
+    <% page.wireframe.items.forEach(function(value){ %>
+    <div class="col-lg-4 text-center fw-bold">
+      <p><%- value.name %></p>
+      <img src="<%- value.pic %>" alt="<%- value.name %>" class="w-100" />
+    </div>
+    <% }) %>
+  </div>
+  <div class="row mt-5">
+    <h3 class="fs-4 fw-bold my-3"><%- page.wireframe.title %></h3>
+    <span><%- page.wireframe.content %></span>
+  </div>
+</section>

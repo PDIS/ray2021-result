@@ -1,0 +1,13 @@
+<section>
+  <% page.need.items.forEach(function(value){ %>
+  <div class="need row my-5">
+    <div class="col-md-6 col-lg-8">
+      <h3 class="fs-4 fw-bold"><%- value.title %></h3>
+      <span><%- value.content %></span>
+    </div>
+    <div class="col-md-6 col-lg-4">
+      <img src="<%- value.pic %>" class="w-100" />
+    </div>
+  </div>
+  <% }) %>
+</section>

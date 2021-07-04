@@ -1,0 +1,27 @@
+<section class="sec-cover">
+  <div class="row">
+    <div class="col-lg-6">
+      <img src="com.png" alt="cover" class="w-100" />
+      <div class="text-center mt-4">
+        <button type="button" class="btn btn-secondary px-4 rounded-pill">看現行網頁</button>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <h1 class="fs-3"><%- page.title %></h1>
+      <p class="fs-4"><%- page.cover.subtitle %></p>
+      <div class="members mt-4">
+        <% page.cover.members.forEach(function(value){ %>
+        <div class="member me-4 border-0 text-center">
+          <img
+            src="<%- value.pic %>"
+            alt="<%- value.name %>"
+            class="rounded-circle"
+          />
+          <span><%- value.name %></span>
+        </div>
+        <% }) %>
+      </div>
+      <div class="description mt-4"><%- page.cover.description %></div>
+    </div>
+  </div>
+</section>
