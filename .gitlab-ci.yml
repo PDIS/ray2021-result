@@ -40,5 +40,7 @@ deploy:
     - sed -i "s,<DOMAIN>,$DOMAIN,g" .kubernetes.yml
     - sed -i "s,<JOB>,$CI_JOB_ID,g" .kubernetes.yml
     - sed -i "s,<IMAGE>,$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME,g" .kubernetes.yml
-    - kubectl create secret docker-registry regcred --docker-server=$CI_REGISTRY --docker-username=$CI_REGISTRY_USER --docker-password=$CI_REGISTRY_PASSWORD
+    - kubectl create secret docker-registry regcred \
+      --docker-server=$CI_REGISTRY --docker-username=$CI_REGISTRY_USER --docker-password=$CI_REGISTRY_PASSWORD \
+      --dry-run -o yaml | kubectl apply -f -
     - kubectl apply -f .kubernetes.yml
