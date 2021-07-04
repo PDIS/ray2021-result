@@ -1,0 +1,11 @@
+stages:
+  - build
+
+build:
+  stage: build
+  tags:
+    - docker
+  image: node:16
+  script:
+    - npm install
+    - npx hexo generate
