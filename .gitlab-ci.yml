@@ -1,6 +1,6 @@
 stages:
   - build image
-  - deploy to k8s
+  - deploy
   - renew
 
 build image:
