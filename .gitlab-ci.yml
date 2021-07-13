@@ -1,9 +1,12 @@
 stages:
   - build image
-  - deploy
+  - deploy to k8s
+  - renew
 
 build image:
   stage: build image
+  rules:
+    - if: '$RUN_INIT == "true"'
   tags:
     - docker-builder
   script:
@@ -13,6 +16,8 @@ build image:
 
 deploy:
   stage: deploy
+  rules:
+    - if: '$RUN_INIT == "true"'
   tags:
     - docker
   image: 
@@ -29,4 +34,14 @@ deploy:
       --docker-server=$CI_REGISTRY --docker-username=$REGISTRY_USER --docker-password=$REGISTRY_PASSWORD
       --dry-run -o yaml | kubectl apply -f -
     - kubectl apply -f .kubernetes.yml
+
+renew:
+  stage: renew
+  image: 
+    name: bitnami/kubectl:1.21
+    entrypoint: [""]
+  environment:
+    name: development
+    url: https://ray2021.k8s.pdis.dev
+  script:
     - kubectl rollout restart deployment/ray2021 -n $KUBE_NAMESPACE
