@@ -37,6 +37,8 @@ deploy:
 
 renew:
   stage: renew
+  tags:
+    - docker
   image: 
     name: bitnami/kubectl:1.21
     entrypoint: [""]
