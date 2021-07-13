@@ -1,3 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC");
+* {
+  font-family: "Noto Sans TC";
+}
+
+.homepage-sec {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-primary {
+  color: #eb6047 !important;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #eb6047;
+  border-color: #eb6047;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #e7482b;
+  border-color: #e7482b;
+}
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #eb6047;
+  border-color: #eb6047;
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.btn-check:checked + .btn-primary,
+.btn-check:active + .btn-primary,
+.btn-primary:active,
+.btn-primary.active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #e7482b;
+  border-color: #e7482b;
+}
+.btn-check:checked + .btn-primary:focus,
+.btn-check:active + .btn-primary:focus,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+}
+.btn-primary:disabled,
+.btn-primary.disabled {
+  color: #fff;
+  background-color: #eb6047;
+  border-color: #eb6047;
+}
+
 .header-divider {
   box-shadow: 0 2px 10px rgb(0 0 0 / 5%);
 }
@@ -63,4 +117,67 @@ footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.homepage-cover {
+  background: url(/cover.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  background-size: cover !important;
+  background-blend-mode: multiply;
+  background-position: center !important;
+}
+
+.origin-type {
+  line-height: 2rem;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.origin-title {
+  color: #a8a8a8;
+}
+
+.origin-content {
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+.origin-content br {
+  display: block;
+  margin: 1rem 0;
+  content: " ";
+}
+
+.homepage-headline {
+  font-size: 3rem;
+}
+
+.origin {
+  margin-top: 6rem;
+}
+.origin-pic {
+  position: relative;
+}
+.origin-pic-image {
+  background-size: cover !important;
+  background-position: center !important;
+  filter: grayscale(1);
+  padding-bottom: 80%;
+}
+
+.origin:nth-child(3) .origin-pic-mask {
+  background: rgba(238, 96, 71, 0.74);
+  position: absolute;
+  width: 20%;
+  height: 80%;
+  top: 20%;
+  right: calc(var(--bs-gutter-x) * 0.5);
+}
+
+.origin:nth-child(4) .origin-pic-mask {
+  background: rgba(238, 96, 71, 0.74);
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  top: 0;
 }

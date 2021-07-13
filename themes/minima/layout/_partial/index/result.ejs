@@ -1,0 +1,29 @@
+<section>
+  <h2 class="text-primary text-center fw-bold homepage-headline">專案成果</h2>
+  <% page.result.projects.forEach(function(value){ %>
+  <div class="row origin">
+    <div class="col-md-6 px-4 py-2">
+      <img src="/com.png" alt="cover" class="w-100" />
+    </div>
+    <div class="col-md-6 px-4 py-2">
+      <h3 class="fs-4 fw-bold"><%- value.title %></h3>
+      <div class="fs-5 mt-3"><%- value.subtitle %></div>
+      <div class="members mt-4">
+        <% value.members.forEach(function(value){ %>
+        <div class="member me-4 border-0 text-center">
+          <img
+            src="<%- value.pic %>"
+            alt="<%- value.name %>"
+            class="rounded-circle"
+          />
+          <span><%- value.name %></span>
+        </div>
+        <% }) %>
+      </div>
+      <a href="<%- value.link %>" class="btn btn-primary mt-4 px-4 rounded-pill fs-5 fw-bold">
+        前往專案成果
+      </a>
+    </div>
+  </div>
+  <% }) %>
+</section>
