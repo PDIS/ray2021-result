@@ -1,2 +1,5 @@
 FROM nginx:1.20-alpine
-COPY public/ /usr/share/nginx/html/
+RUN apk add --update npm git
+COPY docker-entrypoint.sh /
+
+ENTRYPOINT ["/docker-entrypoint.sh"]

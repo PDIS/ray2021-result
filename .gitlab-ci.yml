@@ -1,20 +1,6 @@
 stages:
-  - build hexo
   - build image
   - deploy
-
-build hexo:
-  stage: build hexo
-  tags:
-    - docker
-  image: node:16
-  script:
-    - npm install
-    - npx hexo generate
-  artifacts:
-    paths:
-      - public
-    expire_in: 30 mins
 
 build image:
   stage: build image
@@ -38,9 +24,9 @@ deploy:
   script:
     - DOMAIN=$(echo "$CI_ENVIRONMENT_URL" | awk -F/ '{print $3}')
     - sed -i "s,<DOMAIN>,$DOMAIN,g" .kubernetes.yml
-    - sed -i "s,<JOB>,$CI_JOB_ID,g" .kubernetes.yml
     - sed -i "s,<IMAGE>,$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME,g" .kubernetes.yml
     - kubectl create secret docker-registry gitlab
       --docker-server=$CI_REGISTRY --docker-username=$REGISTRY_USER --docker-password=$REGISTRY_PASSWORD
       --dry-run -o yaml | kubectl apply -f -
     - kubectl apply -f .kubernetes.yml
+    - kubectl rollout restart deployment/ray2021 -n $KUBE_NAMESPACE
