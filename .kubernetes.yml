@@ -16,7 +16,10 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: <IMAGE>
+          image: gitlab.pdis.dev:5050/web-application/hexo-web-server-image:main
+          env:
+            - name: REPO_URL
+              value: <REPO_URL>
           ports:
             - containerPort: 80
       imagePullSecrets:
