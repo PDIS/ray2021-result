@@ -5,6 +5,7 @@ date: 2020-10-17
 
 cover:
   image: com.png
+  background: cover.jpg
   subtitle: Rescue Action by Youth .gov 2021
   description: 不畏疫情展開線上協作，<br>挑戰在雲端上改造公部門網站的可能！
 
