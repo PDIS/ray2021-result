@@ -102,10 +102,12 @@
 </head>
 
 <body>
-  <header class="header-divider">
-    <div class="container-fluid py-3">
-      <%- partial('partial/header') %>
-    </div>
+  <header>
+    <% if (url_for(page.path) == '/index.html'){ %>
+    <%- partial('partial/header', { darkmode: true }) %>
+    <% } else { %>
+    <%- partial('partial/header', { darkmode: false }) %>
+    <% } %>
   </header>
   <main>
     <%- body %>
