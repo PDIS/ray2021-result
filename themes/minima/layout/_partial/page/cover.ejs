@@ -1,7 +1,7 @@
 <section class="sec-cover">
   <div class="row">
     <div class="col-lg-6">
-      <img src="com.png" alt="cover" class="w-100" />
+      <img src="/image/<%- page.cover.image %>" alt="cover" class="w-100" />
       <div class="text-center mt-4">
         <button type="button" class="btn btn-secondary px-4 rounded-pill">看現行網頁</button>
       </div>
@@ -13,7 +13,7 @@
         <% page.cover.members.forEach(function(value){ %>
         <div class="member me-4 border-0 text-center">
           <img
-            src="<%- value.pic %>"
+            src="/image/<%- value.image %>"
             alt="<%- value.name %>"
             class="rounded-circle"
           />

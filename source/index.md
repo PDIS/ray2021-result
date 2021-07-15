@@ -4,6 +4,7 @@ title: RAY 5.0
 date: 2020-10-17
 
 cover:
+  image: com.png
   subtitle: Rescue Action by Youth .gov 2021
   description: 不畏疫情展開線上協作，<br>挑戰在雲端上改造公部門網站的可能！
 
@@ -12,60 +13,60 @@ origin:
     - type: WHY
       title: 「網站改造，青年之事」
       content: 公部門網站的改造之事，你我都可能成為行動的一份子。<br>從第一屆 RAY 1.0 的政府網站體檢到 RAY 5.0 網站改造，我們持續地邀請青年學子參與其中，藉由各自的設計、資訊專長，共創公部門網站更好的使用者體驗，以及探索政府網站更多的設計可能。今年的計畫我們邀請了 14 位來自不同大專院校之同學，包含服務設計、介面設計、視覺設計、資訊工程等多元背景人才，與國發會及相關部會協作，為四個公部門網站進行一系列地交流、研究與設計。
-      pic: origin.jpg
+      image: origin.jpg
     - type: WHAT
       title: 改造網站的組合技
       content: 為確保工作重點一致、檢測後獲得明確結果，PDIS 小組整理出適用於 2020 年 RAY 計畫的使用者體驗「設計六步驟」。在計畫開始時， PDIS 即舉辦說明會，講解此六步驟及執行期程，並確保同學對於訪談、研究有一定掌握度，以奠基後續設計和原型產出的基礎品質。此設計六步驟除了讓同學們明確掌握自身專案進度，也可供往後相關單位參考。
-      pic: origin.jpg
+      image: origin.jpg
     - type: HOW
       title: 「主動出擊，部會共同參與」
       content: 數位服務的改造過程必須持續納入多方意見，同時引導不同的行動者參與設計行動，例如：對應部會、相關行政單位等利害關係人，這使整個行動能夠兼容實作可行性、合理業務範圍及更多設計可能。<br>因此，在見習過程中，同學們與部會人員共同參與了多場工作坊，透過一系列的設計工具，深入地瞭解服務提供者的想法；同時建立線下的協作模式，邀請部會持續參與設計過程，以確認進度和互相交流。
-      pic: origin.jpg
+      image: origin.jpg
 
 result:
   projects:
     - title: 勞動部勞工保險局e化服務系統
       subtitle: 讓你人生的每個階段都安心
-      pic: com.png
-      link: /project1
+      image: com.png
+      link: project1
       members:
         - name: 唐鳳
-          pic: https://i0.wp.com/mixconf.tw/wp-content/uploads/2019/02/%E5%94%90%E9%B3%B3.png?fit=600%2C600&ssl=1
+          image: user1.png
         - name: 蘇貞昌
-          pic: https://www.bcc.com.tw/onair/lcc202104241525.jpg
+          image: user2.jpg
         - name: 蔡英文
-          pic: https://ichef.bbci.co.uk/news/640/cpsprodpb/12EA5/production/_110477477_gettyimages-1193087929.jpg
+          image: user3.jpg
     - title: 勞動部勞工保險局e化服務系統
       subtitle: 讓你人生的每個階段都安心
-      pic: com.png
-      link: /project1
+      image: com.png
+      link: project2
       members:
         - name: 唐鳳
-          pic: https://i0.wp.com/mixconf.tw/wp-content/uploads/2019/02/%E5%94%90%E9%B3%B3.png?fit=600%2C600&ssl=1
+          image: user1.png
         - name: 蘇貞昌
-          pic: https://www.bcc.com.tw/onair/lcc202104241525.jpg
+          image: user2.jpg
         - name: 蔡英文
-          pic: https://ichef.bbci.co.uk/news/640/cpsprodpb/12EA5/production/_110477477_gettyimages-1193087929.jpg
+          image: user3.jpg
     - title: 勞動部勞工保險局e化服務系統
       subtitle: 讓你人生的每個階段都安心
-      pic: com.png
-      link: /project1
+      image: com.png
+      link: project3
       members:
         - name: 唐鳳
-          pic: https://i0.wp.com/mixconf.tw/wp-content/uploads/2019/02/%E5%94%90%E9%B3%B3.png?fit=600%2C600&ssl=1
+          image: user1.png
         - name: 蘇貞昌
-          pic: https://www.bcc.com.tw/onair/lcc202104241525.jpg
+          image: user2.jpg
         - name: 蔡英文
-          pic: https://ichef.bbci.co.uk/news/640/cpsprodpb/12EA5/production/_110477477_gettyimages-1193087929.jpg
+          image: user3.jpg
     - title: 勞動部勞工保險局e化服務系統
       subtitle: 讓你人生的每個階段都安心
-      pic: com.png
-      link: /project1
+      image: com.png
+      link: project4
       members:
         - name: 唐鳳
-          pic: https://i0.wp.com/mixconf.tw/wp-content/uploads/2019/02/%E5%94%90%E9%B3%B3.png?fit=600%2C600&ssl=1
+          image: user1.png
         - name: 蘇貞昌
-          pic: https://www.bcc.com.tw/onair/lcc202104241525.jpg
+          image: user2.jpg
         - name: 蔡英文
-          pic: https://ichef.bbci.co.uk/news/640/cpsprodpb/12EA5/production/_110477477_gettyimages-1193087929.jpg
+          image: user3.jpg
 ---
