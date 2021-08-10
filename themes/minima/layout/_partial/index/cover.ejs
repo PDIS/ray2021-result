@@ -1,14 +1,22 @@
 <section class="sec-cover">
   <div class="row">
     <div class="col-lg-6 px-4 py-2">
-      <img src="/image/macbook.png" alt="cover" class="w-100" />
+      <div class="macbook">
+        <img src="/image/macbook.png" alt="macbook" class="w-100" />
+        <div class="screen" style="background: url('/image/<%- page.cover.image %>')"></div>
+      </div>
     </div>
     <div class="col-lg-6 px-4 py-2">
       <h1 class="homepage-title fw-bold text-white"><%- page.title %></h1>
       <p class="fs-4 fw-bold text-white"><%- page.cover.subtitle %></p>
-      <p class="fs-4 fw-bold text-primary my-3"><%- page.cover.description %></p>
+      <p class="fs-4 fw-bold text-primary my-3">
+        <%- page.cover.description %>
+      </p>
       <div class="text-end mt-5">
-        <button type="button" class="btn btn-primary px-4 rounded-pill fs-4 fw-bold">
+        <button
+          type="button"
+          class="btn btn-primary px-4 rounded-pill fs-4 fw-bold"
+        >
           前往專案成果
         </button>
       </div>

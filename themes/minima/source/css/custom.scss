@@ -113,7 +113,7 @@ footer ul {
   background-position: center !important;
   height: 100vh;
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
 
 .origin-type {
@@ -196,4 +196,22 @@ main section {
 
 main section:last-child {
   margin-bottom: 9rem;
+}
+
+.macbook {
+  position: relative;
+
+  .screen {
+    position: absolute;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 12%;
+    width: 75%;
+    height: 75%;
+    background-size: cover !important;
+    background-position: center !important;
+  }
 }
