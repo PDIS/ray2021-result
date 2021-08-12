@@ -5,7 +5,7 @@ date: 2021-07-04 18:30:46
 
 cover:
   image: com.png
-  subtitle: 讓你人生的每個階段都安心
+  subtitle: 激發服務熱忱，提供志工媒合服務
   members:
     - name: 唐鳳
       image: user1.png
