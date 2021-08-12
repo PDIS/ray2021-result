@@ -48,7 +48,7 @@ result:
           image: user2.jpg
         - name: 蔡英文
           image: user3.jpg
-    - title:「桃園市政府社會局」志願服務整合資訊平台
+    - title: 「桃園市政府社會局」志願服務整合資訊平台
       subtitle: 激發服務熱忱，提供志工媒合服務
       image: com.png
       link: project3
