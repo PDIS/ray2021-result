@@ -7,12 +7,12 @@ cover:
   image: com.png
   subtitle: 激發服務熱忱，提供志工媒合服務
   members:
-    - name: 唐鳳
-      image: user1.png
-    - name: 蘇貞昌
-      image: user2.jpg
-    - name: 蔡英文
-      image: user3.jpg
+    - name: 林子晴
+      image: 03林子晴.jpg
+    - name: 林曼寧
+      image: 03林曼寧.jpg
+    - name: 黃湧群
+      image: 03黃湧群.jpg
   description: 在前期研究中，經過與公部門以及使用者的多次訪談，我們歸納出志工網的幾點問題，其中包含：媒合功能使用率不高、資訊呈現方式不佳等，最後定義了我們的 Problem Statement 為「該如何能讓有志工服務熱誠的民眾，可以更容易的在桃園志工網取得資訊，並且提升志工網整體的媒合使用率」。
 
 prestudy:
