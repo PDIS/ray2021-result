@@ -34,9 +34,9 @@ need:
 wireframe:
   items:
     - name: 功能導向 A 版
-      image: com.png
+      image: 03_wireframe1.png
     - name: 探索導向 B 版
-      image: com.png
+      image: 03_wireframe2.png
   title: 簡化功能與激發參與意願的可能性
   content: 我們在 A 版嘗試重新編排架構、優化流程，提升使用的流暢；在 B 版嘗試加入身分別區分、凸顯人物故事，激發使用者參與志工的熱情。
 
