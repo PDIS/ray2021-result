@@ -8,7 +8,7 @@ cover:
   subtitle: 線性疏理資訊和流程，最大化使用效率
   members:
     - name: 林怡秀
-      image: 01林怡秀.png
+      image: 01林怡秀.jpg
     - name: 洪嘉吟
       image: 01洪嘉吟.jpg
     - name: 邱威辰
