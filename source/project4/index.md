@@ -7,12 +7,14 @@ cover:
   image: com.png
   subtitle: 讓你人生的每個階段都安心
   members:
-    - name: 唐鳳
-      image: user1.png
-    - name: 蘇貞昌
-      image: user2.jpg
-    - name: 蔡英文
-      image: user3.jpg
+    - name: 姚怡均
+      image: 04姚怡均.jpg
+    - name: 林祐謙
+      image: 04林祐謙.jpg
+    - name: 張智堯
+      image: 04張智堯.jpg
+    - name: 李姿儀
+      image: 04李姿儀.jpg
   description: 團隊在經過前期研究及收斂出親合圖後，定錨了兩項關鍵議題，分別是「服務缺乏適當指引」及「難以快速且放心地找到關鍵資訊」。透過適時的提示引導、梳理資訊架構、重整導覽頁面等關鍵設計，團隊逐步優化了服務系統的體驗，藉以打造令退休人士也能安心使用的勞保網站。
 
 prestudy:
