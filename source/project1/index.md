@@ -7,12 +7,14 @@ cover:
   image: com.png
   subtitle: 線性疏理資訊和流程，最大化使用效率
   members:
-    - name: 唐鳳
-      image: user1.png
-    - name: 蘇貞昌
-      image: user2.jpg
-    - name: 蔡英文
-      image: user3.jpg
+    - name: 林怡秀
+      image: 01林怡秀.png
+    - name: 洪嘉吟
+      image: 01洪嘉吟.jpg
+    - name: 邱威辰
+      image: 01邱威辰.jpg
+    - name: 陳澤宇
+      image: 01陳澤宇.JPG
   description: 經過訪談以及易用性測試，團隊從親合圖法發現目前系統資訊架構不明確，使用者蒐集資料的成本大，無法快速瞭解重要訊息和做出決策；同時導致使用者在系統上送出錯誤資料的行為，增加了系統後端的處理成本。團隊改善這些問題，將系統架構重新梳理，設計線性「深度為主」的使用者流程。最終目標是幫助使用者更有效的做到「瞭解公托」、「選擇公托」以及「申請公托」。
 
 prestudy:
