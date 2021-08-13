@@ -42,7 +42,7 @@ result:
           image: 01陳澤宇.JPG
     - title: 「衛生福利部中央健康保險署」健保卡網路服務註冊
       subtitle: 數位化健保卡，創造良好使用者體驗
-      image: com.png
+      image: 02_wireframe3.png
       link: project2
       members:
         - name: 郭又宗
