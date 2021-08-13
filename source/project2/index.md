@@ -7,12 +7,12 @@ cover:
   image: com.png
   subtitle: 數位化健保卡，創造良好使用者體驗
   members:
-    - name: 唐鳳
-      image: user1.png
-    - name: 蘇貞昌
-      image: user2.jpg
-    - name: 蔡英文
-      image: user3.jpg
+    - name: 郭又宗
+      image: 02郭又宗.jpg
+    - name: 楊曉曄
+      image: 02楊曉曄.jpg
+    - name: 葉伊蕙
+      image: 02葉伊蕙.jpg
   description: 健保卡網路註冊服務致力於將健保卡數位化，使用者完成註冊後便能得到由健保卡自然人憑證轉換而成的「類憑證」，以利使用需要健保卡認證的網路服務。前期研究發現，部分使用者會在註冊的環節卡關，最後甚至放棄註冊。因此團隊與健保署一同合作並確立目標 ，希望在確保資訊安全的情況下，協助使用者完成註冊。
 
 prestudy:

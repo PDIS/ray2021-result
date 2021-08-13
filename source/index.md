@@ -44,12 +44,12 @@ result:
       image: com.png
       link: project2
       members:
-        - name: 唐鳳
-          image: user1.png
-        - name: 蘇貞昌
-          image: user2.jpg
-        - name: 蔡英文
-          image: user3.jpg
+        - name: 郭又宗
+          image: 02郭又宗.jpg
+        - name: 楊曉曄
+          image: 02楊曉曄.jpg
+        - name: 葉伊蕙
+          image: 02葉伊蕙.jpg
     - title: 「桃園市政府社會局」志願服務整合資訊平台
       subtitle: 激發服務熱忱，提供志工媒合服務
       image: com.png
