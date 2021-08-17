@@ -36,9 +36,9 @@ need:
 wireframe:
   items:
     - name: Wireframe A 網頁/手機版面
-      image: com.png
+      image: 01_wireframe1_2.png
     - name: Wireframe B 手機版面
-      image: com.png
+      image: 01_wireframe2.gif
 
   title: 待補
   content: 待補
