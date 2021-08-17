@@ -29,7 +29,7 @@ result:
   projects:
     - title: 「臺北市政府社會局」公托登記報名及抽籤
       subtitle: 線性疏理資訊和流程，最大化使用效率
-      image: com.png
+      image: 01_wireframe1_2.png
       link: project1
       members:
         - name: 林怡秀
@@ -53,7 +53,7 @@ result:
           image: 02葉伊蕙.jpg
     - title: 「桃園市政府社會局」志願服務整合資訊平台
       subtitle: 激發服務熱忱，提供志工媒合服務
-      image: com.png
+      image: 03_wireframe3.png
       link: project3
       members:
         - name: 林子晴
