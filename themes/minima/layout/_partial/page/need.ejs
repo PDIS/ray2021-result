@@ -1,11 +1,11 @@
 <section>
   <% page.need.items.forEach(function(value){ %>
-  <div class="need row my-5">
-    <div class="col-md-6 col-lg-6">
+  <div class="need row my-5 justify-content-center">
+    <div class="col-12">
       <h3 class="fs-4 fw-bold"><%- value.title %></h3>
       <span><%- value.content %></span>
     </div>
-    <div class="col-md-6 col-lg-6">
+    <div class="col-12 col-lg-6 col-md-8">
       <% if (typeof value.image != "undefined"){ %>
       <img src="/image/<%- value.image %>" class="w-100" />
       <% } %>
