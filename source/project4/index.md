@@ -21,7 +21,9 @@ cover:
 
 prestudy:
   images:
-    - prestudy.png
+    - 04_research1.jpg
+    - 04_research2.jpg
+    - 04_research3.jpg
 
 need:
   items:
