@@ -2,6 +2,8 @@
 layout: index
 title: 首頁
 date: 2020-10-17
+thumbnail: com.png
+description: Rescue Action by Youth .gov 2021
 
 cover:
   title: RAY 5.0
