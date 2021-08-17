@@ -2,30 +2,15 @@
   <h2 class="fs-4 fw-bold">前期研究</h2>
   <div
     id="carouselExampleIndicators"
-    class="carousel slide"
+    class="carousel carousel-dark slide"
     data-bs-ride="carousel"
   >
-    <div class="carousel-indicators">
-      <% page.prestudy.images.forEach(function(value, index){ %>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="<%- index %>"
-          aria-label="Slide <%- index %>"
-          <% if (index == 0) { %>
-          class="active"
-          aria-current="true"
-          <% } %>
-        ></button>
-      <% }) %>
-    </div>
     <div class="carousel-inner">
       <% page.prestudy.images.forEach(function(value, index){ %>
         <div class="carousel-item <%- index==0?"active":"" %>">
           <img src="/image/<%- value %>" class="d-block h-100 w-100"/>
         </div>
       <% }) %>
-      
     </div>
     <button
       class="carousel-control-prev"
@@ -45,6 +30,20 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+    <div class="carousel-indicators">
+      <% page.prestudy.images.forEach(function(value, index){ %>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="<%- index %>"
+          aria-label="Slide <%- index %>"
+          <% if (index == 0) { %>
+          class="active"
+          aria-current="true"
+          <% } %>
+        ></button>
+      <% }) %>
+    </div>
   </div>
 </section>
 

@@ -215,3 +215,16 @@ main section:last-child {
     background-position: center !important;
   }
 }
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5%;
+}
+
+.carousel-inner {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.carousel-indicators {
+  position: unset;
+}
