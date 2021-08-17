@@ -73,12 +73,6 @@
   object-fit: contain;
 }
 
-@media (min-width: 992px) {
-  .need > div:first-child {
-    padding-right: 7rem;
-  }
-}
-
 .tobecontinue {
   margin: 0 auto;
   max-width: 750px;
@@ -232,4 +226,10 @@ main section:last-child {
 
 .carousel-inner {
   max-height: 40rem;
+}
+
+
+.need {
+  max-width: 1000px;
+  margin: auto;
 }
