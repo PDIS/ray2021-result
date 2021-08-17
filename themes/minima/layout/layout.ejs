@@ -21,7 +21,7 @@
   } else if (is_post()){
     title = page.title;
   } else if (is_page()){
-    title = page.title + ' - ' + config.author;
+    title = page.title + ' - ' + config.title;
   } else if (is_tag()){
     title = 'Posts Related to ' + page.tag;
   }
@@ -43,9 +43,9 @@
   <% } %>
   <meta name="author" content="<%- config.author %>">
   <% if (is_post() || is_page()) { %>
-  <meta property="og:image" content="<%-config.url + page.thumbnail %>">
+  <meta property="og:image" content="<%-config.url + '/image/' + page.thumbnail %>">
   <% } else { %>
-  <meta property="og:image" content="<%-config.url + theme.thumbnail %>">
+  <meta property="og:image" content="<%-config.url + '/image/' + theme.thumbnail %>">
   <% } %>
   <meta property="og:site_name" content="<%= config.title %>" />
   <meta property="og:type" content="article" />
@@ -69,9 +69,9 @@
   <meta name="twitter:description" content="<%= config.description %>">
   <% } %>
   <% if (is_post() || is_page()) { %>
-  <meta name="twitter:image" content="<%-config.url + page.thumbnail %>">
+  <meta name="twitter:image" content="<%-config.url + '/image/' + page.thumbnail %>">
   <% } else { %>
-  <meta name="twitter:image" content="<%-config.url + theme.thumbnail %>">
+  <meta name="twitter:image" content="<%-config.url + '/image/' + theme.thumbnail %>">
   <% } %>
   <meta name="twitter:url" content="<%= url.replace(/index\.html$/, '').replace(/index\.html$/, '') %>" />
 

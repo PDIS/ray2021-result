@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Ray 5.0
+subtitle: 'Rescue Action by Youth .gov 2021'
+description: '不畏疫情展開線上協作，挑戰在雲端上改造公部門網站的可能！'
 keywords:
-author: RAY 5.0
-language: en
+author: PDIS
+language: zh-TW
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://ray2021.k8s.pdis.dev
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
