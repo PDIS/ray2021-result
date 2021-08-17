@@ -225,6 +225,11 @@ main section:last-child {
   padding-left: 5%;
   padding-right: 5%;
 }
+
 .carousel-indicators {
   position: unset;
+}
+
+.carousel-inner {
+  max-height: 40rem;
 }
