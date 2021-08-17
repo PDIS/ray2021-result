@@ -40,9 +40,9 @@ need:
 wireframe:
   items:
     - name: Wireframe A版/ 山林悠遊網 messenger chatbot
-      image: 04_wireframe1.jpg
+      image: 04_wireframe1.gif
     - name: Wireframe B版/ 山林悠遊網 Line 官方 chatbot
-      image: 04_wireframe2.jpg
+      image: 04_wireframe2.gif
   title: 對話方式探索景點，協助輕鬆安排行程
   content: A 版 Wireframe 於山林悠遊網上運作的 messneger chatbot，因山林悠遊網本身即有豐富資訊，因此我們討論後在網站上加上了 chatbot，一方面延伸網站功能，另一方面讓使用者在進入網站時能立即獲得協助，簡化網站使用上的複雜度。B版Wireframe設計則是以 Line 官方 chatbot 的方式擴大服務，以互動的方式幫助篩選出適合的景點。 除了串連整個行程的前中後，也計劃串接線上線下的服務，讓使用者在整個行程能有完整的體驗。
 
