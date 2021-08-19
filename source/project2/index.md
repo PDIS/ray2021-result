@@ -35,9 +35,9 @@ need:
 wireframe:
   items:
     - name: 可行性優先
-      image: 02_wireframe1.png
-    - name: 天馬行空版
       image: 02_wireframe2.png
+    - name: 天馬行空版
+      image: 02_wireframe1.png
     - name: 討論最終版
       image: 02_wireframe3.png
   title: 兼具創意與可行性的最佳解
