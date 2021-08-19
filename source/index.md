@@ -32,6 +32,7 @@ result:
     - title: 「臺北市政府社會局」公托登記報名及抽籤
       subtitle: 線性疏理資訊和流程，最大化使用效率
       image: 01_wireframe1_2.png
+      background: iphone
       link: project1
       members:
         - name: 林怡秀
@@ -45,6 +46,7 @@ result:
     - title: 「衛生福利部中央健康保險署」健保卡網路服務註冊
       subtitle: 數位化健保卡，創造良好使用者體驗
       image: 02_wireframe3.png
+      background: macbook
       link: project2
       members:
         - name: 郭又宗
@@ -56,6 +58,7 @@ result:
     - title: 「桃園市政府社會局」志願服務整合資訊平台
       subtitle: 激發服務熱忱，提供志工媒合服務
       image: 03_wireframe3.png
+      background: macbook
       link: project3
       members:
         - name: 林子晴
@@ -67,6 +70,7 @@ result:
     - title: 「行政院農業委員會林務局」臺灣山林悠遊網
       subtitle: 專屬山林嚮導，讓你行程免煩惱
       image: com.png
+      background: iphone
       link: project4
       members:
         - name: 姚怡均

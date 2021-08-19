@@ -210,6 +210,25 @@ main section:last-child {
   }
 }
 
+.iphone {
+  max-width: 200px;
+  position: relative;
+  margin: auto;
+
+  .screen {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 12%;
+    width: 80%;
+    height: 75%;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+}
+
 .carousel-control-next,
 .carousel-control-prev {
   width: 5%;
