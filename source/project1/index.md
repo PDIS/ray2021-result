@@ -7,6 +7,7 @@ description: 線性疏理資訊和流程，最大化使用效率
 
 cover:
   image: 01_wireframe1_2.png
+  background: iphone
   subtitle: 線性疏理資訊和流程，最大化使用效率
   members:
     - name: 林怡秀
@@ -39,8 +40,10 @@ wireframe:
   items:
     - name: Wireframe A 網頁/手機版面
       image: 01_wireframe1_2.png
+      background: iphone
     - name: Wireframe B 手機版面
       image: 01_wireframe2.gif
+      background: iphone
 
   title: 重整資訊架構並提升登記流程效率、客製化便民服務與協助部門案件審核的關卡設計
   content: A 版線框稿的原則為「給予使用者對應身份的表單」、「方便使用者查找公托機構」、「整合公托資訊架構」，著重在整理公托資訊並簡化流程。B 版線在A版原則之外，新增了「自我檢核表」與「公托購物車」的設計，提升使用者在挑選公托上的方便性，並協助降低發生申請案件不符合資格的機率。

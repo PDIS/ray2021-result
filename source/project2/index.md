@@ -7,6 +7,7 @@ description: 數位化健保卡，創造良好使用者體驗
 
 cover:
   image: 02_wireframe3.png
+  background: macbook
   subtitle: 數位化健保卡，創造良好使用者體驗
   members:
     - name: 郭又宗
@@ -36,10 +37,13 @@ wireframe:
   items:
     - name: 可行性優先
       image: 02_wireframe2.png
+      background: macbook
     - name: 天馬行空版
       image: 02_wireframe1.png
+      background: macbook
     - name: 討論最終版
       image: 02_wireframe3.png
+      background: macbook
   title: 兼具創意與可行性的最佳解
   content: 考量資訊安全的疑慮，有些流程與提示是不可省略的。因此我們利用工作坊形式，將以可行性為優先的版本與天馬行空版結合，確保我們能夠在不影響資訊安全的狀況下，排除使用者在技術上遇到的問題，並改善新版網站的使用者體驗。
 

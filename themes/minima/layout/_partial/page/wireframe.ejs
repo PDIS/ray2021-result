@@ -3,10 +3,23 @@
     <% page.wireframe.items.forEach(function(value){ %>
     <div class="col-lg-4 text-center fw-bold px-5">
       <p><%- value.name %></p>
+      <% if(value.background == "macbook") { %>
       <div class="macbook">
         <img src="/image/macbook.png" alt="macbook" class="w-100" />
-        <div class="screen" style="background: url('/image/<%- value.image %>')"></div>
+        <div
+          class="screen"
+          style="background: url('/image/<%- value.image %>')"
+        ></div>
       </div>
+      <% } else if(value.background == "iphone") { %>
+      <div class="iphone">
+        <img src="/image/iphone.png" alt="iphone" class="w-100" />
+        <div
+          class="screen"
+          style="background: url('/image/<%- value.image %>')"
+        ></div>
+      </div>
+      <% } %>
     </div>
     <% }) %>
   </div>

@@ -7,6 +7,7 @@ description: 激發服務熱忱，提供志工媒合服務
 
 cover:
   image: 03_wireframe3.png
+  background: macbook
   subtitle: 激發服務熱忱，提供志工媒合服務
   members:
     - name: 林子晴
@@ -37,10 +38,13 @@ wireframe:
   items:
     - name: 功能導向 A 版
       image: 03_wireframe1.png
+      background: macbook
     - name: 探索導向 B 版
       image: 03_wireframe2.png
+      background: macbook
     - name: 雙向引導 C 版
       image: 03_wireframe3.png
+      background: macbook
   title: 簡化功能與激發參與意願的可能性
   content: 我們在 A 版嘗試重新編排架構、優化流程，提升使用的流暢；在 B 版嘗試加入身分別區分、凸顯人物故事，激發使用者參與志工的熱情；在 C 版嘗試將 A / B 兩版特色融合，並加上雙向溝通的特色，成為我們最終的設計方向。
 
