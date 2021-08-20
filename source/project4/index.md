@@ -2,11 +2,11 @@
 layout: page
 title: 「行政院農業委員會林務局」臺灣山林悠遊網
 date: 2021-07-04 18:30:46
-thumbnail: com.png
+thumbnail: 04_wireframe1.gif
 description: 專屬山林嚮導，讓你行程免煩惱
 
 cover:
-  image: com.png
+  image: 04_wireframe1.gif
   subtitle: 專屬山林嚮導，讓你行程免煩惱
   members:
     - name: 姚怡均
