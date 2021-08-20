@@ -7,7 +7,7 @@ description: Rescue Action by Youth .gov 2021
 
 cover:
   title: RAY 5.0
-  image: com.png
+  image: butter.png
   background: banner.png
   subtitle: Rescue Action by Youth .gov 2021
   description: 不畏疫情展開線上協作，<br>挑戰在雲端上改造公部門網站的可能！
