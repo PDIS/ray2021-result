@@ -2,7 +2,7 @@
 layout: index
 title: 首頁
 date: 2020-10-17
-thumbnail: com.png
+thumbnail: butter.png
 description: Rescue Action by Youth .gov 2021
 
 cover:
