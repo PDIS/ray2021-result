@@ -22,7 +22,6 @@ cover:
 
 prestudy:
   images:
-    - prestudy.png
 
 need:
   items:
