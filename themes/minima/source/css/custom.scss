@@ -1,3 +1,9 @@
+$xx-large: 1400px;
+$x-large: 1200px;
+$large: 992px;
+$medium: 768px;
+$small: 576px;
+
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC");
 * {
   font-family: "Noto Sans TC";
@@ -114,6 +120,10 @@ footer ul {
   line-height: 2rem;
   font-size: 3rem;
   font-weight: 900;
+  margin-bottom: 3rem;
+  @media (min-width: $large) {
+    text-align: right;
+  }
 }
 
 .origin-title {
@@ -123,6 +133,7 @@ footer ul {
 .origin-content {
   text-align: justify;
   line-height: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .origin-content br {
@@ -133,6 +144,7 @@ footer ul {
 
 .homepage-headline {
   font-size: 3rem;
+  margin-bottom: 3rem;
 }
 
 .homepage-title {
@@ -159,8 +171,8 @@ footer ul {
 .origin-pic-image {
   background-size: cover !important;
   background-position: center !important;
-  filter: grayscale(1);
   padding-bottom: 80%;
+  filter: grayscale(1);
 }
 
 .origin:nth-child(3) .origin-pic-mask {
@@ -232,6 +244,12 @@ main section:last-child {
   max-width: 200px;
 }
 
+.result-order-last {
+  @media (min-width: $medium) {
+    order: 6!important;
+  }
+}
+
 .carousel-control-next,
 .carousel-control-prev {
   width: 5%;
@@ -249,7 +267,6 @@ main section:last-child {
 .carousel-inner {
   max-height: 40rem;
 }
-
 
 .need {
   max-width: 1000px;

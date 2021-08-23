@@ -2,7 +2,7 @@
   <h2 class="text-primary text-center fw-bold homepage-headline">專案成果</h2>
   <% page.result.projects.forEach(function(value, index){ %>
   <div class="row origin">
-    <div class="col-md-6 px-4 py-2 <% if(index%2==1) { %>order-last<% } %>">
+    <div class="col-md-6 px-4 py-2 <% if(index%2==1) { %>result-order-last<% } %>">
       <% if(value.background == "macbook") { %>
       <div class="macbook">
         <img src="/image/macbook.png" alt="macbook" class="w-100" />
