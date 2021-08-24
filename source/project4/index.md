@@ -9,6 +9,7 @@ cover:
   image: 04_wireframe1.gif
   background: iphone
   subtitle: 專屬山林嚮導，讓你行程免煩惱
+  link: https://recreation.forest.gov.tw/
   members:
     - name: 姚怡均
       image: 04姚怡均.jpg

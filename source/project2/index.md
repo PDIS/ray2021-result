@@ -9,6 +9,7 @@ cover:
   image: 02_wireframe3.png
   background: macbook
   subtitle: 數位化健保卡，創造良好使用者體驗
+  link: https://cloudicweb.nhi.gov.tw/cloudic/system/UserAction.aspx
   members:
     - name: 郭又宗
       image: 02郭又宗.jpg

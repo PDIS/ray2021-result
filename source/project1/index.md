@@ -9,6 +9,7 @@ cover:
   image: 01_wireframe1_2.png
   background: iphone
   subtitle: 線性疏理資訊和流程，最大化使用效率
+  link: https://welfare.gov.taipei/Nursery/Error/Login
   members:
     - name: 林怡秀
       image: 01林怡秀.jpg
