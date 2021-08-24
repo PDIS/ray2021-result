@@ -47,7 +47,7 @@ result:
       subtitle: 數位化健保卡，創造良好使用者體驗
       image: 02_wireframe3.png
       background: macbook
-      link: project2
+      link: health_insurance
       members:
         - name: 郭又宗
           image: 02郭又宗.jpg
