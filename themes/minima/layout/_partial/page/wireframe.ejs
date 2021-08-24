@@ -1,3 +1,4 @@
+<% if (typeof page.wireframe != "undefined") { %>
 <section>
   <div class="row justify-content-center">
     <% page.wireframe.items.forEach(function(value){ %>
@@ -28,3 +29,4 @@
     <span><%- page.wireframe.content %></span>
   </div>
 </section>
+<% } %>
