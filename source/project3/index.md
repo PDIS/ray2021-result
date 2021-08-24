@@ -9,7 +9,7 @@ cover:
   image: 03_wireframe3.png
   background: macbook
   subtitle: 激發服務熱忱，提供志工媒合服務
-  link: https://vspc.tycg.gov.tw/
+  link: https://www.google.com/url?q=https://vspc.tycg.gov.tw/Announcement/index.aspx?mode%3DMainMenu_1&sa=D&source=editors&ust=1629791689176000&usg=AOvVaw3xBQNOw5WZUgX7JNTuWy16
   members:
     - name: 林子晴
       image: 03林子晴.jpg
