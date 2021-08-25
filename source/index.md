@@ -71,7 +71,7 @@ result:
       subtitle: 專屬山林嚮導，讓你行程免煩惱
       image: 04_wireframe1.gif
       background: iphone
-      link: project4
+      link: forestry_bureau
       members:
         - name: 姚怡均
           image: 04姚怡均.jpg
