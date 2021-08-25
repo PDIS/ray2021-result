@@ -59,7 +59,7 @@ result:
       subtitle: 激發服務熱忱，提供志工媒合服務
       image: 03_wireframe3.png
       background: macbook
-      link: project3
+      link: taoyuan_social
       members:
         - name: 林子晴
           image: 03林子晴.jpg
