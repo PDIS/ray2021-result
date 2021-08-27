@@ -7,6 +7,7 @@ description: 數位化健保卡，創造良好使用者體驗
 
 cover:
   image: 02_wireframe3.png
+  title_color: "#62a9e2"
   background: macbook
   subtitle: 數位化健保卡，創造良好使用者體驗
   link: https://cloudicweb.nhi.gov.tw/cloudic/system/mlogin.aspx
