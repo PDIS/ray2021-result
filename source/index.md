@@ -33,7 +33,7 @@ result:
       subtitle: 線性疏理資訊和流程，最大化使用效率
       description: 經過訪談以及易用性測試，團隊從親合圖法發現目前系統資訊架構不明確，使用者蒐集資料的成本大，無法快速瞭解重要訊息和做出決策；同時導致使用者在系統上送出錯誤資料的行為，增加了系統後端的處理成本。團隊改善這些問題，將系統架構重新梳理，設計線性「深度為主」的使用者流程。最終目標是幫助使用者更有效的做到「瞭解公托」、「選擇公托」以及「申請公托」。
       image: 01_highfi.jpg
-      background: iphone
+      background: macbook
       link: taipei_social
       members:
         - name: 林怡秀
