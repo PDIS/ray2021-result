@@ -246,7 +246,7 @@ main section:last-child {
 
 .result-order-last {
   @media (min-width: $medium) {
-    order: 6!important;
+    order: 6 !important;
   }
 }
 
@@ -275,4 +275,12 @@ main section:last-child {
 
 .nav-link:hover {
   color: #eb6047 !important;
+}
+
+.homepage-bigmacbook {
+  position: absolute;
+  left: -10%;
+  width: 60%;
+  transform: translateY(50%);
+  bottom: 50%;
 }
