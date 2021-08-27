@@ -10,7 +10,10 @@
         ></div>
       </div>
       <% } else if(page.cover.background == "iphone") { %>
-      <div class="iphone">
+      <div class="iphone-bg d-none d-lg-block">
+        <img src="/image/<%- page.cover.bg_image %>" class="w-100" />
+      </div>
+      <div class="iphone <%- (typeof page.cover.bg_image != "undefined") ? "iphone-have-bg" : "" %>">
         <img src="/image/iphone.png" alt="iphone" class="w-100" />
         <div
           class="screen"
@@ -18,7 +21,7 @@
         ></div>
       </div>
       <% } %>
-      <div class="text-center mt-4">
+      <div class="text-center mt-4 d-none">
         <a
           href="<%- page.cover.link %>"
           class="btn btn-secondary px-4 rounded-pill mb-3"

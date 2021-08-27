@@ -284,3 +284,16 @@ main section:last-child {
   transform: translateY(50%);
   bottom: 50%;
 }
+
+.iphone-bg {
+  position: absolute;
+  right: 60%;
+  top: 30%;
+  width: 800px;
+}
+
+.iphone-have-bg {
+  margin: unset;
+  margin-right: 2rem;
+  margin-left: auto;
+}

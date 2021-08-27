@@ -9,6 +9,7 @@ cover:
   image: 04_wireframe1.gif
   title_color: "#62a9e2"
   background: iphone
+  bg_image: 04_bg.png
   subtitle: 專屬山林嚮導，讓你行程免煩惱
   link: https://recreation.forest.gov.tw/
   members:
