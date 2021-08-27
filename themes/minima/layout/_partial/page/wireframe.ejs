@@ -1,16 +1,16 @@
 <% if (typeof page.wireframe != "undefined") { %>
 <section>
+  <h2 class="fw-bold text-center">Wireframe</h2>
+  <div class="row mt-5 mb-5">
+    <h3 class="fs-4 fw-bold my-3"><%- page.wireframe.title %></h3>
+    <span><%- page.wireframe.content %></span>
+  </div>
   <div class="row justify-content-center">
     <% page.wireframe.items.forEach(function(value){ %>
     <div class="col-lg-4 text-center fw-bold px-5">
-      <p><%- value.name %></p>
       <% if(value.background == "macbook") { %>
-      <div class="macbook">
-        <img src="/image/macbook.png" alt="macbook" class="w-100" />
-        <div
-          class="screen"
-          style="background: url('/image/<%- value.image %>')"
-        ></div>
+      <div class="shadow">
+        <img src="/image/<%- value.image %>" alt="macbook" class="w-100" />
       </div>
       <% } else if(value.background == "iphone") { %>
       <div class="iphone">
@@ -21,12 +21,9 @@
         ></div>
       </div>
       <% } %>
+      <p class="mt-3 mb-5"><%- value.name %></p>
     </div>
     <% }) %>
-  </div>
-  <div class="row mt-5">
-    <h3 class="fs-4 fw-bold my-3"><%- page.wireframe.title %></h3>
-    <span><%- page.wireframe.content %></span>
   </div>
 </section>
 <% } %>
