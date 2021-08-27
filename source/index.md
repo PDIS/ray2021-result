@@ -32,7 +32,7 @@ result:
     - title: 「臺北市政府社會局」公托登記報名及抽籤
       subtitle: 線性疏理資訊和流程，最大化使用效率
       image: 01_highfi.jpg
-      background: mackbook
+      background: macbook
       link: taipei_social
       members:
         - name: 林怡秀
