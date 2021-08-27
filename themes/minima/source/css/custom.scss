@@ -293,7 +293,9 @@ main section:last-child {
 }
 
 .iphone-have-bg {
-  margin: unset;
-  margin-right: 2rem;
-  margin-left: auto;
+  @media (min-width: $large) {
+    margin: unset;
+    margin-right: 2rem;
+    margin-left: auto;
+  }
 }
