@@ -2,13 +2,13 @@
 layout: page
 title: 「臺北市政府社會局」公托登記報名及抽籤
 date: 2021-07-04 18:30:46
-thumbnail: 01_wireframe1_2.png
+thumbnail: 01_highfi.jpg
 description: 線性疏理資訊和流程，最大化使用效率
 
 cover:
-  image: 01_wireframe1_2.png
+  image: 01_highfi.jpg
   title_color: "#62a9e2"
-  background: iphone
+  background: macbook
   subtitle: 線性疏理資訊和流程，最大化使用效率
   link: https://dosw.gov.taipei/cp.aspx?n=91E27EEB185E61A5
   members:
@@ -29,10 +29,10 @@ need:
       image: 01_HMW1.png
     - title: 2. 提升使用者閱讀資料的有效性與效率
       content: 目前網站上的公托辦法字體顏色、排版混亂以及文件用字生澀難懂，降低了可讀性，也容易造成混淆。
-      image: 01_HMW2.jpg
+      image: 01_HMW2.png
     - title: 3. 提升公托申請登記的效率
       content: 申請表格冗長且填寫提示用字不白話，讓申請者感到困惑，進而影響填寫效率。
-      image: 01_HMW3.jpg
+      image: 01_HMW3.png
 
 wireframe:
   items:
