@@ -29,8 +29,9 @@ origin:
 
 result:
   projects:
-    - title: 「臺北市政府社會局」公托登記報名及抽籤
+    - title: 「臺北市政府社會局」<br>公托登記報名及抽籤
       subtitle: 線性疏理資訊和流程，最大化使用效率
+      description: 經過訪談以及易用性測試，團隊從親合圖法發現目前系統資訊架構不明確，使用者蒐集資料的成本大，無法快速瞭解重要訊息和做出決策；同時導致使用者在系統上送出錯誤資料的行為，增加了系統後端的處理成本。團隊改善這些問題，將系統架構重新梳理，設計線性「深度為主」的使用者流程。最終目標是幫助使用者更有效的做到「瞭解公托」、「選擇公托」以及「申請公托」。
       image: 01_wireframe1_2.png
       background: iphone
       link: taipei_social
@@ -43,8 +44,9 @@ result:
           image: 01邱威辰.jpg
         - name: 陳澤宇
           image: 01陳澤宇.JPG
-    - title: 「衛生福利部中央健康保險署」健保卡網路服務註冊
+    - title: 「衛生福利部中央健康保險署」<br>健保卡網路服務註冊
       subtitle: 數位化健保卡，創造良好使用者體驗
+      description: 健保卡網路註冊服務致力於將健保卡數位化，使用者完成註冊後便能得到由健保卡自然人憑證轉換而成的「類憑證」，以利使用需要健保卡認證的網路服務。前期研究發現，部分使用者會在註冊的環節卡關，最後甚至放棄註冊。因此團隊與健保署一同合作並確立目標 ，希望在確保資訊安全的情況下，協助使用者完成註冊。
       image: 02_wireframe3.png
       background: macbook
       link: health_insurance
@@ -55,8 +57,10 @@ result:
           image: 02楊曉曄.jpg
         - name: 葉伊蕙
           image: 02葉伊蕙.jpg
-    - title: 「桃園市政府社會局」志願服務整合資訊平台
+    - title: 「桃園市政府社會局」<br>志願服務整合資訊平台
       subtitle: 激發服務熱忱，提供志工媒合服務
+      description: 在前期研究中，經過與公部門以及使用者的多次訪談，我們歸納出志工網的幾點問題，其中包含：媒合功能使用率不高、資訊呈現方式不佳等，最後定義了我們的 Problem Statement 為「該如何能讓有志工服務熱誠的民眾，可以更容易的在桃園志工網取得資訊，並且提升志工網整體的媒合使用率」。
+
       image: 03_highfi.png
       background: macbook
       link: taoyuan_social
@@ -67,8 +71,9 @@ result:
           image: 03林曼寧.jpg
         - name: 黃湧群
           image: 03黃湧群.jpg
-    - title: 「行政院農業委員會林務局」臺灣山林悠遊網
+    - title: 「行政院農業委員會林務局」<br>臺灣山林悠遊網
       subtitle: 專屬山林嚮導，讓你行程免煩惱
+      description: 團隊在經過前期研究及收斂出親合圖後，定錨了兩項關鍵議題，分別是「服務缺乏適當指引」及「難以快速且放心地找到關鍵資訊」。透過適時的提示引導、梳理資訊架構、重整導覽頁面等關鍵設計，團隊逐步優化了服務系統的體驗，藉以打造令退休人士也能安心使用的勞保網站。
       image: 04_wireframe1.gif
       background: iphone
       link: forestry_bureau
