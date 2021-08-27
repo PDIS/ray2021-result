@@ -8,7 +8,7 @@ description: 線性疏理資訊和流程，最大化使用效率
 cover:
   image: 01_highfi.jpg
   title_color: "#62a9e2"
-  background: iphone
+  background: macbook
   subtitle: 線性疏理資訊和流程，最大化使用效率
   link: https://dosw.gov.taipei/cp.aspx?n=91E27EEB185E61A5
   members:
