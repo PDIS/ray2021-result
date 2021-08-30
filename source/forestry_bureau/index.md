@@ -7,7 +7,7 @@ description: 專屬山林嚮導，讓你行程免煩惱
 
 cover:
   image: 04_highfi.gif
-  title_color: "#62a9e2"
+  title_color: "#5C654A"
   background: iphone
   bg_image: 04_bg.png
   subtitle: 專屬山林嚮導，讓你行程免煩惱
