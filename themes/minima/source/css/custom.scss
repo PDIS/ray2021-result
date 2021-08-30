@@ -210,6 +210,8 @@ main section:last-child {
 
 .demo {
   margin-bottom: 100px;
+}
+
 .macbook {
   position: relative;
 
@@ -226,8 +228,6 @@ main section:last-child {
     background-size: cover !important;
   }
 }
-}
-
 .result-order-last {
   @media (min-width: $medium) {
     order: 6 !important;
@@ -318,7 +318,8 @@ main section:last-child {
   right: 0;
 }
 
-.container, .container-md  {
+.container,
+.container-md {
   padding-left: 20px;
   padding-right: 20px;
 }
