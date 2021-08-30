@@ -1,28 +1,30 @@
 <section class="sec-cover">
   <div class="row">
     <div class="col-lg-6 <%- page.cover.demo.position == "right" ? "result-order-last" : "" %>">
-      <% if(page.cover.demo.background.border == "macbook") { %>
+    
       <div class="macbook">
-        <img src="/image/macbook.png" alt="macbook" class="w-100" />
-        <div
-          class="screen"
-          style="background: url('/image/<%- page.cover.demo.background.image %>')"
-        ></div>
+          <% if(page.cover.demo.mobile.enable == true) { %>
+            <div class="iphone-cover <%- page.cover.demo.mobile.position == "right" ? "iphone-right" : "" %>">
+              <img src="/image/iphone.png" alt="iphone" class="w-100">
+              <div
+                class="screen"
+                style="background: url('/image/<%- page.cover.demo.mobile.image %>')"
+              ></div>
+            </div>
+          <% } %>
+          <% if(page.cover.demo.background.border == "none") { %>
+            <div class="background-none-image">
+              <img src="/image/<%- page.cover.demo.background.image %>" class="w-100" />
+            </div>
+          <% } %>
+          <img src="/image/macbook.png" alt="macbook" class="w-100 <%- page.cover.demo.background.border=="none"?"invisible ":"" %>" />
+          <div
+            class="screen <%- page.cover.demo.background.border=="none"?"invisible ":"" %>"
+            style="background: url('/image/<%- page.cover.demo.background.image %>')"
+          ></div>
+
       </div>
-      <% } else { %>
-        <div class="background-none shadow-sm">
-          <img src="/image/<%- page.cover.demo.background.image %>" class="w-100" />
-        </div>
-      <% } %>
-      <% if(page.cover.demo.mobile.enable == true) { %>
-      <div class="iphone <%- page.cover.demo.mobile.position == "right" ? "iphone-right" : "iphone-left" %>">
-        <img src="/image/iphone.png" alt="iphone" class="w-100" />
-        <div
-          class="screen"
-          style="background: url('/image/<%- page.cover.demo.mobile.image %>')"
-        ></div>
-      </div>
-      <% } %>
+     
       <div class="text-center mt-4 d-none">
         <a
           href="<%- page.cover.link %>"

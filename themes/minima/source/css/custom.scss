@@ -152,7 +152,7 @@ footer ul {
 }
 
 .homepage-title {
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .header-nav {
@@ -210,6 +210,7 @@ main section:last-child {
 
 .macbook {
   position: relative;
+  margin-bottom: 100px;
 
   .screen {
     position: absolute;
@@ -266,9 +267,11 @@ main section:last-child {
   bottom: 50%;
 }
 
-.background-none {
+.background-none-image {
+  top: -15%;
+  left: 10%;
   width: 150%;
-  margin-left: 15%;
+  position: absolute;
 }
 
 .iphone {
@@ -289,14 +292,26 @@ main section:last-child {
   }
 }
 
-.iphone-right {
-  top: -40%;
-  margin-right: 0 !important;
-  max-width: 30% !important;
+.iphone-cover {
+  top: 20%;
+  max-width: 30%;
+  position: absolute;
+  z-index: 100;
+  margin: auto;
+  .screen {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 12%;
+    width: 80%;
+    height: 75%;
+    background-size: cover !important;
+    background-position: center top !important;
+  }
 }
 
-.iphone-left {
-  top: -40%;
-  margin-left: 0 !important;
-  max-width: 30% !important;
+.iphone-right {
+  right: 0;
 }

@@ -2,18 +2,28 @@
   <h2 class="text-primary text-center fw-bold homepage-headline">專案成果</h2>
   <% page.result.projects.forEach(function(value, index){ %>
   <div class="row origin">
-    <div class="col-md-6 px-4 py-2 <% if(index%2==1) { %>result-order-last<% } %>">
-      <h3 class="fs-4 fw-bold text-center" style="color: <%- value.color %>"><%- value.title %></h3>
+    <div
+      class="col-md-6 px-4 py-2 <% if(index%2==1) { %>result-order-last<% } %>"
+    >
+      <h3 class="fs-4 fw-bold text-center" style="color: <%- value.color %>">
+        <%- value.title %>
+      </h3>
       <% if(value.background == "macbook") { %>
       <div class="macbook">
         <img src="/image/macbook.png" alt="macbook" class="w-100" />
-        <div class="screen" style="background: url('/image/<%- value.image %>')"></div>
+        <div
+          class="screen"
+          style="background: url('/image/<%- value.image %>')"
+        ></div>
       </div>
       <% } else if(value.background == "iphone") { %>
-        <div class="iphone">
-          <img src="/image/iphone.png" alt="iphone" class="w-100" />
-          <div class="screen" style="background: url('/image/<%- value.image %>')"></div>
-        </div>
+      <div class="iphone">
+        <img src="/image/iphone.png" alt="iphone" class="w-100" />
+        <div
+          class="screen"
+          style="background: url('/image/<%- value.image %>')"
+        ></div>
+      </div>
       <% } %>
     </div>
     <div class="col-md-6 px-4 py-2">
@@ -31,9 +41,15 @@
         </div>
         <% }) %>
       </div>
-      <a href="<%- value.link %>" class="btn mt-4 px-4 rounded-pill fs-5 fw-bold text-white" style="background-color: <%- value.color %>">
-        前往專案成果
-      </a>
+      <div class="text-center">
+        <a
+          href="<%- value.link %>"
+          class="btn mt-4 px-4 rounded-pill fs-5 fw-bold text-white"
+          style="background-color: <%- value.color %>"
+        >
+          前往專案成果
+        </a>
+      </div>
     </div>
   </div>
   <% }) %>
