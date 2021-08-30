@@ -7,7 +7,7 @@ description: 激發服務熱忱，提供志工媒合服務
 
 cover:
   image: 03_highfi.png
-  title_color: "#62a9e2"
+  title_color: "#EF895F"
   background: macbook
   subtitle: 激發服務熱忱，提供志工媒合服務
   link: https://vspc.tycg.gov.tw/Announcement/index.aspx?mode=MainMenu_1
