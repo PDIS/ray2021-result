@@ -34,6 +34,7 @@ result:
       description: 經過訪談以及易用性測試，團隊從親合圖法發現目前系統資訊架構不明確，使用者蒐集資料的成本大，無法快速瞭解重要訊息和做出決策；同時導致使用者在系統上送出錯誤資料的行為，增加了系統後端的處理成本。團隊改善這些問題，將系統架構重新梳理，設計線性「深度為主」的使用者流程。最終目標是幫助使用者更有效的做到「瞭解公托」、「選擇公托」以及「申請公托」。
       image: 01_highfi.jpg
       background: macbook
+      color: "#4BA4A5"
       link: taipei_social
       members:
         - name: 林怡秀
@@ -49,6 +50,7 @@ result:
       description: 健保卡網路註冊服務致力於提供民眾更多元的管道，來使用健保署所推行的各種數位服務。前期研究發現，部分使用者會在註冊的環節卡關，最後甚至放棄註冊。因此團隊與健保署一同合作並確立目標 ，希望在確保資訊安全的情況下，協助使用者完成註冊。
       image: 02_highfi.png
       background: macbook
+      color: "#4588BA"
       link: health_insurance
       members:
         - name: 郭又宗
@@ -63,6 +65,7 @@ result:
 
       image: 03_highfi.png
       background: macbook
+      color: "#EF895F"
       link: taoyuan_social
       members:
         - name: 林子晴
@@ -76,6 +79,7 @@ result:
       description: 團隊在經過前期研究及收斂出親合圖後，定錨了兩項關鍵議題，分別是「服務缺乏適當指引」及「難以快速且放心地找到關鍵資訊」。透過適時的提示引導、梳理資訊架構、重整導覽頁面等關鍵設計，團隊逐步優化了服務系統的體驗，藉以打造令退休人士也能安心使用的勞保網站。
       image: 04_highfi.gif
       background: iphone
+      color: "#6e7555"
       link: forestry_bureau
       members:
         - name: 姚怡均
