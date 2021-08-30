@@ -9,7 +9,7 @@ $small: 576px;
   font-family: "Noto Sans TC";
 }
 
-body {
+html {
   overflow-x: hidden;
 }
 
@@ -208,9 +208,10 @@ main section:last-child {
   margin-bottom: 9rem;
 }
 
+.demo {
+  margin-bottom: 100px;
 .macbook {
   position: relative;
-  margin-bottom: 100px;
 
   .screen {
     position: absolute;
@@ -224,6 +225,7 @@ main section:last-child {
     height: 75%;
     background-size: cover !important;
   }
+}
 }
 
 .result-order-last {
@@ -314,4 +316,9 @@ main section:last-child {
 
 .iphone-right {
   right: 0;
+}
+
+.container, .container-md  {
+  padding-left: 20px;
+  padding-right: 20px;
 }
