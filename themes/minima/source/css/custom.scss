@@ -65,6 +65,11 @@ html {
 .sec-cover h1 {
   color: #62a9e2;
 }
+.members {
+  @media (max-width: $medium)  {
+    text-align: center;
+  }
+}
 .member {
   width: 5rem;
   display: inline-table;
