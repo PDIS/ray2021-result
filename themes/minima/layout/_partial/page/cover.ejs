@@ -1,6 +1,6 @@
 <section class="sec-cover">
   <div class="row">
-    <div class="col-lg-6">
+    <div class="col-lg-6 <%- page.cover.background == "iphone" ? "result-order-last" : "" %>">
       <% if(page.cover.background == "macbook") { %>
       <div class="macbook">
         <img src="/image/macbook.png" alt="macbook" class="w-100" />
