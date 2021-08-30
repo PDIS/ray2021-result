@@ -3,7 +3,7 @@ layout: page
 title: 「桃園市政府社會局」志願服務整合資訊平台
 date: 2021-07-04 18:30:46
 thumbnail: 03_highfi.png
-description: 激發服務熱忱，提供志工媒合服務
+description: 有溫度的探索，激發服務熱忱
 
 cover:
   demo:
