@@ -1,6 +1,6 @@
 ---
 layout: index
-title: 首頁
+title: 青年學生體檢政府網站專案
 date: 2020-10-17
 thumbnail: butter.png
 description: Rescue Action by Youth .gov 2021
@@ -9,7 +9,7 @@ cover:
   title: RAY 5.0
   image: butter.png
   background: banner.png
-  subtitle: Rescue Action by Youth .gov 2021
+  subtitle: Rescue Action by Youth .gov 2021<br>青年學生體檢政府網站專案
   description: 不畏疫情展開線上協作，<br>挑戰在雲端上改造公部門網站的可能！
 
 origin:

@@ -6,9 +6,15 @@ thumbnail: 02_highfi.png
 description: 數位化健保卡，創造良好使用者體驗
 
 cover:
-  image: 02_highfi.png
+  demo:
+    position: left
+    background:
+      image: 02_highfi.png
+      border: macbook
+    mobile:
+      enable: false
+
   title_color: "#4588BA"
-  background: macbook
   subtitle: 數位化健保卡，創造良好使用者體驗
   link: https://cloudicweb.nhi.gov.tw/cloudic/system/mlogin.aspx
   members:

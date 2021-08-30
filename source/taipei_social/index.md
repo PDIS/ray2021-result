@@ -6,9 +6,17 @@ thumbnail: 01_highfi.jpg
 description: 線性疏理資訊和流程，最大化使用效率
 
 cover:
-  image: 01_highfi.jpg
+  demo:
+    position: left
+    background:
+      image: 01_highfi.jpg
+      border: macbook
+    mobile:
+      enable: true
+      position: right
+      image: 01_wireframe2.gif
+    
   title_color: "#4BA4A5"
-  background: macbook
   subtitle: 線性疏理資訊和流程，最大化使用效率
   link: https://dosw.gov.taipei/cp.aspx?n=91E27EEB185E61A5
   members:

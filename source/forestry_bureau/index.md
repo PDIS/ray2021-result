@@ -6,10 +6,18 @@ thumbnail: 04_highfi.gif
 description: 專屬山林嚮導，讓你行程免煩惱
 
 cover:
-  image: 04_highfi.gif
+  demo:
+    position: right
+    background:
+      image: 04_bg.png
+      border: none
+    mobile:
+      enable: true
+      position: left
+      image: 04_highfi.gif
+
+
   title_color: "#6e7555"
-  background: iphone
-  bg_image: 04_bg.png
   subtitle: 專屬山林嚮導，讓你行程免煩惱
   link: https://recreation.forest.gov.tw/
   members:

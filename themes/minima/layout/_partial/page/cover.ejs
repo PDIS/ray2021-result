@@ -1,23 +1,25 @@
 <section class="sec-cover">
   <div class="row">
-    <div class="col-lg-6 <%- page.cover.background == "iphone" ? "result-order-last" : "" %>">
-      <% if(page.cover.background == "macbook") { %>
+    <div class="col-lg-6 <%- page.cover.demo.position == "right" ? "result-order-last" : "" %>">
+      <% if(page.cover.demo.background.border == "macbook") { %>
       <div class="macbook">
         <img src="/image/macbook.png" alt="macbook" class="w-100" />
         <div
           class="screen"
-          style="background: url('/image/<%- page.cover.image %>')"
+          style="background: url('/image/<%- page.cover.demo.background.image %>')"
         ></div>
       </div>
-      <% } else if(page.cover.background == "iphone") { %>
-      <div class="iphone-bg d-none d-lg-block shadow-sm">
-        <img src="/image/<%- page.cover.bg_image %>" class="w-100" />
-      </div>
-      <div class="iphone <%- (typeof page.cover.bg_image != "undefined") ? "iphone-have-bg" : "" %>">
+      <% } else { %>
+        <div class="background-none shadow-sm">
+          <img src="/image/<%- page.cover.demo.background.image %>" class="w-100" />
+        </div>
+      <% } %>
+      <% if(page.cover.demo.mobile.enable == true) { %>
+      <div class="iphone <%- page.cover.demo.mobile.position == "right" ? "iphone-right" : "iphone-left" %>">
         <img src="/image/iphone.png" alt="iphone" class="w-100" />
         <div
           class="screen"
-          style="background: url('/image/<%- page.cover.image %>')"
+          style="background: url('/image/<%- page.cover.demo.mobile.image %>')"
         ></div>
       </div>
       <% } %>
