@@ -2,11 +2,11 @@
 layout: page
 title: 「衛生福利部中央健康保險署」健保卡網路服務註冊
 date: 2021-07-04 18:30:46
-thumbnail: 02_wireframe3.png
+thumbnail: 02_highfi.png
 description: 數位化健保卡，創造良好使用者體驗
 
 cover:
-  image: 02_wireframe3.png
+  image: 02_highfi.png
   title_color: "#62a9e2"
   background: macbook
   subtitle: 數位化健保卡，創造良好使用者體驗
