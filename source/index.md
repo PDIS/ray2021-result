@@ -47,7 +47,7 @@ result:
     - title: 「衛生福利部中央健康保險署」<br>健保卡網路服務註冊
       subtitle: 數位化健保卡，創造良好使用者體驗
       description: 健保卡網路註冊服務致力於提供民眾更多元的管道，來使用健保署所推行的各種數位服務。前期研究發現，部分使用者會在註冊的環節卡關，最後甚至放棄註冊。因此團隊與健保署一同合作並確立目標 ，希望在確保資訊安全的情況下，協助使用者完成註冊。
-      image: 02_wireframe3.png
+      image: 02_highfi.png
       background: macbook
       link: health_insurance
       members:
@@ -74,7 +74,7 @@ result:
     - title: 「行政院農業委員會林務局」<br>臺灣山林悠遊網
       subtitle: 專屬山林嚮導，讓你行程免煩惱
       description: 團隊在經過前期研究及收斂出親合圖後，定錨了兩項關鍵議題，分別是「服務缺乏適當指引」及「難以快速且放心地找到關鍵資訊」。透過適時的提示引導、梳理資訊架構、重整導覽頁面等關鍵設計，團隊逐步優化了服務系統的體驗，藉以打造令退休人士也能安心使用的勞保網站。
-      image: 04_wireframe1.gif
+      image: 04_highfi.gif
       background: iphone
       link: forestry_bureau
       members:
