@@ -14,7 +14,7 @@ cover:
     mobile:
       enable: true
       position: right
-      image: 01_wireframe2.gif
+      image: 01_highfi2.jpg
     
   title_color: "#4BA4A5"
   subtitle: 線性疏理資訊和流程，最大化使用效率
