@@ -96,8 +96,9 @@ theme: minima
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
-
+  type: git
+  repo: git@github.com:PDIS/ray2021-result.git
+  branch: gh-pages
 
 sass:
   outputStyle: expanded
