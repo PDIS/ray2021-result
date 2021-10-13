@@ -80,9 +80,6 @@ html {
   object-fit: cover;
 }
 
-.carousel-inner {
-  max-height: 30rem;
-}
 
 .carousel-inner img {
   object-fit: contain;
@@ -168,7 +165,6 @@ footer ul {
   right: 0;
   left: 0;
   z-index: 1000;
-  box-shadow: 0 2px 10px rgb(0 0 0 / 5%);
 }
 
 .origin {
@@ -253,18 +249,7 @@ main section:last-child {
   position: unset;
 }
 
-.carousel-inner {
-  max-height: 40rem;
-}
 
-.need {
-  max-width: 1000px;
-  margin: auto;
-}
-
-.nav-link:hover {
-  color: #eb6047 !important;
-}
 
 .homepage-bigmacbook {
   position: absolute;
@@ -328,3 +313,5 @@ main section:last-child {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+

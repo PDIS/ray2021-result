@@ -1,0 +1,29 @@
+<% if (typeof page.result != "undefined") { %>
+<section id="result">
+      <div class="container">
+        <h3 class="fw-bold text-center fs-4">來實際操作看看改造成果吧！</h2>
+        <div class="row">
+            <div class="col-6 text-center">
+                <div class="macbook">
+                  <img src="/image/macbook.png" alt="macbook" class="w-100" />
+                  <div
+                    class="screen"
+                    style="background: url('/image/<%- page.result.before %>')"
+                  ></div>
+                </div>
+                <a class="btn btn-primary rounded-pill fw-bold before">看現行網站</a>
+              </div>
+              <div class="col-6 text-center">
+                <div class="macbook">
+                  <img src="/image/macbook.png" alt="macbook" class="w-100" />
+                  <div
+                    class="screen"
+                    style="background: url('/image/<%- page.result.after %>')"
+                  ></div>
+                </div>
+                <a class="btn btn-primary rounded-pill fw-bold after">看改造版本</a>
+              </div>
+        </div>
+      </div>
+    </section>
+<% } %>

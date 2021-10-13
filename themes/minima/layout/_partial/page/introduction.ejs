@@ -1,0 +1,27 @@
+<% if (typeof page.introduction != "undefined") { %>
+<section id="introduction">
+  <div class="container">
+      <div class="row">
+        <div class="col-6">
+            <h3 class="fs-4"><%- page.introduction.subtitle %></h3>
+            <p><%- page.introduction.description %></p>
+        </div>
+        <div class="col-6">
+            <div class="members ">
+                <% page.introduction.members.forEach(function(value){ %>
+                <div class="member m-3 border-0 text-center">
+                  <img
+                    src="/image/<%- value.image %>"
+                    alt="<%- value.name %>"
+                    class="rounded-circle"
+                  />
+                  <span><%- value.name %></span>
+                </div>
+                <% }) %>
+              </div>
+        </div>
+      </div>
+  <div>
+</section>
+<% } %>
+    

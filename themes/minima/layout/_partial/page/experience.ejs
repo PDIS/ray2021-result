@@ -1,0 +1,23 @@
+<% if (typeof page.experience != "undefined") { %>
+<section id="experience">
+  <div class="container">
+    <h2 class="fw-bold">見習紀錄與心得分享</h2>
+    <% page.experience.items.forEach(function(value){ %>
+    <div class="row mb-5 align-items-center">
+      <div class="member text-center pe-4">
+        <img
+          src="/image/<%- value.image %>"
+          alt="<%- value.name %>"
+          class="rounded-circle"
+        />
+        <span><%- value.name %></span>
+      </div>
+      <div class="text shadow">
+        <h3 class="fs-4"><%- value.title %></h3>
+        <span><%- value.content %></span>
+      </div>
+    </div>
+    <% }) %>
+  </div>
+</section>
+<% } %>

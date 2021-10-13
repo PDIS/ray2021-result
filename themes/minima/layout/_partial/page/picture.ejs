@@ -1,0 +1,16 @@
+<% if (typeof page.picture != "undefined") { %>
+<section id="picture">
+  <div class="container">
+    <div class="row">
+      <% page.picture.items.forEach(function(value){ %>
+      <div class="col-4 mb-3">
+        <div
+          class="image w-100"
+          style="background: url('/image/<%- value %>')"
+        ></div>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>

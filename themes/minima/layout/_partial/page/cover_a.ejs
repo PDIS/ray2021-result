@@ -1,0 +1,28 @@
+<section id="cover">
+  <div class="cover-a-bg">
+    <div class="right"></div>
+  </div>
+  <div class="container-fluid h-100">
+    <div class="row h-100">
+      <div class="col-8">
+        <div class="macbook">
+          <img src="/image/macbook.png" alt="macbook" class="w-100 <%- page.cover.demo.background.border=="none"?"invisible ":"" %>" />
+          <div
+            class="screen <%- page.cover.demo.background.border=="none"?"invisible ":"" %>"
+            style="background: url('/image/<%- page.cover.demo.background.image %>')"
+          ></div>
+
+      </div>
+      </div>
+      <div class="col-4 h-100 d-flex align-items-center position-relative">
+        <div class="title-card">
+          <div class="card-text">
+            <span class="fw-bold fs-4"><%- page.cover.department %></span>
+            <h1 class="fw-bold mt-2"><%- page.cover.title %></h1>
+          </div>
+          <div class="card-bg"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

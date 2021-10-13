@@ -1,0 +1,10 @@
+<% if (typeof page.report != "undefined") { %>
+<section id="report">
+  <div class="container">
+    <h2 class="fw-bold">專案報告</h2>
+    <div class="embed">
+        <iframe src="<%- page.report.link %>" class="w-100 h-100"></iframe>
+    </div> 
+  </div>
+</section>
+<% } %>
