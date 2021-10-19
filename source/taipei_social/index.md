@@ -116,6 +116,6 @@ experience:
 picture:
   items:
     - 01_record1.png
-    - 01_record2.png
+    - 01_record2.jpg
     - 01_record3.png
 ---
