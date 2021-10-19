@@ -188,9 +188,9 @@ main[class="home"] {
   }
 
   section[id="experience"] {
-    .cards {
+    .exp-card {
       margin-bottom: 3rem;
-      .exp-card {
+      .exp-card-text {
         display: flex;
         align-items: center;
         height: 100%;
@@ -199,6 +199,10 @@ main[class="home"] {
           flex-basis: 100px;
           text-align: center;
           margin-right: 2rem;
+        }
+        a {
+          text-decoration: none;
+          color: inherit;
         }
         .content {
           flex: 0 1 100%;
@@ -214,11 +218,13 @@ main[class="home"] {
       }
     }
     @media (min-width: 768px) {
-      .cards:nth-child(odd) {
-        padding-right: 2.5rem;
-      }
-      .cards:nth-child(even) {
-        padding-left: 2.5rem;
+      .exp-card {
+        &:nth-child(odd) {
+          padding-right: 2.5rem;
+        }
+        &:nth-child(even) {
+          padding-left: 2.5rem;
+        }
       }
     }
   }

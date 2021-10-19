@@ -5,8 +5,8 @@
     </h2>
     <div class="row">
       <% page.experience.items.forEach(function(value){ %>
-        <div class="col-md-6 cards">
-          <div class="exp-card">
+        <div class="col-md-6 exp-card">
+          <div class="exp-card-text">
             <div class="avatar">
               <div class="circle-avatar">
                 <div style="background:url('/image/<%- value.image %>')"></div>
@@ -15,14 +15,16 @@
                 <%- value.name %>
               </span>
             </div>
-            <div class="content">
-              <h3>
-                <%- value.title %>
-                  </h4>
-                  <p>
-                    <%- value.content %>
-                  </p>
-            </div>
+            <a target="_blank" href="<%- value.link %>">
+              <div class="content">
+                <h3>
+                  <%- value.title %>
+                    </h4>
+                    <p>
+                      <%- value.content %>
+                    </p>
+              </div>
+            </a>
           </div>
         </div>
         <% }) %>

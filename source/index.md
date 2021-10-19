@@ -98,21 +98,26 @@ experience:
       image: 04姚怡均.jpg
       title: 見習紀錄：在PDIS與政府一起做UIUX的那個暑假
       content: 在團隊合作中感觸最深的是「要勇敢說出自己的想法！」有時候團隊在似乎達成共識的情況下，為了不打亂當前的進度，即使心裡有些可能不錯的想法......
+      link: https://google.com
     - name: 姚怡均
       image: 04林祐謙.jpg
       title: 2020 唐鳳辦公室 （PDIS RAY計畫）UX/UI 實習心得
       content: 若前期的研究及中期的測試沒有做足，設計得再好看、再自認完美，都是無效的，因為使用者經驗設計的宗旨就是要納入使用者的聲音，而非設計師們......
+      link: https://google.com
     - name: 姚怡均
       image: 04張智堯.jpg
       title: 123
       content: 123
+      link: https://google.com
     - name: 姚怡均
       image: 04李姿儀.jpg
       title: 123
       content: 123
+      link: https://google.com
     - name: 姚怡均
       image: 04姚怡均.jpg
       title: 123
       content: 123
+      link: https://google.com
 
 ---
