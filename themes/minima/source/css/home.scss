@@ -188,25 +188,37 @@ main[class="home"] {
   }
 
   section[id="experience"] {
-    .exp-card {
-      display: flex;
-      align-items: center;
+    .cards {
       margin-bottom: 3rem;
-      
-      .avatar {
-        flex-basis: 100px;
-        text-align: center;
-        margin-right: 2rem;
-      }
-      .content {
-        flex: 0 1 100%;
-        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
-        padding: 3rem 1rem;
-        h3 {
-          font-weight: 500;
-          font-size: 20px;
-          color: #3085BD;
+      .exp-card {
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+        .avatar {
+          flex-basis: 100px;
+          text-align: center;
+          margin-right: 2rem;
         }
+        .content {
+          flex: 0 1 100%;
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+          padding: 3rem 1rem;
+          height: 100%;
+          h3 {
+            font-weight: 500;
+            font-size: 20px;
+            color: #3085bd;
+          }
+        }
+      }
+    }
+    @media (min-width: 768px) {
+      .cards:nth-child(odd) {
+        padding-right: 2.5rem;
+      }
+      .cards:nth-child(even) {
+        padding-left: 2.5rem;
       }
     }
   }
