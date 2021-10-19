@@ -119,5 +119,35 @@ experience:
       title: 來唐鳳辦公室見習！？青年學生體檢政府網站數位服務專案（上）
       content: 來唐鳳辦公室見習！在公部門做 UX 的兩個月＆遠距工作大考驗
       link: https://medium.com/@kuouu/%E4%BE%86%E5%94%90%E9%B3%B3%E8%BE%A6%E5%85%AC%E5%AE%A4%E8%A6%8B%E7%BF%92-%E9%9D%92%E5%B9%B4%E5%AD%B8%E7%94%9F%E9%AB%94%E6%AA%A2%E6%94%BF%E5%BA%9C%E7%B6%B2%E7%AB%99%E6%95%B8%E4%BD%8D%E6%9C%8D%E5%8B%99%E5%B0%88%E6%A1%88-%E4%B8%8A-a04805ee37f5
+    - name: 楊曉曄
+      image: 02楊曉曄.jpg
+      title: PDIS RAY 5.0 實習札記｜協助健保署打造網站良好使用體驗
+      content: 疫情時期下，我加入了 RAY 5.0 計畫，協助健保署打造網站良好使用體驗，度過忙碌又充實的夏天。
+      link: https://medium.com/@hsiaoyehhh/pdis-ray-5-0-%E5%AF%A6%E7%BF%92%E6%9C%AD%E8%A8%98-%E5%8D%94%E5%8A%A9%E5%81%A5%E4%BF%9D%E7%BD%B2%E6%89%93%E9%80%A0%E7%B6%B2%E7%AB%99%E8%89%AF%E5%A5%BD%E4%BD%BF%E7%94%A8%E9%AB%94%E9%A9%97-806ed1794d26
+    - name: 林子晴
+      image: 03林子晴.jpg
+      title: 2021 實習分享｜Ray 5.0－我在PDIS的UX實習
+      content: 勇敢踏出舒適圈，保持開放的心態，持續的學習成長茁壯。
+      link: https://medium.com/@debby.lin/2021-%E5%AF%A6%E7%BF%92%E5%88%86%E4%BA%AB-ray-5-0-%E6%88%91%E5%9C%A8pdis%E7%9A%84ux%E5%AF%A6%E7%BF%92-c660b9a9c2bb
+    - name: 黃湧群
+      image: 03黃湧群.jpg
+      title: PDIS Ray 5.0 上工紀錄（四 + 總結）
+      content: 以工程師角度，踏入 UI / UX 實習！
+      link: https://medium.com/@littlechintw/pdis-ray-5–0-上工紀錄-四-總結-653b3278b0a0
+    - name: 林祐謙
+      image: 04林祐謙.jpg
+      title: 今年暑假，我在PDIS實習！
+      content: 化危機為轉機, 突破既有框架, 以開放的心態互相交流
+      link: https://medium.com/@uchan_hank714/%E4%BB%8A%E5%B9%B4%E6%9A%91%E5%81%87-%E6%88%91%E5%9C%A8pdis%E5%AF%A6%E7%BF%92-fc48d09647d3
+    - name: 張智堯
+      image: 04張智堯.jpg
+      title: 我們如何提升山林悠遊網的服務體驗？
+      content: 山林悠遊網設計過程詳解、實習心得
+      link: https://medium.com/@chih-yao/ray5-0-%E5%94%90%E9%B3%B3%E6%94%BF%E5%A7%94%E8%BE%A6%E5%85%AC%E5%AE%A4%E5%AF%A6%E7%BF%92%E7%B4%80%E9%8C%84-4eb6fbf0d7f
+    - name: 姚怡均
+      image: 04姚怡均.jpg
+      title: UX實習分享｜我在Ray 5.0成為2.0的自己！
+      content: 種下一顆UX的種子，它就會在每個人的心中發芽
+      link: https://medium.com/@j900701/%E6%88%91%E5%9C%A8ray-5-0%E6%88%90%E7%82%BA2-0%E7%9A%84%E8%87%AA%E5%B7%B1-4a61a127f592
 
 ---
