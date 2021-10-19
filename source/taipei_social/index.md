@@ -115,10 +115,7 @@ experience:
 
 picture:
   items:
-    - why.png
-    - why.png
-    - why.png
-    - why.png
-    - why.png
-    - why.png
+    - 01_record1.png
+    - 01_record2.png
+    - 01_record3.png
 ---
