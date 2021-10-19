@@ -150,6 +150,10 @@ main[class="home"] {
     .project {
       border: 1px solid $primary-color;
       margin-bottom: 5rem;
+      &:hover {
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.12);
+        transform: translateY(-10px);
+      }
       .title {
         padding: 1rem 5rem;
         h3 {

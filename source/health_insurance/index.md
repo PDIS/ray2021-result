@@ -87,11 +87,17 @@ hifi_prototype:
       image: 02_highfi.png
 
 result:
-  before: 02_highfi.png
-  after: 02_highfi.png
+  before:
+    image: 02_highfi.png
+    link: https://google.com
+  after: 
+    image: 02_highfi.png
+    link: https://google.com
 
 report:
-  link: https://e.issuu.com/embed.html?pageLayout=singlePage&hideIssuuLogo=true&u=pdis.tw&d=___etc______________________________90_________1_
+  items: 
+    - https://e.issuu.com/embed.html?pageLayout=singlePage&hideIssuuLogo=true&u=pdis.tw&d=___etc______________________________90_________1_
+    - https://www.youtube.com/embed/iVEbsg5wTGQ
 
 experience:
   items:
