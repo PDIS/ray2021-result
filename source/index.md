@@ -94,30 +94,30 @@ result:
 experience:
   title: 見習心得
   items:
-    - name: 姚怡均
-      image: 04姚怡均.jpg
-      title: 見習紀錄：在PDIS與政府一起做UIUX的那個暑假
-      content: 在團隊合作中感觸最深的是「要勇敢說出自己的想法！」有時候團隊在似乎達成共識的情況下，為了不打亂當前的進度，即使心裡有些可能不錯的想法......
-      link: https://google.com
-    - name: 姚怡均
-      image: 04林祐謙.jpg
-      title: 2020 唐鳳辦公室 （PDIS RAY計畫）UX/UI 實習心得
-      content: 若前期的研究及中期的測試沒有做足，設計得再好看、再自認完美，都是無效的，因為使用者經驗設計的宗旨就是要納入使用者的聲音，而非設計師們......
-      link: https://google.com
-    - name: 姚怡均
-      image: 04張智堯.jpg
-      title: 123
-      content: 123
-      link: https://google.com
-    - name: 姚怡均
-      image: 04李姿儀.jpg
-      title: 123
-      content: 123
-      link: https://google.com
-    - name: 姚怡均
-      image: 04姚怡均.jpg
-      title: 123
-      content: 123
-      link: https://google.com
+    - name: 邱威辰
+      image: 01邱威辰.jpg
+      title: 《 實習心得 》 我在唐鳳辦公室實習ㄝ！？公共數位創新空間 PDIS x Ray 5.0 見習計畫（上）
+      content: 不管你的背景或經驗試如何，哪怕只是一個小小的想法，多元的意見對專案的執行是絕對有幫助的
+      link: https://winchiu.medium.com/%E5%AF%A6%E7%BF%92%E5%BF%83%E5%BE%97-%E6%88%91%E5%9C%A8%E5%94%90%E9%B3%B3%E8%BE%A6%E5%85%AC%E5%AE%A4%E5%AF%A6%E7%BF%92%E3%84%9D-%E5%85%AC%E5%85%B1%E6%95%B8%E4%BD%8D%E5%89%B5%E6%96%B0%E7%A9%BA%E9%96%93-pdis-x-ray-5-0-%E8%A6%8B%E7%BF%92%E8%A8%88%E7%95%AB-%E4%B8%8A-69c5ff8146a0
+    - name: 陳澤宇
+      image: 01陳澤宇.jpg
+      title: RAY 5.0：一次重新審視自己的機會
+      content: 是一次難得而具體的經驗，讓我更知道自己的界線，學到更多方法。
+      link: https://medium.com/@alexchen45/ray-5-0-%E4%B8%80%E6%AC%A1%E9%87%8D%E6%96%B0%E5%AF%A9%E8%A6%96%E8%87%AA%E5%B7%B1%E7%9A%84%E6%A9%9F%E6%9C%83-fa48693fcd8b
+    - name: 林怡秀
+      image: 01林怡秀.jpg
+      title: 寫下我在Ray 5.0的日子
+      content: RAY 5.0 ，讓我重新認識我自己！
+      link: https://medium.com/@de_hsiu/%E5%AF%AB%E4%B8%8B%E6%88%91%E5%9C%A8ray-5-0%E7%9A%84%E6%97%A5%E5%AD%90-9605ccb3a018
+    - name: 洪嘉吟
+      image: 01洪嘉吟.jpg
+      title: 2021暑假我在PDIS實習|心得歷程
+      content: 從研究到設計完整的 UX 扎實專案，挑戰茁壯自己！
+      link: https://medium.com/@angelahongjy/2021%E6%9A%91%E5%81%87%E6%88%91%E5%9C%A8pdis%E5%AF%A6%E7%BF%92-%E5%BF%83%E5%BE%97%E6%AD%B7%E7%A8%8B-40e65923f5a4
+    - name: 郭又宗
+      image: 02郭又宗.jpg
+      title: 來唐鳳辦公室見習！？青年學生體檢政府網站數位服務專案（上）
+      content: 來唐鳳辦公室見習！在公部門做 UX 的兩個月＆遠距工作大考驗
+      link: https://medium.com/@kuouu/%E4%BE%86%E5%94%90%E9%B3%B3%E8%BE%A6%E5%85%AC%E5%AE%A4%E8%A6%8B%E7%BF%92-%E9%9D%92%E5%B9%B4%E5%AD%B8%E7%94%9F%E9%AB%94%E6%AA%A2%E6%94%BF%E5%BA%9C%E7%B6%B2%E7%AB%99%E6%95%B8%E4%BD%8D%E6%9C%8D%E5%8B%99%E5%B0%88%E6%A1%88-%E4%B8%8A-a04805ee37f5
 
 ---
