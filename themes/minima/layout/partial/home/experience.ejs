@@ -1,0 +1,31 @@
+<section id="experience">
+  <div class="container">
+    <h2>
+      <%- page.experience.title %>
+    </h2>
+    <div class="row">
+      <% page.experience.items.forEach(function(value){ %>
+        <div class="col-md-6">
+          <div class="exp-card">
+            <div class="avatar">
+              <div class="circle-avatar mb-2">
+                <div style="background:url('/image/<%- value.image %>')"></div>
+              </div>
+              <span>
+                <%- value.name %>
+              </span>
+            </div>
+            <div class="content">
+              <h3>
+                <%- value.title %>
+                  </h4>
+                  <p>
+                    <%- value.content %>
+                  </p>
+            </div>
+          </div>
+        </div>
+        <% }) %>
+    </div>
+  </div>
+</section>

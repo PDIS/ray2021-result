@@ -1,0 +1,213 @@
+$primary-color: #eb6047;
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap&subset=chinese-traditional);
+body {
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+}
+
+.text-primary {
+  color: $primary-color !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: $primary-color !important;
+  border-color: unset !important;
+}
+
+.macbook {
+  position: relative;
+  width: 100%;
+  img {
+    width: 100%;
+  }
+  div {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 12%;
+    width: 75%;
+    height: 75%;
+    background-size: cover !important;
+  }
+}
+
+.circle-avatar {
+  width: 100px;
+  div {
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 50%;
+    background-size: cover !important;
+  }
+}
+
+main[class="home"] {
+  h2 {
+    color: $primary-color;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    margin-top: 7.5rem;
+    margin-bottom: 5rem;
+  }
+
+  section[id="cover"] {
+    height: 100vh;
+
+    h1 {
+      font-size: 64px;
+      font-weight: 900;
+      line-height: 60px;
+      color: #505050;
+      letter-spacing: 0.4px;
+      margin-bottom: 1rem;
+    }
+
+    .content {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 40px;
+      color: #505050;
+      letter-spacing: 0.38px;
+    }
+
+    .triangle-left {
+      bottom: 0;
+      z-index: -1;
+      border-style: solid;
+      border-width: 35vh 0 0 55vw;
+      border-color: transparent transparent transparent #eb6047;
+      opacity: 0.8;
+    }
+
+    .triangle-right {
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+      border-style: solid;
+      border-width: 0 0 80vh 90vw;
+      border-color: transparent transparent #bc3017 transparent;
+      opacity: 0.8;
+    }
+  }
+
+  section[id="origin"] {
+    .container {
+      > .row {
+        margin-bottom: 5rem;
+
+        > * {
+          padding-left: 1.75rem;
+          padding-right: 1.75rem;
+        }
+      }
+
+      h3 {
+        color: $primary-color;
+        font-weight: 900;
+        font-size: 3rem;
+        line-height: 50px;
+        text-align: right;
+        letter-spacing: 0.4px;
+      }
+
+      h4 {
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 36px;
+        color: #a8a8a8;
+      }
+
+      p {
+        font-size: 1.125rem;
+        line-height: 27px;
+        text-align: justify;
+      }
+
+      br {
+        display: block;
+        margin: 1rem 0;
+        content: " ";
+      }
+
+      .image {
+        background-size: cover !important;
+        background-position: center !important;
+        padding-bottom: 80%;
+      }
+    }
+  }
+
+  section[id="result"] {
+    a {
+      text-decoration: none;
+    }
+
+    .project {
+      border: 1px solid $primary-color;
+      margin-bottom: 5rem;
+      .title {
+        padding: 1rem 5rem;
+        h3 {
+          font-size: 36px;
+          line-height: 50px;
+          color: $primary-color;
+          font-weight: bold;
+          display: inline;
+          margin-right: 1.5rem;
+        }
+        span {
+          font-size: 24px;
+          font-weight: bold;
+          line-height: 140%;
+          color: #a8a8a8;
+        }
+      }
+      .content {
+        background: $primary-color;
+        color: white;
+        padding: 3.75rem 5rem;
+
+        h4 {
+          font-size: 20px;
+          line-height: 30px;
+          font-weight: bold;
+          margin-bottom: 1rem;
+        }
+
+        p {
+          line-height: 32px;
+          text-align: justify;
+        }
+      }
+    }
+  }
+
+  section[id="experience"] {
+    .exp-card {
+      display: flex;
+      align-items: center;
+      margin-bottom: 3rem;
+      
+      .avatar {
+        flex-basis: 100px;
+        text-align: center;
+        margin-right: 2rem;
+      }
+      .content {
+        flex: 0 1 100%;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+        padding: 3rem 1rem;
+        h3 {
+          font-weight: 500;
+          font-size: 20px;
+          color: #3085BD;
+        }
+      }
+    }
+  }
+}

@@ -8,11 +8,11 @@ description: Rescue Action by Youth .gov 2021
 cover:
   title: RAY 5.0
   image: butter.png
-  background: banner.png
   subtitle: Rescue Action by Youth .gov 2021<br>青年學生體檢政府網站專案
   description: 不畏疫情展開線上協作，<br>挑戰在雲端上改造公部門網站的可能！
 
 origin:
+  title: 計畫緣起
   items:
     - type: WHY
       title: 「網站改造，青年之事」
@@ -28,13 +28,14 @@ origin:
       image: how.png
 
 result:
-  projects:
-    - title: 「臺北市政府社會局」<br>公托登記報名及抽籤
+  title: 專案成果
+  items:
+    - department: 臺北市政府社會局
+      title: 公托登記報名及抽籤系統之使用者經驗設計
       subtitle: 線性疏理資訊和流程，最大化使用效率
       description: 經過訪談以及易用性測試，團隊從親合圖法發現目前系統資訊架構不明確，使用者蒐集資料的成本大，無法快速瞭解重要訊息和做出決策；同時導致使用者在系統上送出錯誤資料的行為，增加了系統後端的處理成本。團隊改善這些問題，將系統架構重新梳理，設計線性「深度為主」的使用者流程。最終目標是幫助使用者更有效的做到「瞭解公托」、「選擇公托」以及「申請公托」。
       image: 01_highfi.jpg
-      background: macbook
-      color: "#4BA4A5"
+      color: "#69C3C3"
       link: taipei_social
       members:
         - name: 林怡秀
@@ -45,12 +46,12 @@ result:
           image: 01邱威辰.jpg
         - name: 陳澤宇
           image: 01陳澤宇.JPG
-    - title: 「衛福部中央健康保險署」<br>健保卡網路服務註冊
+    - department: 行政院衛生福利部中央健康保險署
+      title: 健保卡網路服務註冊流程優化
       subtitle: 數位化健保卡，創造良好使用者體驗
       description: 健保卡網路註冊服務致力於提供民眾更多元的管道，來使用健保署所推行的各種數位服務。前期研究發現，部分使用者會在註冊的環節卡關，最後甚至放棄註冊。因此團隊與健保署一同合作並確立目標 ，希望在確保資訊安全的情況下，協助使用者完成註冊。
       image: 02_highfi.png
-      background: macbook
-      color: "#4588BA"
+      color: "#3085BD"
       link: health_insurance
       members:
         - name: 郭又宗
@@ -59,12 +60,11 @@ result:
           image: 02楊曉曄.jpg
         - name: 葉伊蕙
           image: 02葉伊蕙.jpg
-    - title: 「桃園市政府社會局」<br>志願服務整合資訊平台
+    - department: 桃園市政府社會局
+      title: 志願服務整合資訊平台之使用者經驗設計
       subtitle: 有溫度的探索，激發服務熱忱
       description: 在前期研究中，經過與公部門以及使用者的多次訪談，我們歸納出志工網的幾點問題，其中包含：媒合功能使用率不高、資訊呈現方式不佳等，最後定義了我們的 Problem Statement 為「該如何讓志工網的操作更加流暢且有溫度，讓無論是有經驗的志工以及一般民眾更願意使用，進而提升志工媒合率」。
-
       image: 03_highfi.png
-      background: macbook
       color: "#EF895F"
       link: taoyuan_social
       members:
@@ -74,12 +74,12 @@ result:
           image: 03林曼寧.jpg
         - name: 黃湧群
           image: 03黃湧群.jpg
-    - title: 「行政院農業委員會林務局」<br>臺灣山林悠遊網
+    - department: 行政院農業委員會林務局
+      title: 台灣山林悠遊網之優化設計
       subtitle: 專屬山林嚮導，讓你行程免煩惱
       description: 我們與部會討論，並且詳細閱讀之前的研究報告，找到可以發展的題目「未使用過山林悠遊網且非專業」的使用者體驗，於是我們訪談了解使用者會花費較多時間於行程前的籌備，因此，將針對使用者提出一個較為方便的服務，並且部會希望能夠知名度，因此，我們將提供一個Line chatbot，讓使用者能夠有更密切的互動。
       image: 04_highfi.gif
-      background: iphone
-      color: "#6e7555"
+      color: "#6E7556"
       link: forestry_bureau
       members:
         - name: 姚怡均
@@ -90,4 +90,29 @@ result:
           image: 04張智堯.jpg
         - name: 李姿儀
           image: 04李姿儀.jpg
+
+experience:
+  title: 見習心得
+  items:
+    - name: 姚怡均
+      image: 04姚怡均.jpg
+      title: 見習紀錄：在PDIS與政府一起做UIUX的那個暑假
+      content: 在團隊合作中感觸最深的是「要勇敢說出自己的想法！」有時候團隊在似乎達成共識的情況下，為了不打亂當前的進度，即使心裡有些可能不錯的想法......
+    - name: 姚怡均
+      image: 04林祐謙.jpg
+      title: 2020 唐鳳辦公室 （PDIS RAY計畫）UX/UI 實習心得
+      content: 若前期的研究及中期的測試沒有做足，設計得再好看、再自認完美，都是無效的，因為使用者經驗設計的宗旨就是要納入使用者的聲音，而非設計師們......
+    - name: 姚怡均
+      image: 04張智堯.jpg
+      title: 123
+      content: 123
+    - name: 姚怡均
+      image: 04李姿儀.jpg
+      title: 123
+      content: 123
+    - name: 姚怡均
+      image: 04姚怡均.jpg
+      title: 123
+      content: 123
+
 ---

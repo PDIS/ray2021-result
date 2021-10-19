@@ -1,0 +1,39 @@
+<section id="result">
+  <div class="container">
+    <h2><%- page.result.title %></h2>
+    <% page.result.items.forEach(function(value){ %>
+      <a href="/<%- value.link %>">
+        <div class="project d-flex flex-column-reverse" style="border-color: <%- value.color %>">
+          <div class="title h-100">
+            <h3 style="color: <%- value.color %>">
+              <%- value.department %>
+            </h3>
+            <span>
+              <%- value.title %>
+            <span>
+          </div>
+          <div class="content" style="background: <%- value.color %>">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-center align-items-center">
+                <div>
+                  <h4>
+                    <%- value.subtitle %>
+                  </h4>
+                  <p>
+                    <%- value.description %>
+                  </p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="macbook">
+                  <img src="/image/macbook.png" alt="macbook" />
+                  <div style="background: url('/image/<%- value.image %>')"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <% }) %>
+  </div>
+</section>

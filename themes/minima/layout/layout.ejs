@@ -83,8 +83,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" integrity="sha512-usVBAd66/NpVNfBge19gws2j6JZinnca12rAe2l+d+QkLU9fiG02O1X8Q6hepIpr/EYKZvKx/I9WsnujJuOmBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="/css/custom.css?v=<%- Date.now() %>">
   <link rel="stylesheet" href="/css/page.css?v=<%- Date.now() %>">
+  <link rel="stylesheet" href="/css/home.css?v=<%- Date.now() %>">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -98,9 +98,9 @@
 </head>
 
 <body>
-  <header>
+  <header class="position-absolute w-100">
     <% if (url_for(page.path) == '/index.html'){ %>
-    <%- partial('partial/header', { darkmode: true }) %>
+    <%- partial('partial/header', { darkmode: false }) %>
     <% } else { %>
     <%- partial('partial/header', { darkmode: false }) %>
     <% } %>
