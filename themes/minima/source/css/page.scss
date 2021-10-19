@@ -59,6 +59,23 @@ main[class="page"] {
   section[id="introduction"] {
     margin-top: 7.5rem;
   }
+
+  section[id="prestudy"] {
+    .carousel-control-next,
+    .carousel-control-prev {
+      width: 5%;
+    }
+
+    .carousel-inner {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    .carousel-indicators {
+      position: unset;
+    }
+  }
+
   section[id="define-problem"] {
     .row {
       margin-bottom: 5rem;
@@ -158,14 +175,14 @@ main[class="page"] {
 
     .before {
       color: #3085bd;
-      background-color: unset;
-      border-color: #3085bd;
+      background-color: unset !important;
+      border-color: #3085bd !important;
       border-width: medium;
     }
 
     .after {
-      background-color: #3085bd;
-      border-color: #3085bd;
+      background-color: #3085bd !important;
+      border-color: unset !important;
       border-width: medium;
     }
   }
@@ -181,15 +198,34 @@ main[class="page"] {
   }
 
   section[id="experience"] {
-    h3 {
-      color: #3085bd;
-    }
-    .member {
-      width: 10%;
-    }
-    .text {
-      width: 89%;
-      padding: 3rem;
+    .exp-card {
+      margin-bottom: 3rem;
+      .exp-card-text {
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+        .avatar {
+          flex-basis: 100px;
+          text-align: center;
+          margin-right: 2rem;
+        }
+        a {
+          text-decoration: none;
+          color: inherit;
+        }
+        .content {
+          flex: 0 1 100%;
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+          padding: 3rem 1rem;
+          height: 100%;
+          h3 {
+            font-weight: 500;
+            font-size: 20px;
+            color: #3085bd;
+          }
+        }
+      }
     }
   }
 
