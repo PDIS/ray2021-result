@@ -63,7 +63,7 @@ wireframe:
 
 
 divider:
-  image: 01_divider.png
+  image: 01_divider.jpg
 
 hifi_prototype:
   items:
