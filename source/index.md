@@ -100,7 +100,7 @@ experience:
       content: 不管你的背景或經驗試如何，哪怕只是一個小小的想法，多元的意見對專案的執行是絕對有幫助的
       link: https://winchiu.medium.com/%E5%AF%A6%E7%BF%92%E5%BF%83%E5%BE%97-%E6%88%91%E5%9C%A8%E5%94%90%E9%B3%B3%E8%BE%A6%E5%85%AC%E5%AE%A4%E5%AF%A6%E7%BF%92%E3%84%9D-%E5%85%AC%E5%85%B1%E6%95%B8%E4%BD%8D%E5%89%B5%E6%96%B0%E7%A9%BA%E9%96%93-pdis-x-ray-5-0-%E8%A6%8B%E7%BF%92%E8%A8%88%E7%95%AB-%E4%B8%8A-69c5ff8146a0
     - name: 陳澤宇
-      image: 01陳澤宇.jpg
+      image: 01陳澤宇.JPG
       title: RAY 5.0：一次重新審視自己的機會
       content: 是一次難得而具體的經驗，讓我更知道自己的界線，學到更多方法。
       link: https://medium.com/@alexchen45/ray-5-0-%E4%B8%80%E6%AC%A1%E9%87%8D%E6%96%B0%E5%AF%A9%E8%A6%96%E8%87%AA%E5%B7%B1%E7%9A%84%E6%A9%9F%E6%9C%83-fa48693fcd8b
