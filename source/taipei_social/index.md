@@ -79,16 +79,15 @@ hifi_prototype:
 
 result:
   before:
-    image: 02_highfi.png
-    link: https://google.com
+    image: 01_wireframe1_2.png
+    link: https://dosw.gov.taipei/cp.aspx?n=91E27EEB185E61A5
   after: 
-    image: 02_highfi.png
-    link: https://google.com
+    image: 01_highfi1.gif
+    link: https://www.figma.com/proto/kQooDFByaYXqTEajQ35Eoo/Wireframe-Hi-Fi-Prototype-V2?page-id=56%3A259&node-id=77%3A1392&viewport=243%2C48%2C0.02&scaling=min-zoom&starting-point-node-id=77%3A1392&hide-ui=1
 
 report:
   items: 
-    - https://e.issuu.com/embed.html?pageLayout=singlePage&hideIssuuLogo=true&u=pdis.tw&d=___etc______________________________90_________1_
-    - https://www.youtube.com/embed/iVEbsg5wTGQ
+    - https://e.issuu.com/embed.html?d=_4e6f21007b606a&hideIssuuLogo=true&pageLayout=singlePage&u=pdis.tw
 
 experience:
   items:
