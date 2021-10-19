@@ -15,16 +15,18 @@
                 <%- value.name %>
               </span>
             </div>
-            <a target="_blank" href="<%- value.link %>">
-              <div class="content">
-                <h3>
-                  <%- value.title %>
-                    </h4>
-                    <p>
-                      <%- value.content %>
-                    </p>
-              </div>
-            </a>
+
+            <div class="content">
+              <a target="_blank" href="<%- value.link %>">
+              <h3>
+                <%- value.title %>
+                  </h4>
+                  <p>
+                    <%- value.content %>
+                  </p>
+                  </a>
+            </div>
+
           </div>
         </div>
         <% }) %>
