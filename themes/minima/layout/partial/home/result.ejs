@@ -12,9 +12,12 @@
               <%- value.department %>
             <span>
           </div>
-          <div class="content" style="background: <%- value.color %>">
+          <div class="content position-sticky" style="background: <%- value.color %>">
             <div class="row">
-              <div class="col-6 d-flex justify-content-center align-items-center">
+              <div class="col-lg-6 order-lg-1 d-flex align-items-center <%- value.mockup.type != "mobile_with_bg" ? "justify-content-center" : "" %>">
+                <%- partial('component/mockup', {mockup: value.mockup}) %>
+              </div>
+              <div class="col-lg-6 d-flex justify-content-center align-items-center">
                 <div>
                   <h4>
                     <%- value.subtitle %>
@@ -24,12 +27,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-6">
-                <div class="macbook">
-                  <img src="/image/macbook.png" alt="macbook" />
-                  <div style="background: url('/image/<%- value.image %>')"></div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>

@@ -7,6 +7,7 @@ description: 數位化健保卡，創造良好使用者體驗
 
 cover:
   style: cover_2
+  background: "#3085BD"
   demo:
     position: left
     background:
@@ -17,7 +18,7 @@ cover:
 
   title_color: "#4588BA"
   department: 衛生福利部中央健康保險署
-  title: 健保卡網路服務註冊流程優化
+  title: 健保卡網路服務<br>註冊流程優化
   link: https://cloudicweb.nhi.gov.tw/cloudic/system/mlogin.aspx
   members:
     - name: 郭又宗
@@ -60,14 +61,17 @@ need:
 wireframe:
   items:
     - name: 可行性優先
-      image: 02_wireframe2.png
-      background: macbook
+      mockup:
+        image: 02_wireframe2.png
+        type: desktop
     - name: 天馬行空版
-      image: 02_wireframe1.png
-      background: macbook
+      mockup:
+        image: 02_wireframe1.png
+        type: desktop
     - name: 討論最終版
-      image: 02_wireframe3.png
-      background: macbook
+      mockup:
+        image: 02_wireframe3.png
+        type: desktop
   title: 兼具創意與可行性的最佳解
   content: 考量資訊安全的疑慮，有些流程與提示是不可省略的。因此我們利用工作坊形式，將以可行性為優先的版本與天馬行空版結合，確保我們能夠在不影響資訊安全的狀況下，排除使用者在技術上遇到的問題，並改善新版網站的使用者體驗。
 
@@ -79,20 +83,30 @@ hifi_prototype:
   items:
     - title: 任務分段，循序漸進
       content: 將比較困難的註冊以及登入流程拆解成數個小任務，一步一步引導使用者完成，也確保沒有漏掉任何一個步驟。同時附上流程圖顯示使用者目前正在進行的階段，以及後面會出現的任務。
-      image: 02_highfi.png
+      mockup:
+        image: 02_highfi.png
+        type: desktop
     - title: 問題指南，有問必答
       content: 強化現有網站的錯誤提示，改善解決問題的流暢度，確保使用者在發生錯誤時能夠知道目前遇到的問題是什麼，並即時獲得解答。
-      image: 02_highfi.png
+      mockup:
+        image: 02_highfi.png
+        type: desktop
     - title: 資訊分級，一目瞭然
       content: 將網站上提供的資訊按照不同類別跟重要程度用顏色、大小、粗細做分級，盡可能減少使用者搜尋目標資訊花費的時間。
-      image: 02_highfi.png
+      mockup:
+        image: 02_highfi.png
+        type: desktop
 
 result:
   before:
-    image: 02_gov.png
+    mockup:
+      image: 02_gov.png
+      type: desktop
     link: https://cloudicweb.nhi.gov.tw/cloudic/system/mUserAccount1.aspx
   after: 
-    image: 02_highfi.png
+    mockup:
+      image: 02_highfi.png
+      type: desktop
     link: https://www.figma.com/proto/aQN9DgXGDgT2WNsmofSpEY/Hi-fi-Prototype?page-id=264%3A3848&node-id=264%3A5285&viewport=308%2C48%2C0.18&scaling=contain&starting-point-node-id=264%3A3849
 
 report:

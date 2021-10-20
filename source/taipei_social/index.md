@@ -59,11 +59,13 @@ need:
 wireframe:
   items:
     - name: Wireframe A 網頁/手機版面
-      image: 01_wireframe1.png
-      background: iphone
+      mockup:
+        image: 01_wireframe1.png
+        type: mobile
     - name: Wireframe B 手機版面
-      image: 01_wireframe2.png
-      background: iphone
+      mockup:
+        image: 01_wireframe2.gif
+        type: mobile
 
   title: 重整資訊架構並提升登記流程效率、客製化便民服務與協助部門案件審核的關卡設計
   content: A 版線框稿的原則為「給予使用者對應身份的表單」、「方便使用者查找公托機構」、「整合公托資訊架構」，著重在整理公托資訊並簡化流程。B 版線在A版原則之外，新增了「自我檢核表」與「公托購物車」的設計，提升使用者在挑選公托上的方便性，並協助降低發生申請案件不符合資格的機率。
@@ -77,20 +79,30 @@ hifi_prototype:
   items:
     - title: 整理資訊內容，提高整體易讀性
       content: 新版的網站重新整理所有條文與規定，以分項、圖文懶人包、常見問題QA 三種方式呈現，讓初次進入的民眾對公托時程與規定一目了然。
-      image: 01_highfi1.gif
+      mockup:
+        image: 01_highfi1.gif
+        type: mobile
     - title: 整合公托機構資訊與查找功能，一站完成所有目標
       content: 新版網站整合了公托機構資訊、地圖系統，讓家長可以快速的尋找公托地點、評鑑、候補名單等相關重要資訊。而收藏列表和購物車，方便家長在有限的時間裡，比較、記錄想要的公托，並迅速完成登記。
-      image: 01_highfi2.gif
+      mockup:
+        image: 01_highfi2.gif
+        type: mobile
     - title: 自我檢核及改善表單，減輕使用者及機關負擔
       content: 採客製化形式，依照身分給予對應表單，結合簡易資格與需準備之文件提醒，降低不合格案件發生率。
-      image: 01_highfi3.gif
+      mockup:
+        image: 01_highfi3.gif
+        type: mobile
 
 result:
   before:
-    image: 01_gov.png
+    mockup:
+      image: 01_highfi1.gif
+      type: mobile
     link: https://dosw.gov.taipei/cp.aspx?n=91E27EEB185E61A5
   after: 
-    image: 01_highfi.png
+    mockup:
+      image: 01_highfi1.gif
+      type: mobile
     link: https://www.figma.com/proto/kQooDFByaYXqTEajQ35Eoo/Wireframe-Hi-Fi-Prototype-V2?page-id=56%3A259&node-id=77%3A1392&viewport=243%2C48%2C0.02&scaling=min-zoom&starting-point-node-id=77%3A1392&hide-ui=1
 
 report:
@@ -122,7 +134,7 @@ experience:
 
 picture:
   items:
-    - 01_record1.png
-    - 01_record2.jpg
-    - 01_record3.png
+    - 01_record1.jpg
+    - 01_record2.png
+    - 01_record3.jpg
 ---

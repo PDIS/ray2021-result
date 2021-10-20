@@ -48,14 +48,17 @@ need:
 wireframe:
   items:
     - name: 功能導向 A 版
-      image: 03_wireframe1.png
-      background: macbook
+      mockup:
+        image: 03_wireframe1.png
+        type: desktop
     - name: 探索導向 B 版
-      image: 03_wireframe2.png
-      background: macbook
+      mockup:
+        image: 03_wireframe2.png
+        type: desktop
     - name: 雙向引導 C 版
-      image: 03_wireframe3.png
-      background: macbook
+      mockup:
+        image: 03_wireframe3.png
+        type: desktop
   title: 建立雙向橋樑，激發參與熱忱
   content: 我們在 A 版嘗試重新編排架構、優化流程，提升使用的流暢；在 B 版嘗試加入身分別區分、凸顯人物故事，激發使用者參與志工的熱情；在 C 版嘗試將 A / B 兩版特色融合，並加上雙向溝通的特色，以「簡化流程步驟＋有溫度的探索內容＋雙向橋樑」成為我們最終的設計方向。
 
@@ -66,20 +69,30 @@ hifi_prototype:
   items:
     - title: 雙向溝通，更有溫度
       content: 將半年報裡的志工故事、區域探索地圖展開於首頁，並讓每個活動擁有問與答的欄位，讓資訊透明化；並且利用民眾熟悉且親切的說明文字，建立民眾與公部門的橋樑。
-      image: 03_highfi1.png
+      mockup:
+        image: 03_highfi1.png
+        type: desktop
     - title: 服務體驗整合，更加流暢
       content: 利用一頁式的註冊服務，僅留下必要的填答資訊，提高註冊效率，並整合報名服務於網站上，期望提升媒合功能的使用率，同時也讓社會局能掌握報名狀況。
-      image: 03_highfi2.png
+      mockup:
+        image: 03_highfi2.png
+        type: desktop
     - title: 資訊重整，更加清楚
       content: 我們梳理網站的資訊架構，並重新安排文字層級與版面配置，讓資訊能夠更清楚的呈現，志工在探索活動時，也能更快速的找到有興趣的志工活動。
-      image: 03_highfi3.png
+      mockup:
+        image: 03_highfi3.png
+        type: desktop
 
 result:
   before:
-    image: 03_gov.png
+    mockup:
+      image: 01_wireframe1_2.png
+      type: desktop
     link: https://vspc.tycg.gov.tw/
-  after: 
-    image: 03_highfi.png
+  after:
+    mockup:
+      image: 03_highfi.png
+      type: desktop
     link: https://www.figma.com/proto/mD2dTmOC12LoQsWoqy8lRX/High-fi-Prototype?node-id=870%3A12870&scaling=min-zoom&starting-point-node-id=906%3A11962&show-proto-sidebar=1
 
 report:

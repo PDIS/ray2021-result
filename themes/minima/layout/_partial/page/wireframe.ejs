@@ -10,21 +10,11 @@
   <div class="container-fluid">
     <div class="row justify-content-center">
       <% page.wireframe.items.forEach(function(value){ %>
-      <div class="col-md-4 text-center">
-        <% if(value.background == "macbook") { %>
-        <div class="shadow">
-          <img src="/image/<%- value.image %>" alt="macbook" class="w-100" />
+      <div class="col-lg-4 d-flex align-items-center justify-content-center mb-5">
+        <div class="text-center">
+          <%- partial('component/mockup', {mockup: value.mockup}) %>
+          <p class="mt-4"><%- value.name %></p>
         </div>
-        <% } else if(value.background == "iphone") { %>
-        <div class="iphone">
-          <img src="/image/iphone.png" alt="iphone" class="w-100" />
-          <div
-            class="screen"
-            style="background: url('/image/<%- value.image %>')"
-          ></div>
-        </div>
-        <% } %>
-        <p class="mt-4"><%- value.name %></p>
       </div>
       <% }) %>
     </div>

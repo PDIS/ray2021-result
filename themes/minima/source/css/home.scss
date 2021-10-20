@@ -1,4 +1,6 @@
 $primary-color: #eb6047;
+$width-lg: 991.5px;
+$width-md: 767.5px;
 
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap&subset=chinese-traditional);
 body {
@@ -33,6 +35,28 @@ body {
   }
 }
 
+.iphone {
+  position: sticky;
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+  @media (max-width: $width-lg) {
+    max-width: 250px;
+  }
+  .frame {
+    width: 100%;
+  }
+  .screen {
+    position: absolute;
+    margin: auto;
+    top: 2.5%;
+    left: 0;
+    right: 0;
+    width: 88%;
+    z-index: -1;
+  }
+}
+
 .circle-avatar {
   width: 100px;
   div {
@@ -40,6 +64,48 @@ body {
     padding-top: 100%;
     border-radius: 50%;
     background-size: cover !important;
+  }
+}
+
+.container {
+  @media (max-width: $width-md) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (max-width: $width-md) {
+  .navbar {
+    .collapse {
+      background: unset;
+    }
+    .show,
+    .collapsing {
+      background: #f8f9fa;
+    }
+  }
+}
+
+footer {
+  background-color: $primary-color;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -65,6 +131,7 @@ main[class="home"] {
       color: #505050;
       letter-spacing: 0.4px;
       margin-bottom: 1rem;
+      text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     }
 
     .content {
@@ -73,6 +140,10 @@ main[class="home"] {
       line-height: 40px;
       color: #505050;
       letter-spacing: 0.38px;
+      text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+      @media (max-width: $width-lg) {
+        font-size: 20px;
+      }
     }
 
     .triangle-left {
@@ -82,6 +153,9 @@ main[class="home"] {
       border-width: 35vh 0 0 55vw;
       border-color: transparent transparent transparent #eb6047;
       opacity: 0.8;
+      @media (max-width: $width-lg) {
+        border-width: 15vh 0 0 60vw;
+      }
     }
 
     .triangle-right {
@@ -92,6 +166,26 @@ main[class="home"] {
       border-width: 0 0 80vh 90vw;
       border-color: transparent transparent #bc3017 transparent;
       opacity: 0.8;
+      @media (max-width: $width-lg) {
+        border-width: 0 0 15vh 60vw;
+      }
+    }
+
+    .cover-mockup {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media (max-width: $width-lg) {
+        align-items: flex-end !important;
+      }
+    }
+    .cover-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media (max-width: $width-lg) {
+        align-items: flex-start !important;
+      }
     }
   }
 
@@ -100,9 +194,11 @@ main[class="home"] {
       > .row {
         margin-bottom: 5rem;
 
-        > * {
-          padding-left: 1.75rem;
-          padding-right: 1.75rem;
+        > div {
+          @media (min-width: $width-lg) {
+            padding-left: 1.75rem;
+            padding-right: 1.75rem;
+          }
         }
       }
 
@@ -113,6 +209,10 @@ main[class="home"] {
         line-height: 50px;
         text-align: right;
         letter-spacing: 0.4px;
+        margin-bottom: 2rem;
+        @media (max-width: $width-lg) {
+          text-align: left;
+        }
       }
 
       h4 {
@@ -120,12 +220,14 @@ main[class="home"] {
         font-size: 1.5rem;
         line-height: 36px;
         color: #a8a8a8;
+        margin-bottom: 1rem;
       }
 
       p {
         font-size: 1.125rem;
         line-height: 27px;
         text-align: justify;
+        margin-bottom: 2.5rem;
       }
 
       br {
@@ -134,10 +236,18 @@ main[class="home"] {
         content: " ";
       }
 
-      .image {
-        background-size: cover !important;
-        background-position: center !important;
-        padding-bottom: 80%;
+      .image-outer {
+        max-width: 360px;
+        width: 100%;
+        .image {
+          background-size: cover !important;
+          background-position: center !important;
+          padding-bottom: 80%;
+          width: 100%;
+          left: 0;
+          right: 0;
+          margin: auto;
+        }
       }
     }
   }
@@ -156,6 +266,9 @@ main[class="home"] {
       }
       .title {
         padding: 1rem 5rem;
+        @media (max-width: $width-lg) {
+          padding: 1rem;
+        }
         h3 {
           font-size: 36px;
           line-height: 50px;
@@ -163,6 +276,9 @@ main[class="home"] {
           font-weight: bold;
           display: inline;
           margin-right: 1.5rem;
+          @media (max-width: $width-lg) {
+            display: block;
+          }
         }
         span {
           font-size: 24px;
@@ -175,6 +291,9 @@ main[class="home"] {
         background: $primary-color;
         color: white;
         padding: 3.75rem 5rem;
+        @media (max-width: $width-lg) {
+          padding: 2rem;
+        }
 
         h4 {
           font-size: 20px;
@@ -187,6 +306,26 @@ main[class="home"] {
           line-height: 32px;
           text-align: justify;
         }
+
+        .mobile-with-bg {
+          right: 0;
+          width: calc((100% - 10rem) / 2 - 115px + 5rem);
+          height: 400px;
+          z-index: -1;
+          position: absolute;
+          background-size: cover !important;
+          opacity: 0.7;
+          @media (max-width: $width-lg) {
+            width: calc((100% - 4rem) - 115px + 2rem);
+          }
+        }
+
+        .mobile-with-bg-iphone {
+          width: 150px;
+          margin-top: 50px;
+          margin-bottom: 50px;
+          margin-left: 30px;
+        }
       }
     }
   }
@@ -194,15 +333,27 @@ main[class="home"] {
   section[id="experience"] {
     .exp-card {
       margin-bottom: 3rem;
+      @media (min-width: $width-lg) {
+        &:nth-child(odd) {
+          padding-right: 2.5rem;
+        }
+        &:nth-child(even) {
+          padding-left: 2.5rem;
+        }
+      }
       .exp-card-text {
         display: flex;
         align-items: center;
         height: 100%;
 
         .avatar {
-          flex-basis: 100px;
           text-align: center;
-          margin-right: 2rem;
+          margin-right: 1.5rem;
+          @media (max-width: $width-md) {
+            .circle-avatar {
+              width: 80px;
+            }
+          }
         }
         a {
           text-decoration: none;
@@ -213,21 +364,14 @@ main[class="home"] {
           box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
           padding: 3rem 1rem;
           height: 100%;
+          @media (max-width: $width-lg) {
+            padding: 1rem;
+          }
           h3 {
             font-weight: 500;
             font-size: 20px;
             color: #3085bd;
           }
-        }
-      }
-    }
-    @media (min-width: 768px) {
-      .exp-card {
-        &:nth-child(odd) {
-          padding-right: 2.5rem;
-        }
-        &:nth-child(even) {
-          padding-left: 2.5rem;
         }
       }
     }
