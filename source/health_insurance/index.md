@@ -88,8 +88,8 @@ hifi_prototype:
 
 result:
   before:
-    image: 02_highfi.png
-    link: https://cloudicweb.nhi.gov.tw/cloudic/system/mLogin.aspx
+    image: 02_gov.png
+    link: https://cloudicweb.nhi.gov.tw/cloudic/system/mUserAccount1.aspx
   after: 
     image: 02_highfi.png
     link: https://www.figma.com/proto/aQN9DgXGDgT2WNsmofSpEY/Hi-fi-Prototype?page-id=264%3A3848&node-id=264%3A5285&viewport=308%2C48%2C0.18&scaling=contain&starting-point-node-id=264%3A3849
