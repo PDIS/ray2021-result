@@ -34,7 +34,9 @@ result:
       title: 公托登記報名及抽籤系統之使用者經驗設計
       subtitle: 線性疏理資訊和流程，最大化使用效率
       description: 經過訪談以及易用性測試，團隊從親合圖法發現目前系統資訊架構不明確，使用者蒐集資料的成本大，無法快速瞭解重要訊息和做出決策；同時導致使用者在系統上送出錯誤資料的行為，增加了系統後端的處理成本。團隊改善這些問題，將系統架構重新梳理，設計線性「深度為主」的使用者流程。最終目標是幫助使用者更有效的做到「瞭解公托」、「選擇公托」以及「申請公托」。
-      image: 01_highfi.jpg
+      mockup:
+        image: 01_cover.png
+        type: none
       color: "#69C3C3"
       link: taipei_social
       members:
@@ -50,7 +52,9 @@ result:
       title: 健保卡網路服務註冊流程優化
       subtitle: 數位化健保卡，創造良好使用者體驗
       description: 健保卡網路註冊服務致力於提供民眾更多元的管道，來使用健保署所推行的各種數位服務。前期研究發現，部分使用者會在註冊的環節卡關，最後甚至放棄註冊。因此團隊與健保署一同合作並確立目標 ，希望在確保資訊安全的情況下，協助使用者完成註冊。
-      image: 02_highfi.png
+      mockup:
+        image: 02_highfi.png
+        type: desktop
       color: "#3085BD"
       link: health_insurance
       members:
@@ -64,7 +68,9 @@ result:
       title: 志願服務整合資訊平台之使用者經驗設計
       subtitle: 有溫度的探索，激發服務熱忱
       description: 在前期研究中，經過與公部門以及使用者的多次訪談，我們歸納出志工網的幾點問題，其中包含：媒合功能使用率不高、資訊呈現方式不佳等，最後定義了我們的 Problem Statement 為「該如何讓志工網的操作更加流暢且有溫度，讓無論是有經驗的志工以及一般民眾更願意使用，進而提升志工媒合率」。
-      image: 03_highfi.png
+      mockup:
+        image: 03_highfi.png
+        type: desktop
       color: "#EF895F"
       link: taoyuan_social
       members:
@@ -78,7 +84,9 @@ result:
       title: 台灣山林悠遊網之優化設計
       subtitle: 專屬山林嚮導，讓你行程免煩惱
       description: 我們與部會討論，並且詳細閱讀之前的研究報告，找到可以發展的題目「未使用過山林悠遊網且非專業」的使用者體驗，於是我們訪談了解使用者會花費較多時間於行程前的籌備，因此，將針對使用者提出一個較為方便的服務，並且部會希望能夠知名度，因此，我們將提供一個Line chatbot，讓使用者能夠有更密切的互動。
-      image: 04_highfi.gif
+      mockup:
+        image: 04_highfi.png
+        type: mobile_with_bg
       color: "#6E7556"
       link: forestry_bureau
       members:

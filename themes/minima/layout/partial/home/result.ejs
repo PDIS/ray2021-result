@@ -14,7 +14,10 @@
           </div>
           <div class="content" style="background: <%- value.color %>">
             <div class="row">
-              <div class="col-6 d-flex justify-content-center align-items-center">
+              <div class="col-lg-6 order-lg-1 d-flex justify-content-center align-items-center">
+                <%- partial('component/mockup', {mockup: value.mockup}) %>
+              </div>
+              <div class="col-lg-6 d-flex justify-content-center align-items-center">
                 <div>
                   <h4>
                     <%- value.subtitle %>
@@ -24,12 +27,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-6">
-                <div class="macbook">
-                  <img src="/image/macbook.png" alt="macbook" />
-                  <div style="background: url('/image/<%- value.image %>')"></div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>

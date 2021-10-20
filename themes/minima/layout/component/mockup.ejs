@@ -1,0 +1,22 @@
+<% if (mockup.type == "mobile") { %>
+<div class="iphone">
+  <img src="/image/iphone.png" class="frame" />
+  <img src="/image/<%- mockup.image %>" class="screen" />
+</div>
+<% } else if (mockup.type == "none"){ %>
+<div style="width: 80%">
+  <img src="/image/<%- mockup.image %>" class="w-100" alt="macbook" />
+</div>
+<% } else if (mockup.type == "mobile_with_bg"){ %>
+<div style="width: 80%">
+  <img src="/image/<%- mockup.image %>" class="w-100" alt="macbook" />
+</div>
+<% } else { %>
+<div class="macbook">
+  <img src="/image/macbook.png" alt="macbook" />
+  <div
+    class="screen"
+    style="background: url('/image/<%- mockup.image %>')"
+  ></div>
+</div>
+<% } %>

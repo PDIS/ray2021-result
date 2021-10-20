@@ -53,11 +53,13 @@ need:
 wireframe:
   items:
     - name: Wireframe A版/ 山林悠遊網 messenger chatbot
-      image: 04_wireframe1.gif
-      background: iphone
+      mockup:
+        image: 04_wireframe1.gif
+        type: mobile
     - name: Wireframe B版/ 山林悠遊網 Line 官方 chatbot
-      image: 04_wireframe2.gif
-      background: iphone
+      mockup:
+        image: 04_wireframe2.gif
+        type: mobile
   title: 對話方式探索景點，協助輕鬆安排行程
   content: A版Wireframe我們設計了在山林悠遊網上運作的 messneger chatbot，因山林悠遊網本身即有豐富資訊，因此我們討論後在網站上加上能與使用者互動的 chatbot，一方面延伸網站功能，另一方面讓使用者在進入網站時能立即獲得協助，簡化網站使用上的複雜度。B版Wireframe設計則是以官方 Line  chatbot 的方式擴大服務，互動式協助使用者篩選出適合的景點。 除了串連整個行程的前中後，也計劃結合線上線下服務，讓使用者在整個行程中都能有完整的體驗。
 
@@ -68,30 +70,35 @@ hifi_prototype:
   items:
     - title: 官方Line Chatbot ，延伸現有優質服務
       content: 山林悠遊網歷經兩次的大型改版，已經具備滿足使用者的大部分功能。因此我們一直不停地思考：「要怎麼優化現有的服務？」比起直接改版現行網站，我們提出官方Line chatbot的服務方式，希望能藉由延伸現有服務來滿足更多網站使用者。
-      image: 04_highfi1.png
+      mockup:
+        image: 04_highfi1.png
+        type: mobile
     - title: 簡化景點資訊頁，快速了解必知訊息
       content: 山林悠遊網為求資訊完整，盡可能地把需要的資訊都放在頁面上。而手機因為螢幕較小，過多的文字會讓使用者感到吃力，因此我們專門設計了一個簡版的景點資訊頁，並放上必要資訊如開休園、營業時間等，讓手機用戶可以快速查看相關資訊。
-      image: 04_highfi2.png
+      mockup:
+        image: 04_highfi2.png
+        type: mobile
     - title: 山林徽章認證，線上線下一條龍
       content: 台灣有著優美的山林景點，每年吸引許多人爭相走訪。我們設計出一整套徽章，提供使用者在走步道、爬百岳時可於景點收集徽章，認證他們曾經達成此成就。我們更與林務局討論，未來將可能推出相關紀念品，提供徽章收集者兌換。
-      image: 04_highfi3.png
+      mockup:
+        image: 04_highfi3.png
+        type: mobile
 
 result:
   before:
-    image: 04_gov.png
+    mockup:
+      image: 04_gov.png
+      type: mobile
     link: https://recreation.forest.gov.tw/
-  after: 
-    image: 04_highfi.gif
+  after:
+    mockup:
+      image: 04_highfi.gif
+      type: mobile
     link: https://www.figma.com/proto/o9rhfaGTyD8SC8fJcYFeb7/Ray?page-id=0%3A1&node-id=1058%3A2191&viewport=241%2C48%2C0.03&scaling=scale-down&starting-point-node-id=1058%3A2191&show-proto-sidebar=1
 
 report:
   items: 
-<<<<<<< HEAD
     - https://e.issuu.com/embed.html?d=0831_ef732b0491acd2&pageLayout=singlePage&u=pdis.tw&hideIssuuLogo=true
-=======
-    - https://e.issuu.com/embed.html?d=0831_ef732b0491acd2&pageLayout=singlePage&u=pdis.tw
-    - https://www.youtube.com/embed/p1U5lvZzPEs
->>>>>>> e55f13b85f3a0da33f64d927788edbd7ef9450e0
 
 experience:
   items:

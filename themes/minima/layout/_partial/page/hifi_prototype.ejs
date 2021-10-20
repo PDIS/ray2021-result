@@ -4,18 +4,12 @@
     <h2 class="fw-bold">高保真原型</h2>
     <% page.hifi_prototype.items.forEach(function(value, index){ %>
     <div class="row">
-      <div class="col-55">
-        <div class="macbook">
-          <img src="/image/macbook.png" alt="macbook" class="w-100" />
-          <div
-            class="screen"
-            style="background: url('/image/<%- value.image %>')"
-          ></div>
-        </div>
+      <div class="col-55 d-flex align-items-center justify-content-center">
+        <%- partial('component/mockup', {mockup: value.mockup}) %>
       </div>
       <div class="col-45">
-          <h3 class="fs-4 fw-bold"><%- value.title %></h3>
-          <span><%- value.content %></span>
+        <h3 class="fs-4 fw-bold"><%- value.title %></h3>
+        <span><%- value.content %></span>
       </div>
     </div>
     <% }) %>
