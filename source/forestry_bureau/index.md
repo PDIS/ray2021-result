@@ -77,7 +77,7 @@ hifi_prototype:
 
 result:
   before:
-    image: 04_wireframe1_2.png
+    image: 04_gov.png
     link: https://recreation.forest.gov.tw/
   after: 
     image: 04_highfi.gif
