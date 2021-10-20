@@ -51,7 +51,7 @@ need:
 wireframe:
   items:
     - name: Wireframe A 網頁/手機版面
-      image: 01_wireframe1_2.png
+      image: 01_wireframe1.png
       background: iphone
     - name: Wireframe B 手機版面
       image: 01_wireframe2.gif
