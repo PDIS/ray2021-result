@@ -76,7 +76,7 @@ hifi_prototype:
 
 result:
   before:
-    image: 01_wireframe1_2.png
+    image: 03_gov.png
     link: https://vspc.tycg.gov.tw/
   after: 
     image: 03_highfi.png
