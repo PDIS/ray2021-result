@@ -6,6 +6,7 @@ thumbnail: 03_highfi.png
 description: 有溫度的探索，激發服務熱忱
 
 cover:
+  style: cover_3
   demo:
     position: left
     background:

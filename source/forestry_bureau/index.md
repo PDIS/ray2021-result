@@ -6,6 +6,7 @@ thumbnail: 04_highfi.gif
 description: 專屬山林嚮導，讓你行程免煩惱
 
 cover:
+  style: cover_4
   demo:
     position: right
     background:
@@ -85,7 +86,7 @@ result:
 
 report:
   items: 
-    - https://e.issuu.com/embed.html?d=0831_ef732b0491acd2&pageLayout=singlePage&u=pdis.tw
+    - https://e.issuu.com/embed.html?d=0831_ef732b0491acd2&pageLayout=singlePage&u=pdis.tw&hideIssuuLogo=true
 
 experience:
   items:

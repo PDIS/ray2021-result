@@ -6,6 +6,7 @@ thumbnail: 02_highfi.png
 description: 數位化健保卡，創造良好使用者體驗
 
 cover:
+  style: cover_2
   demo:
     position: left
     background:

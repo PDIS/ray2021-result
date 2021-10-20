@@ -6,6 +6,13 @@ thumbnail: 01_highfi.jpg
 description: 線性疏理資訊和流程，最大化使用效率
 
 cover:
+  style: cover_1
+  background: "#69C3C3"
+  image: 01_cover.png
+  department: 臺北市政府社會局
+  title: 公托登記報名及抽籤系統<br>之使用者經驗設計
+
+
   demo:
     position: left
     background:
