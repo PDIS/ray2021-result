@@ -85,8 +85,9 @@ result:
       subtitle: 專屬山林嚮導，讓你行程免煩惱
       description: 我們與部會討論，並且詳細閱讀之前的研究報告，找到可以發展的題目「未使用過山林悠遊網且非專業」的使用者體驗，於是我們訪談了解使用者會花費較多時間於行程前的籌備，因此，將針對使用者提出一個較為方便的服務，並且部會希望能夠知名度，因此，我們將提供一個Line chatbot，讓使用者能夠有更密切的互動。
       mockup:
-        image: 04_highfi.png
+        image: 04_highfi1.png
         type: mobile_with_bg
+        background: 04_bg.png
       color: "#6E7556"
       link: forestry_bureau
       members:
