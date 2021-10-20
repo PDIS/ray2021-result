@@ -89,16 +89,15 @@ hifi_prototype:
 
 result:
   before:
-    image: 02_highfi.png
-    link: https://google.com
+    image: 02_gov.png
+    link: https://cloudicweb.nhi.gov.tw/cloudic/system/mUserAccount1.aspx
   after: 
     image: 02_highfi.png
-    link: https://google.com
+    link: https://www.figma.com/proto/aQN9DgXGDgT2WNsmofSpEY/Hi-fi-Prototype?page-id=264%3A3848&node-id=264%3A5285&viewport=308%2C48%2C0.18&scaling=contain&starting-point-node-id=264%3A3849
 
 report:
   items: 
-    - https://e.issuu.com/embed.html?pageLayout=singlePage&hideIssuuLogo=true&u=pdis.tw&d=___etc______________________________90_________1_
-    - https://www.youtube.com/embed/iVEbsg5wTGQ
+    - https://e.issuu.com/embed.html?d=_045c60e3d6b507&hideIssuuLogo=true&pageLayout=singlePage&u=pdis.tw
 
 experience:
   items:
@@ -120,10 +119,10 @@ experience:
 
 picture:
   items:
-    - why.png
-    - why.png
-    - why.png
-    - why.png
-    - why.png
-    - why.png
+    - 02_record1.png
+    - 02_record2.png
+    - 02_record3.png
+    - 02_record4.png
+    - 02_record5.png
+    - 02_record6.png
 ---

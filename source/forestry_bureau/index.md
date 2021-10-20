@@ -62,7 +62,7 @@ wireframe:
   content: A版Wireframe我們設計了在山林悠遊網上運作的 messneger chatbot，因山林悠遊網本身即有豐富資訊，因此我們討論後在網站上加上能與使用者互動的 chatbot，一方面延伸網站功能，另一方面讓使用者在進入網站時能立即獲得協助，簡化網站使用上的複雜度。B版Wireframe設計則是以官方 Line  chatbot 的方式擴大服務，互動式協助使用者篩選出適合的景點。 除了串連整個行程的前中後，也計劃結合線上線下服務，讓使用者在整個行程中都能有完整的體驗。
 
 divider:
-  image: 03_divider.jpg
+  image: 04_divider.png
 
 hifi_prototype:
   items:
@@ -78,7 +78,7 @@ hifi_prototype:
 
 result:
   before:
-    image: 04_wireframe1_2.png
+    image: 04_gov.png
     link: https://recreation.forest.gov.tw/
   after: 
     image: 04_highfi.gif
@@ -86,7 +86,12 @@ result:
 
 report:
   items: 
+<<<<<<< HEAD
     - https://e.issuu.com/embed.html?d=0831_ef732b0491acd2&pageLayout=singlePage&u=pdis.tw&hideIssuuLogo=true
+=======
+    - https://e.issuu.com/embed.html?d=0831_ef732b0491acd2&pageLayout=singlePage&u=pdis.tw
+    - https://www.youtube.com/embed/p1U5lvZzPEs
+>>>>>>> e55f13b85f3a0da33f64d927788edbd7ef9450e0
 
 experience:
   items:
