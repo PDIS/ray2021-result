@@ -66,17 +66,17 @@ hifi_prototype:
     - title: 任務分段，循序漸進
       content: 將比較困難的註冊以及登入流程拆解成數個小任務，一步一步引導使用者完成，也確保沒有漏掉任何一個步驟。同時附上流程圖顯示使用者目前正在進行的階段，以及後面會出現的任務。
       mockup:
-        image: 02_highfi.png
+        image: 02_highfi.gif
         type: desktop
     - title: 問題指南，有問必答
       content: 強化現有網站的錯誤提示，改善解決問題的流暢度，確保使用者在發生錯誤時能夠知道目前遇到的問題是什麼，並即時獲得解答。
       mockup:
-        image: 02_highfi.png
+        image: 02_highf2.png
         type: desktop
     - title: 資訊分級，一目瞭然
       content: 將網站上提供的資訊按照不同類別跟重要程度用顏色、大小、粗細做分級，盡可能減少使用者搜尋目標資訊花費的時間。
       mockup:
-        image: 02_highfi.png
+        image: 02_highf3.gif
         type: desktop
 
 result:
