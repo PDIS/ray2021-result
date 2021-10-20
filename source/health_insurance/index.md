@@ -8,27 +8,9 @@ description: 數位化健保卡，創造良好使用者體驗
 cover:
   style: cover_2
   background: "#3085BD"
-  demo:
-    position: left
-    background:
-      image: 02_highfi.png
-      border: macbook
-    mobile:
-      enable: false
-
-  title_color: "#4588BA"
+  image: 02_cover.png
   department: 衛生福利部中央健康保險署
   title: 健保卡網路服務<br>註冊流程優化
-  link: https://cloudicweb.nhi.gov.tw/cloudic/system/mlogin.aspx
-  members:
-    - name: 郭又宗
-      image: 02郭又宗.jpg
-    - name: 楊曉曄
-      image: 02楊曉曄.jpg
-    - name: 葉伊蕙
-      image: 02葉伊蕙.jpg
-  subtitle: 讓你人生的每個階段都安心
-  description: 健保卡網路註冊服務致力於提供民眾更多元的管道，來使用健保署所推行的各種數位服務。前期研究發現，部分使用者會在註冊的環節卡關，最後甚至放棄註冊。因此團隊與健保署一同合作並確立目標 ，希望在確保資訊安全的情況下，協助使用者完成註冊。
 
 introduction:
   members:

@@ -1,3 +1,10 @@
+<style>
+  @media (min-width: 768px) and (max-width: 992px) {
+    .nav-link {
+      color: white !important;
+    }
+  }
+</style>
 <section id="cover" class="cover-2">
   <div class="cover-bg">
     <div
@@ -7,13 +14,13 @@
   </div>
   <div class="container h-100">
     <div class="row h-100">
-      <div class="col-8 d-flex align-items-center justify-content-center">
+      <div class="left col-lg-8 d-flex justify-content-center">
         <div class="macbook">
           <img src="/image/macbook.png" alt="macbook" />
           <div style="background: url('/image/<%- page.cover.image %>')"></div>
         </div>
       </div>
-      <div class="col-4 h-100 d-flex align-items-center justify-content-end">
+      <div class="right col-lg-4 d-flex align-items-center">
         <div
           class="card-text text-center"
           style="color: <%- page.cover.background %>"
