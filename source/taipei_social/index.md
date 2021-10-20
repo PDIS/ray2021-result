@@ -96,12 +96,12 @@ hifi_prototype:
 result:
   before:
     mockup:
-      image: 01_gov.png
+      image: 01_highfi1.gif
       type: mobile
     link: https://dosw.gov.taipei/cp.aspx?n=91E27EEB185E61A5
   after: 
     mockup:
-      image: 01_highfi.png
+      image: 01_highfi1.gif
       type: mobile
     link: https://www.figma.com/proto/kQooDFByaYXqTEajQ35Eoo/Wireframe-Hi-Fi-Prototype-V2?page-id=56%3A259&node-id=77%3A1392&viewport=243%2C48%2C0.02&scaling=min-zoom&starting-point-node-id=77%3A1392&hide-ui=1
 
@@ -134,7 +134,7 @@ experience:
 
 picture:
   items:
-    - 01_record1.png
-    - 01_record2.jpg
-    - 01_record3.png
+    - 01_record1.jpg
+    - 01_record2.png
+    - 01_record3.jpg
 ---

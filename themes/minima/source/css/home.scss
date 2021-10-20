@@ -39,6 +39,10 @@ body {
   position: sticky;
   width: 100%;
   max-width: 300px;
+  margin: auto;
+  @media (max-width: $width-lg) {
+    max-width: 250px;
+  }
   .frame {
     width: 100%;
   }
@@ -329,6 +333,14 @@ main[class="home"] {
   section[id="experience"] {
     .exp-card {
       margin-bottom: 3rem;
+      @media (min-width: $width-lg) {
+        &:nth-child(odd) {
+          padding-right: 2.5rem;
+        }
+        &:nth-child(even) {
+          padding-left: 2.5rem;
+        }
+      }
       .exp-card-text {
         display: flex;
         align-items: center;
@@ -360,16 +372,6 @@ main[class="home"] {
             font-size: 20px;
             color: #3085bd;
           }
-        }
-      }
-    }
-    @media (min-width: $width-lg) {
-      .exp-card {
-        &:nth-child(odd) {
-          padding-right: 2.5rem;
-        }
-        &:nth-child(even) {
-          padding-left: 2.5rem;
         }
       }
     }
