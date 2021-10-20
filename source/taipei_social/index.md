@@ -64,7 +64,7 @@ wireframe:
         type: mobile
     - name: Wireframe B 手機版面
       mockup:
-        image: 01_wireframe2.gif
+        image: 01_wireframe2.png
         type: mobile
 
   title: 重整資訊架構並提升登記流程效率、客製化便民服務與協助部門案件審核的關卡設計
