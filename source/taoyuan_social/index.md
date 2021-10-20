@@ -71,7 +71,7 @@ hifi_prototype:
 result:
   before:
     mockup:
-      image: 01_wireframe1_2.png
+      image: 03_gov.png
       type: desktop
     link: https://vspc.tycg.gov.tw/
   after:
