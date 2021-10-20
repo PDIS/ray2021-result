@@ -40,7 +40,7 @@ cover:
 prestudy:
   images:
     - 01_research1.png
-    - 01_research2.png
+    - 01_research2.jpg
     - 01_research3.png
 
 need:
