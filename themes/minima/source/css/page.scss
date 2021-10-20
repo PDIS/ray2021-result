@@ -171,7 +171,7 @@ main[class="page"] {
 
         .cover-bg-color {
           height: 100%;
-          width: 65%;
+          width: 63%;
           float: right;
           @media (max-width: $width-lg) {
             margin-left: 50%;
@@ -211,11 +211,51 @@ main[class="page"] {
           right: -20px;
         }
         @media (max-width: $width-lg) {
-          max-width:80%;
+          max-width: 80%;
         }
       }
+    }
 
-     
+    &[class="cover-4"] {
+      @media (min-width: 1600px) {
+        .container {
+          max-width: 1500px;
+        }
+      }
+      .cover-4-iphone {
+        margin-left: 0 !important;
+        @media (max-width: $width-lg) {
+          margin-left: auto !important;
+          margin-bottom: 0 !important;
+          max-width:200px;
+        }
+      }
+      .cover-4-iphone-bg {
+        right: 0;
+        width: calc((100% - 10rem) / 2 - 50px + 5rem);
+        top: 15vh;
+        height: 70vh;
+        z-index: 0;
+        position: absolute;
+        background-size: cover !important;
+        opacity: 0.7;
+        @media (max-width: $width-lg) {
+          width: calc((100% - 4rem) - 50px + 2rem);
+          height: 50vh;
+        }
+      }
+      .right {
+        height: 100%;
+        @media (max-width: $width-lg) {
+          height: 70vh;
+        }
+      }
+      .left {
+        height: 100%;
+        @media (max-width: $width-lg) {
+          height: 30vh;
+        }
+      }
     }
   }
 

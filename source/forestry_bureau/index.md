@@ -7,30 +7,11 @@ description: 專屬山林嚮導，讓你行程免煩惱
 
 cover:
   style: cover_4
-  demo:
-    position: right
-    background:
-      image: 04_bg.png
-      border: none
-    mobile:
-      enable: true
-      position: left
-      image: 04_highfi.gif
-
-
-  title_color: "#6e7555"
-  subtitle: 專屬山林嚮導，讓你行程免煩惱
-  link: https://recreation.forest.gov.tw/
-  members:
-    - name: 姚怡均
-      image: 04姚怡均.jpg
-    - name: 林祐謙
-      image: 04林祐謙.jpg
-    - name: 張智堯
-      image: 04張智堯.jpg
-    - name: 李姿儀
-      image: 04李姿儀.jpg
-  description: 我們與部會討論，並且詳細閱讀之前的研究報告，找到可以發展的題目「未使用過山林悠遊網且非專業」的使用者體驗，於是我們訪談了解使用者會花費較多時間於行程前的籌備，因此，將針對使用者提出一個較為方便的服務，並且部會希望能夠知名度，因此，我們將提供一個Line chatbot，讓使用者能夠有更密切的互動。
+  background: "#6e7555"
+  image: 04_highfi.gif
+  bg_image: 04_bg.png
+  department: 行政院農業委員會林務局
+  title: 台灣山林悠遊網<br>Line Chatbot 導入之設計
 
 prestudy:
   images:
