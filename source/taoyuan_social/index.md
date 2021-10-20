@@ -85,7 +85,6 @@ result:
 report:
   items: 
     - https://e.issuu.com/embed.html?d=0831_&hideIssuuLogo=true&pageLayout=singlePage&u=pdis.tw
-    - https://www.youtube.com/embed/p1U5lvZzPEs
 
 experience:
   items:
