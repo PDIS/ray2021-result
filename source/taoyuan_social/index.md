@@ -7,25 +7,10 @@ description: 有溫度的探索，激發服務熱忱
 
 cover:
   style: cover_3
-  demo:
-    position: left
-    background:
-      image: 03_highfi.png
-      border: macbook
-    mobile:
-      enable: false
-
-  title_color: "#EF895F"
-  subtitle: 有溫度的探索，激發服務熱忱
-  link: https://vspc.tycg.gov.tw/Announcement/index.aspx?mode=MainMenu_1
-  members:
-    - name: 林子晴
-      image: 03林子晴.jpg
-    - name: 林曼寧
-      image: 03林曼寧.jpg
-    - name: 黃湧群
-      image: 03黃湧群.jpg
-  description: 在前期研究中，經過與公部門以及使用者的多次訪談，我們歸納出志工網的幾點問題，其中包含：媒合功能使用率不高、資訊呈現方式不佳等，最後定義了我們的 Problem Statement 為「該如何讓志工網的操作更加流暢且有溫度，讓無論是有經驗的志工以及一般民眾更願意使用，進而提升志工媒合率」。
+  background: "#ef895f"
+  image: 03_cover.png
+  department: 桃園市政府社會局
+  title: 志願服務整合資訊平台<br>之使用者經驗設計
 
 prestudy:
   images:
