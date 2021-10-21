@@ -227,7 +227,7 @@ main[class="page"] {
         @media (max-width: $width-lg) {
           margin-left: auto !important;
           margin-bottom: 0 !important;
-          max-width:200px;
+          max-width: 200px;
         }
       }
       .cover-4-iphone-bg {
@@ -261,6 +261,22 @@ main[class="page"] {
 
   section[id="introduction"] {
     margin-top: 7.5rem;
+    .left {
+      @media (max-width: $width-lg) {
+        margin-bottom: 2.25rem;
+      }
+      @media (min-width: $width-lg) {
+        padding-right: 1.875rem;
+      }
+    }
+    .right {
+      display: inline-flex;
+      flex-wrap: wrap;
+      gap: 3rem;
+      @media (min-width: $width-lg) {
+        padding-left: 1.875rem;
+      }
+    }
   }
 
   section[id="prestudy"] {
