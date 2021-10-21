@@ -98,7 +98,7 @@ main[class="page"] {
       .left {
         align-items: center !important;
         @media (max-width: $width-lg) {
-          align-items: end !important;
+          align-items: flex-end !important;
           height: 60vh;
         }
       }
@@ -146,7 +146,7 @@ main[class="page"] {
       .left {
         align-items: center !important;
         @media (max-width: $width-lg) {
-          align-items: end !important;
+          align-items: flex-end !important;
           height: 50vh;
         }
       }
