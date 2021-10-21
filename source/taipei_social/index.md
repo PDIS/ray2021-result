@@ -2,8 +2,10 @@
 layout: page
 title: 「臺北市政府社會局」公托登記報名及抽籤
 date: 2021-07-04 18:30:46
-thumbnail: 01_highfi.jpg
+thumbnail: 01_highfi.png
+mockup: mobile
 description: 線性疏理資訊和流程，最大化使用效率
+id: 1
 
 cover:
   style: cover_1

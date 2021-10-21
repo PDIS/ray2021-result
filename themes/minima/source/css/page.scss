@@ -331,6 +331,7 @@ main[class="page"] {
     .circle {
       position: absolute;
       border: 3px solid #dbe9f6;
+      opacity: 0.5;
       width: 55%;
       height: 100%;
       border-radius: 50%;
@@ -491,6 +492,41 @@ main[class="page"] {
     .image {
       padding-bottom: 56.25%;
       background-size: cover !important;
+    }
+  }
+
+  section[id="other"] {
+    margin-bottom: 10rem;
+    h2 {
+      margin-top: 0;
+      margin-bottom: 3.75rem;
+      font-weight: bold;
+      font-size: 24px;
+      color: black !important;
+    }
+
+    h3 {
+      margin-top: 1rem;
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 2rem;
+    }
+    .mockup-card {
+      @media (max-width: $width-lg) {
+        margin-bottom: 5rem;
+      }
+
+      
+      .mockup {
+        height: 300px;
+        .iphone {
+          width: 150px;
+        }
+        .macbook {
+          max-width: 400px;
+        }
+      }
     }
   }
 }

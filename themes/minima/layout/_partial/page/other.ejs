@@ -1,0 +1,60 @@
+<% 
+var mockups = [
+  {
+    id: "1",
+    title: "「臺北市政府社會局」<br>公托登記報名及抽籤系統<br>之使用者經驗設計",
+    color: "",
+    mockup: {
+      type: "mobile" , 
+      image: "01_highfi.png"
+    }
+  },
+  {
+    id: "2",
+    title: "衛生福利部中央健康保險署<br>健保卡網路服務<br>註冊流程優化",
+    mockup: {
+      type: "desktop" , 
+      image: "02_highfi.png"
+    }
+  },
+  {
+    id: "3",
+    title: "「桃園市政府社會局」<br>志願服務整合資訊平台<br>之使用者經驗設計",
+    color: "",
+    mockup: {
+      type: "desktop" , 
+      image: "03_highfi.png"
+    }
+  },
+  {
+    id: "4",
+    title: "「行政院農業委員會林務局」<br>台灣山林悠遊網<br>Line Chatbot 導入之設計",
+    color: "",
+    mockup: {
+      type: "mobile" , 
+      image: "04_highfi1.png"
+    }
+  }
+];
+
+%>
+  <section id="other">
+    <div class="container">
+      <h2>再看看其他組精彩的成果吧！</h2>
+      <div class="row">
+        <% site.pages.forEach(function(value){ 
+          if (value.layout == "page" && value.id != page.id) {
+        %>
+          <div class="mockup-card col-lg-4 d-flex align-items-center justify-content-center">
+            <div class="text-center">
+              <div class="mockup">
+              <%- partial('component/mockup', {mockup: {image: value.thumbnail, type: value.mockup}}) %>
+              </div>
+              <h3 style="color: <%- value.cover.background %>"> 「<%- value.cover.department %>」<br><%- value.cover.title %></h3>
+              <a class="btn rounded-pill fw-bold text-white px-4 py-2" style="background: <%- value.cover.background %>" href="/<%- value.path %>">前往專案成果</a>
+            </div>
+          </div>
+        <% }}) %>
+      </div>
+      <div>
+  </section>
