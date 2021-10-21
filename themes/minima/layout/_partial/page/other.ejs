@@ -45,9 +45,9 @@ var mockups = [
         <% site.pages.forEach(function(value){ 
           if (value.layout == "page" && value.id != page.id) {
         %>
-          <div class="mockup-card col-lg-4 d-flex align-items-center justify-content-center">
+          <div class="mockup-card col-lg-4 ">
             <div class="text-center">
-              <div class="mockup">
+              <div class="mockup d-flex align-items-center justify-content-center">
               <%- partial('component/mockup', {mockup: {image: value.thumbnail, type: value.mockup}}) %>
               </div>
               <h3 style="color: <%- value.cover.background %>"> 「<%- value.cover.department %>」<br><%- value.cover.title %></h3>
