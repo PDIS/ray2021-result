@@ -1,0 +1,101 @@
+$primary-color: #eb6047;
+$width-lg: 991.5px;
+$width-md: 767.5px;
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap&subset=chinese-traditional);
+body {
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+}
+
+
+.macbook {
+  position: relative;
+  width: 100%;
+  img {
+    width: 100%;
+  }
+  div {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 12%;
+    width: 75%;
+    height: 75%;
+    background-size: cover !important;
+  }
+}
+
+.iphone {
+  position: sticky;
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+  @media (max-width: $width-lg) {
+    max-width: 250px;
+  }
+  .frame {
+    width: 100%;
+  }
+  .screen {
+    position: absolute;
+    margin: auto;
+    top: 2.5%;
+    left: 0;
+    right: 0;
+    width: 88%;
+    z-index: -1;
+  }
+}
+
+.circle-avatar {
+  width: 100px;
+  div {
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 50%;
+    background-size: cover !important;
+  }
+}
+
+.container {
+  @media (max-width: $width-md) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (max-width: $width-md) {
+  .navbar {
+    .collapse {
+      background: unset;
+    }
+    .show,
+    .collapsing {
+      background: #f8f9fa;
+    }
+  }
+}
+
+footer {
+  background-color: $primary-color;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+}

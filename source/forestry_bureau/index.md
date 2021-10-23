@@ -6,6 +6,7 @@ thumbnail: 04_highfi1.png
 mockup: mobile
 description: 專屬山林嚮導，讓你行程免煩惱
 id: 4
+color: green
 
 cover:
   style: cover_4

@@ -6,6 +6,7 @@ thumbnail: 02_highfi.png
 mockup: desktop
 description: 數位化健保卡，創造良好使用者體驗
 id: 2
+color: blue
 
 cover:
   style: cover_2

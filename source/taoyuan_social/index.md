@@ -6,6 +6,7 @@ thumbnail: 03_highfi.png
 mockup: desktop
 description: 有溫度的探索，激發服務熱忱
 id: 3
+color: orange
 
 cover:
   style: cover_3

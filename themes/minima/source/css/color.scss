@@ -1,0 +1,48 @@
+@use "sass:meta";
+
+@mixin colors($args...) {
+  @debug meta.keywords($args);
+  :root {
+    @each $name, $color in meta.keywords($args) {
+      --bs-#{$name}: #{$color};
+    }
+  }
+  @each $name, $color in meta.keywords($args) {
+    .text-#{$name} {
+      color: var(--bs-#{$name}) !important;
+    }
+
+    .bg-#{$name} {
+      background-color: var(--bs-#{$name}) !important;
+    }
+
+    .border-#{$name} {
+      border-color: var(--bs-#{$name}) !important;
+    }
+
+    .btn-#{$name} {
+      color: white;
+      background-color: var(--bs-#{$name}) !important;
+      border-color: var(--bs-#{$name}) !important;
+    }
+
+    .btn-outline-#{$name} {
+      color: var(--bs-#{$name});
+      border-color: var(--bs-#{$name});
+    }
+
+    @if $name != primary {
+      .primary-#{$name} {
+        --bs-primary: var(--bs-#{$name});
+      }
+    }
+  }
+}
+
+@include colors(
+  $primary: #eb6047,
+  $green: #6e7556,
+  $orange: #ef895f,
+  $blue: #3085bd,
+  $cyan: #69c3c3
+);

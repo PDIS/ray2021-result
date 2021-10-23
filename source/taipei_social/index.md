@@ -6,6 +6,7 @@ thumbnail: 01_highfi.png
 mockup: mobile
 description: 線性疏理資訊和流程，最大化使用效率
 id: 1
+color: cyan
 
 cover:
   style: cover_1

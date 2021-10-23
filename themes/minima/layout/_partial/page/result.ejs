@@ -1,23 +1,43 @@
 <% if (typeof page.result !="undefined" ) { %>
-  <section id="result">
-    <div class="container">
-      <h3 class="fw-bold text-center fs-4">來實際操作看看改造成果吧！</h3>
-        <div class="row">
-          <div class="col-lg-6 d-flex align-items-center justify-content-center">
-            <div class="text-center">
-              <%- partial('component/mockup', {mockup: page.result.before.mockup}) %>
-                <a class="btn btn-primary rounded-pill fw-bold before" targer="_blank"
-                  href="<%- page.result.before.link %>">看現行網站</a>
-            </div>
-          </div>
-          <div class="col-lg-6 d-flex align-items-center justify-content-center">
-            <div class="text-center">
-              <%- partial('component/mockup', {mockup: page.result.after.mockup}) %>
-                <a class="btn btn-primary rounded-pill fw-bold after" targer="_blank"
-                  href="<%- page.result.after.link %>">看改造版本</a>
-            </div>
-          </div>
+<style>
+  #result a {
+    border-color: <%- page.cover.background %> !important;
+  }
+  #result .before {
+    color: <%- page.cover.background %>;
+  }
+  #result .after {
+    background: <%- page.cover.background %> !important;
+  }
+</style>
+<section id="result">
+  <div class="container">
+    <h3 class="fw-bold text-center fs-4">來實際操作看看改造成果吧！</h3>
+    <div class="row">
+      <div class="col-lg-6 d-flex align-items-center justify-content-center">
+        <div class="text-center">
+          <%- partial('component/mockup', {mockup: page.result.before.mockup})
+          %>
+          <a
+            class="btn rounded-pill fw-bold bg-white border-4 before"
+            targer="_blank"
+            href="<%- page.result.before.link %>"
+            >看現行網站</a
+          >
         </div>
+      </div>
+      <div class="col-lg-6 d-flex align-items-center justify-content-center">
+        <div class="text-center">
+          <%- partial('component/mockup', {mockup: page.result.after.mockup}) %>
+          <a
+            class="btn rounded-pill fw-bold text-white border-4 after"
+            targer="_blank"
+            href="<%- page.result.after.link %>"
+            >看改造版本</a
+          >
+        </div>
+      </div>
     </div>
-  </section>
-  <% } %>
+  </div>
+</section>
+<% } %>

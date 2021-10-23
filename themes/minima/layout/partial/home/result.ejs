@@ -1,9 +1,9 @@
 <section id="result">
   <div class="container">
-    <h2><%- page.result.title %></h2>
+    <h2 class="text-primary"><%- page.result.title %></h2>
     <% page.result.items.forEach(function(value){ %>
       <a href="/<%- value.link %>">
-        <div class="project d-flex flex-column-reverse" style="border-color: <%- value.color %>">
+        <div class="project d-flex flex-column-reverse border-<%- page.result.color %>">
           <div class="title h-100">
             <h3 style="color: <%- value.color %>">
               <%- value.title %>
