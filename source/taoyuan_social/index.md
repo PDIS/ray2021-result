@@ -1,12 +1,16 @@
 ---
 layout: page
-title: 「桃園市政府社會局」志願服務整合資訊平台
+title: 志願服務整合資訊平台之使用者經驗設計
 date: 2021-07-04 18:30:46
 thumbnail: 03_highfi.png
-mockup: desktop
 description: 有溫度的探索，激發服務熱忱
 id: 3
 color: orange
+mockup: desktop
+
+homepage:
+  mockup: desktop
+  image: 03_highfi.png
 
 cover:
   style: cover_3

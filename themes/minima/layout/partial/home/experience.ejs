@@ -4,7 +4,10 @@
       <%- page.experience.title %>
     </h2>
     <div class="row">
-      <% page.experience.items.forEach(function(value){ %>
+      <%
+        site.pages.filter(function(p){return p.layout == "page"}).forEach(function(p){
+          p.experience.items.forEach(function(value) {
+      %>
         <div class="col-lg-6 exp-card">
           <div class="exp-card-text">
             <div class="avatar">
@@ -29,7 +32,10 @@
 
           </div>
         </div>
-        <% }) %>
+      <%
+          });
+        }); 
+      %>
     </div>
   </div>
 </section>

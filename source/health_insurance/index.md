@@ -1,18 +1,22 @@
 ---
 layout: page
-title: 「衛福部中央健康保險署」健保卡網路服務註冊
+title: 健保卡網路服務註冊流程優化
 date: 2021-07-04 18:30:46
 thumbnail: 02_highfi.png
-mockup: desktop
 description: 數位化健保卡，創造良好使用者體驗
 id: 2
 color: blue
+mockup: desktop
+
+homepage:
+  mockup: desktop
+  image: 02_highfi.png
 
 cover:
   style: cover_2
   background: "#3085BD"
   image: 02_cover.png
-  department: 衛生福利部中央健康保險署
+  department: 行政院衛生福利部中央健康保險署
   title: 健保卡網路服務<br>註冊流程優化
 
 introduction:

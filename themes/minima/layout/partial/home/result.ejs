@@ -1,29 +1,33 @@
 <section id="result">
   <div class="container">
+    <% console.log( Object.entries(site.pages.data)) %>
     <h2 class="text-primary"><%- page.result.title %></h2>
-    <% page.result.items.forEach(function(value){ %>
-      <a href="/<%- value.link %>">
-        <div class="project d-flex flex-column-reverse border-<%- page.result.color %>">
-          <div class="title h-100">
-            <h3 style="color: <%- value.color %>">
+    <% site.pages
+        .filter((p) => { return p.layout == "page"})
+        .sort((a, b) => {return a.id < b.id} )
+        .forEach(function(value){ %>
+      <a href="/<%- value.path %>">
+        <div class="project d-flex flex-column-reverse border border-<%- value.color %> border-2 bg-<%- value.color %>">
+          <div class="title h-100 bg-white">
+            <h3 class="text-<%- value.color %>">
               <%- value.title %>
             </h3>
             <span>
-              <%- value.department %>
+              <%- value.cover.department %>
             <span>
           </div>
-          <div class="content position-sticky" style="background: <%- value.color %>">
+          <div class="content position-sticky">
             <div class="row">
-              <div class="col-lg-6 order-lg-1 d-flex align-items-center <%- value.mockup.type != "mobile_with_bg" ? "justify-content-center" : "" %>">
-                <%- partial('component/mockup', {mockup: value.mockup}) %>
+              <div class="col-lg-6 order-lg-1 d-flex align-items-center <%- value.mockup != "mobile_with_bg" ? "justify-content-center" : "" %>">
+                <%- partial('component/homepage_mockup', {homepage: value.homepage}) %>
               </div>
               <div class="col-lg-6 d-flex justify-content-center align-items-center">
                 <div>
                   <h4>
-                    <%- value.subtitle %>
+                    <%- value.introduction.subtitle %>
                   </h4>
                   <p>
-                    <%- value.description %>
+                    <%- value.introduction.description %>
                   </p>
                 </div>
               </div>

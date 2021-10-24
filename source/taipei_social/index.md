@@ -1,12 +1,16 @@
 ---
 layout: page
-title: 「臺北市政府社會局」公托登記報名及抽籤
+title: 公托登記報名及抽籤系統之使用者經驗設計
 date: 2021-07-04 18:30:46
 thumbnail: 01_highfi.png
-mockup: mobile
 description: 線性疏理資訊和流程，最大化使用效率
 id: 1
 color: cyan
+mockup: mobile
+
+homepage:
+  mockup: none
+  image: 01_cover.png
 
 cover:
   style: cover_1
