@@ -1,10 +1,8 @@
 <section id="result">
   <div class="container">
-    <% console.log( Object.entries(site.pages.data)) %>
     <h2 class="text-primary"><%- page.result.title %></h2>
     <% site.pages
-        .filter((p) => { return p.layout == "page"})
-        .sort((a, b) => {return a.id < b.id} )
+        .filter((p) => { return p.layout == "page" && p.lang == page.lang })
         .forEach(function(value){ %>
       <a href="/<%- value.path %>">
         <div class="project d-flex flex-column-reverse border border-<%- value.color %> border-2 bg-<%- value.color %>">

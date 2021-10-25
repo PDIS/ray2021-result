@@ -5,7 +5,7 @@
     </h2>
     <div class="row">
       <%
-        site.pages.filter(function(p){return p.layout == "page"}).forEach(function(p){
+        site.pages.filter(function(p){ return p.layout == "page" && p.lang == page.lang }).forEach(function(p){
           p.experience.items.forEach(function(value) {
       %>
         <div class="col-lg-6 exp-card">

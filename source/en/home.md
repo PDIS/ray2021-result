@@ -4,6 +4,8 @@ title: 青年學生體檢政府網站專案
 date: 2020-10-17
 thumbnail: butter.png
 description: Rescue Action by Youth .gov 2021
+lang: en
+permalink: en/index.html
 
 cover:
   title: RAY 5.0
