@@ -1,28 +1,27 @@
+<%
+ var find_footer = site.pages.filter(function(p){ return p.id == "footer" && p.lang == page.lang }).data;
+ if (find_footer.length != 0) {
+   var footer = find_footer[0];
+%>
 <footer class="bg-primary">
   <div class="container">
     <div class="row justify-content-between">
       <div class="col-lg-8">
         <img src="/images/logo.png" class="mb-4" width="80" height="80" alt="Logo"></img>
-        <p>
-          行政院公共數位創新空間(PDIS)透過教育部青年發展署的大專生公部門實習計畫，開辦青年學生體檢政府網站數位服務專案(RAY - Rescue Action by Youth .gov)，邀請青年朋友與國發會及相關部會以設計思考的方式進行協作，一同改善政府網站數位服務
-        </p>
-        <p class="m-0">
-          本網站為 PDIS 所設計及維運。除另有標示外，內容以創用 CC BY 4.0 授權條款釋出。
-        </p>
+        <% footer.contents.forEach(function(value){ %>
+        <p><%- value %></p>
+        <% }) %>
       </div>
       <div class="col-lg-2 d-flex align-items-end lh-lg">
         <ul>
+          <% footer.links.forEach(function(value){ %>
           <li>
-            <a href="https://ray2017.pdis.nat.gov.tw" target="_blank">網站原始碼</a>
+            <a href="<%- value.link %>" target="_blank"><%- value.name %></a>
           </li>
-          <li>
-            <a href="https://ray2017.pdis.nat.gov.tw" target="_blank">教育部青年發展署</a>
-          </li>
-          <li>
-            <a href="https://ray2019.pdis.nat.gov.tw" target="_blank">政府數位服務指引</a>
-          </li>
+          <% }) %>
         </ul>
       </div>
     </div>
   </div>
 </footer>
+<% } %>
