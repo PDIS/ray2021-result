@@ -10,8 +10,8 @@ permalink: en/index.html
 cover:
   title: RAY 5.0
   image: butter.png
-  subtitle: Rescue Action by Youth .gov 2021<br>青年學生體檢政府網站專案
-  description: 不畏疫情展開線上協作，<br>挑戰在雲端上改造公部門網站的可能！
+  subtitle: Rescue Action by Youth .gov 2021<br>Young Student Physical Examination Government Website Project
+  description: Launch online collaboration against the epidemic,<br>challenge the possibility of transforming public sector websites on the cloud!
 
 origin:
   title: 計畫緣起

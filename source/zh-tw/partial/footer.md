@@ -1,5 +1,5 @@
 ---
-layout: component
+layout: false
 id: footer
 lang: zh-tw
 
