@@ -302,14 +302,9 @@ main[class="page"] {
       display: flex;
       align-items: center;
       min-height: 450px;
-      div:first-child {
-        padding-left: 7rem;
-        padding-right: 3rem;
-
-        @media (max-width: $width-lg) {
-          padding-left: 4rem;
-          padding-right: 4rem;
-        }
+      max-width: 1000px;
+      margin:auto;
+      div {
         h3 {
           line-height: 2.5rem;
           @media (max-width: $width-lg) {
@@ -320,27 +315,6 @@ main[class="page"] {
           line-height: 2rem;
           margin-bottom: 3rem;
         }
-      }
-
-      img {
-        max-width: 480px;
-        float: right;
-      }
-    }
-
-    .circle {
-      position: absolute;
-      border: 3px solid #dbe9f6;
-      opacity: 0.5;
-      width: 55%;
-      height: 100%;
-      border-radius: 50%;
-      z-index: -1;
-
-      @media (max-width: $width-lg) {
-        top: 0;
-        width: 100%;
-        height: 70%;
       }
     }
   }
