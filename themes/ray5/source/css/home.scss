@@ -154,6 +154,10 @@ main[class="home"] {
 
     .project {
       margin-bottom: 5rem;
+      flex-direction: column-reverse;
+      @media (max-width: $width-lg) {
+        flex-direction: column;
+      }
       &:hover {
         box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.12);
         transform: translateY(-10px);
