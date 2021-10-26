@@ -21,9 +21,12 @@
     }
 
     .btn-#{$name} {
-      color: white;
+      color: white !important;
       background-color: var(--bs-#{$name}) !important;
       border-color: var(--bs-#{$name}) !important;
+      &:hover {
+        opacity:0.8;
+      }
     }
 
     .btn-outline-#{$name} {
