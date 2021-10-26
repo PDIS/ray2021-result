@@ -10,7 +10,7 @@
   <div class="container-fluid">
     <div class="row justify-content-center">
       <% page.wireframe.items.forEach(function(value){ %>
-      <div class="col-lg-4 d-flex align-items-center justify-content-center mb-5">
+      <div class="col-lg-4 d-flex align-items-center justify-content-center">
         <div class="text-center">
           <%- partial('component/mockup', {mockup: value.mockup}) %>
           <p class="mt-4"><%- value.name %></p>

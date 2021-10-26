@@ -303,7 +303,7 @@ main[class="page"] {
       align-items: center;
       min-height: 450px;
       max-width: 1000px;
-      margin:auto;
+      margin: auto;
       div {
         h3 {
           line-height: 2.5rem;
@@ -325,12 +325,18 @@ main[class="page"] {
         margin-bottom: 5rem;
       }
     }
-    @media (min-width: 768px) {
-      .container-fluid {
-        max-width: 1600px;
-        .row {
-          > div {
+
+    .container-fluid {
+      max-width: 1600px;
+      .row {
+        > div {
+          @media (min-width: $width-lg) {
             padding: 0 1.5rem;
+          }
+          @media (max-width: $width-lg) {
+            &:not(:last-child){
+              margin-bottom: 3rem;
+            }
           }
         }
       }
@@ -340,6 +346,9 @@ main[class="page"] {
   section[id="divider"] {
     .image {
       margin-top: 8.75rem;
+      width: 100%;
+      padding-bottom: 60vh;
+      background-size: cover !important;
     }
   }
 
@@ -478,7 +487,6 @@ main[class="page"] {
         margin-bottom: 5rem;
       }
 
-      
       .mockup {
         height: 300px;
         .iphone {
