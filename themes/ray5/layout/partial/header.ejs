@@ -1,0 +1,59 @@
+<header class="position-absolute w-100" style="z-index: 999">
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <a href="/" class="navbar-brand">
+        <img src="/images/logo.png" width="50" height="50" alt="Logo"></img>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <%
+        var find_navbar = site.pages.filter(function(p){ return p.id == "navbar" && p.lang == page.lang }).data;
+        if (find_navbar.length != 0) {
+          var navbar = find_navbar[0];
+      %>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+          <% 
+            navbar.items.forEach(function(value){
+              if (typeof value.items == "undefined") {
+          %>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="<%- value.link %>"><%- value.name %></a>
+          </li>
+          <%
+              } else {
+          %>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-secondary" href="#" data-bs-toggle="dropdown" aria-expanded="false"><%- value.name %></a>
+            <ul class="dropdown-menu">
+              <% value.items.forEach(function(i){ %>
+              <li><a class="dropdown-item" href="<%- i.link %>"><%- i.name %></a></li>
+              <% }) %>
+            </ul>
+          </li>
+          <% 
+              }
+            });
+
+            if (page.lang == "en") {
+          %>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="<%- page_url(page.path.replace(/^en/, '')) %>">中文</a>
+          </li>
+          <%
+            } else {
+          %>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="<%- page_url('en/' + page.path) %>">EN</a>
+          </li>
+          <%
+            }
+          %>
+        </ul>
+      </div>
+      <% } %>
+    </div>
+  </nav>
+</header>
