@@ -1,22 +1,17 @@
 <header class="position-absolute w-100" style="z-index: 999">
   <nav class="navbar navbar-expand-md navbar-light">
     <div class="container-fluid">
-      <a href="/" class="navbar-brand">
+      <a href="/<%- page.lang != 'zh-tw' ? page.lang : '' %>" class="navbar-brand">
         <img src="/images/logo.png" width="50" height="50" alt="Logo"></img>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       
-      <%
-        var find_navbar = site.pages.filter(function(p){ return p.id == "navbar" && p.lang == page.lang }).data;
-        if (find_navbar.length != 0) {
-          var navbar = find_navbar[0];
-      %>
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav ms-auto mb-2 mb-md-0">
           <% 
-            navbar.items.forEach(function(value){
+            __('navbar.items').forEach(function(value){
               if (typeof value.items == "undefined") {
           %>
           <li class="nav-item">
@@ -53,7 +48,6 @@
           %>
         </ul>
       </div>
-      <% } %>
     </div>
   </nav>
 </header>

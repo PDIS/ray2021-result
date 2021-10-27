@@ -12,6 +12,7 @@ cover:
   image: butter.png
   subtitle: Rescue Action by Youth .gov 2021<br>青年學生體檢政府網站專案
   description: 不畏疫情展開線上協作，<br>挑戰在雲端上改造公部門網站的可能！
+  go_achievement: 前往專案成果
 
 origin:
   title: 計畫緣起
@@ -29,7 +30,7 @@ origin:
       content: 數位服務的改造過程必須持續納入多方意見，同時引導不同的行動者參與設計行動，例如：對應部會、相關行政單位等利害關係人，這使整個行動能夠兼容實作可行性、合理業務範圍及更多設計可能。<br>因此，在見習過程中，同學們與部會人員共同參與了多場工作坊，透過一系列的設計工具，深入地瞭解服務提供者的想法；同時建立線下的協作模式，邀請部會持續參與設計過程，以確認進度和互相交流。
       image: how.png
 
-result:
+achievement:
   title: 專案成果
 
 experience:

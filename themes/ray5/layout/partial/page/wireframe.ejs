@@ -1,20 +1,18 @@
 <% if (typeof page.wireframe != "undefined") { %>
 <section id="wireframe">
   <div class="container">
-    <h2 class="fw-bold">Wireframe</h2>
+    <h2 class="fw-bold"><%- __('page.wireframe.title') %></h2>
     <div class="row">
       <h3 class="fs-4 fw-bold my-3"><%- page.wireframe.title %></h3>
-      <span><%- page.wireframe.content %></span>
+      <p><%- page.wireframe.content %></p>
     </div>
   </div>
   <div class="container-fluid">
     <div class="row justify-content-center">
       <% page.wireframe.items.forEach(function(value){ %>
-      <div class="col-lg-4 d-flex align-items-center justify-content-center">
-        <div class="text-center">
-          <%- partial('component/mockup', {mockup: value.mockup}) %>
-          <p class="mt-4"><%- value.name %></p>
-        </div>
+      <div class="col-lg-4 d-flex flex-column align-items-center justify-content-center">
+        <%- partial('component/mockup', {mockup: value.mockup}) %>
+        <p class="mt-4 text-center"><%- value.name %></p>
       </div>
       <% }) %>
     </div>

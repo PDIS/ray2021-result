@@ -13,6 +13,9 @@ main[class="page"] {
 
   section[id="cover"] {
     height: 100vh;
+    p {
+      text-align: unset;
+    }
     &[class="cover-1"] {
       .left {
         height: 100%;

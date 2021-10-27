@@ -1,7 +1,12 @@
 <% if (mockup.type == "mobile") { %>
 <div class="iphone">
   <img src="/image/iphone.png" class="frame" />
-  <img src="/image/<%- mockup.image %>" class="screen" />
+  <div class="out-screen">
+    <div
+      class="screen"
+      style="background: url('/image/<%- mockup.image %>')"
+    ></div>
+  </div>
 </div>
 <% } else if (mockup.type == "none"){ %>
 <div>

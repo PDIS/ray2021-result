@@ -1,6 +1,6 @@
 ---
 layout: index
-title: 青年學生體檢政府網站專案
+title: Young Student Physical Examination Government Website Project
 date: 2020-10-17
 thumbnail: butter.png
 description: Rescue Action by Youth .gov 2021
@@ -12,26 +12,27 @@ cover:
   image: butter.png
   subtitle: Rescue Action by Youth .gov 2021<br>Young Student Physical Examination Government Website Project
   description: Launch online collaboration against the epidemic,<br>challenge the possibility of transforming public sector websites on the cloud!
+  go_achievement: Go to achievement
 
 origin:
-  title: 計畫緣起
+  title: Origin
   items:
     - type: WHY
-      title: 「網站改造，青年之事」
-      content: 公部門網站的改造之事，你我都可能成為行動的一份子。<br>從第一屆 RAY 1.0 的政府網站體檢到 RAY 5.0 網站改造，我們持續地邀請青年學子參與其中，藉由各自的設計、資訊專長，共創公部門網站更好的使用者體驗，以及探索政府網站更多的設計可能。今年的計畫我們邀請了 14 位來自不同大專院校之同學，包含服務設計、介面設計、視覺設計、資訊工程等多元背景人才，與國發會及相關部會協作，為四個公部門網站進行一系列地交流、研究與設計。
+      title: "\"Website Renovation, Youth Matters\""
+      content: Regarding the transformation of public sector websites, you and I may all become part of the action. <br>From the first RAY 1.0 government website physical examination to the RAY 5.0 website transformation, we continue to invite young students to participate in it, with their respective design and information expertise, to create a better user experience for public sector websites, and Explore more design possibilities for government websites. For this year’s plan, we invited 14 students from different colleges and universities, including service design, interface design, visual design, information engineering and other diverse background talents, to cooperate with the National Development Council and related ministries to form four public sector websites. Conduct a series of communication, research and design.
       image: why.jpg
     - type: WHAT
-      title: 改造網站的組合技
-      content: 為確保工作重點一致、檢測後獲得明確結果，PDIS 小組整理出適用於 2021 年 RAY 計畫的使用者體驗「設計六步驟」。在計畫開始時， PDIS 即舉辦說明會，講解此六步驟及執行期程，並確保同學對於訪談、研究有一定掌握度，以奠基後續設計和原型產出的基礎品質。此設計六步驟除了讓同學們明確掌握自身專案進度，也可供往後相關單位參考。
+      title: Modification of website combinatorial techniques
+      content: In order to ensure consistent work priorities and clear results after testing, the PDIS team has compiled the "Six Design Steps" for the user experience of the RAY project in 2021. At the beginning of the project, PDIS will hold an explanatory meeting to explain the six steps and implementation schedule, and to ensure that students have a certain degree of mastery of interviews and research to lay a foundation for the basic quality of subsequent design and prototype output. In addition to allowing students to clearly grasp the progress of their own projects, this six-step design can also be used as a reference for related units in the future.
       image: what.jpg
     - type: HOW
-      title: 「主動出擊，部會共同參與」
-      content: 數位服務的改造過程必須持續納入多方意見，同時引導不同的行動者參與設計行動，例如：對應部會、相關行政單位等利害關係人，這使整個行動能夠兼容實作可行性、合理業務範圍及更多設計可能。<br>因此，在見習過程中，同學們與部會人員共同參與了多場工作坊，透過一系列的設計工具，深入地瞭解服務提供者的想法；同時建立線下的協作模式，邀請部會持續參與設計過程，以確認進度和互相交流。
+      title: "\"Proactively attack, ministries and committees participate together\""
+      content: The transformation process of digital services must continue to incorporate multiple opinions, and at the same time guide different actors to participate in the design action, such as the corresponding ministries, relevant administrative units and other stakeholders. This enables the entire action to be compatible with implementation feasibility, reasonable business scope and More design possibilities. <br>Therefore, during the internship process, the students participated in a number of workshops together with members of the department. Through a series of design tools, they had an in-depth understanding of the ideas of service providers; at the same time, they established an offline collaboration model and invited the department Will continue to participate in the design process to confirm progress and communicate with each other.
       image: how.png
 
-result:
-  title: 專案成果
+achievement:
+  title: Achievement
 
 experience:
-  title: 見習心得
+  title: Experience
 ---

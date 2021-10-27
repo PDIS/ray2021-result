@@ -7,7 +7,7 @@ items:
   - name: Origin
     link: /en/#origin
   - name: Achievement 
-    link: /en/#result
+    link: /en/#achievement
   - name: Experience
     link: /en/#experience
   - name: Past achievements

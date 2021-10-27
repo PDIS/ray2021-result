@@ -4,14 +4,14 @@ id: footer
 lang: en
 
 contents:
-  - 行政院公共數位創新空間(PDIS)透過教育部青年發展署的大專生公部門實習計畫，開辦青年學生體檢政府網站數位服務專案(RAY - Rescue Action by Youth .gov)，邀請青年朋友與國發會及相關部會以設計思考的方式進行協作，一同改善政府網站數位服務
-  - 本網站為 PDIS 所設計及維運。除另有標示外，內容以創用 CC BY 4.0 授權條款釋出。
+  - "The Public Digital Innovation Space (PDIS) of the Executive Yuan launched a digital service project (RAY-Rescue Action by Youth.gov) on the government website for youth student medical examinations through the public sector internship program of the Youth Development Agency of the Ministry of Education, inviting young friends to join the National Development Council. The association and related departments will collaborate in a design-thinking way to improve the digital services of government websites"
+  - "This website is designed and maintained by PDIS. Unless otherwise indicated, the content is released under the terms of the creative CC BY 4.0 license."
 
 links:
   - name: Source Code
     link: https://github.com/PDIS/ray2021-result
   - name: Youth Development Administration, Ministry of Education
-    link: https://www.yda.gov.tw/
-  - name: 政府數位服務指引
+    link: https://www.yda.gov.tw/en/
+  - name: Government Digital Service Guidelines
     link: https://www.ndc.gov.tw/Content_List.aspx?n=E7F6C261A5F5D9F5
 ---

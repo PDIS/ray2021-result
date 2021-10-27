@@ -12,7 +12,7 @@
 </style>
 <section id="result">
   <div class="container">
-    <h3 class="fw-bold text-center fs-4">來實際操作看看改造成果吧！</h3>
+    <h3 class="fw-bold text-center fs-4"><%- __('page.result.title') %></h3>
     <div class="row">
       <div class="col-lg-6 d-flex align-items-center justify-content-center">
         <div class="text-center">
@@ -22,7 +22,7 @@
             class="btn rounded-pill fw-bold bg-white border-4 before"
             targer="_blank"
             href="<%- page.result.before.link %>"
-            >看現行網站</a
+            ><%- __('page.result.before') %></a
           >
         </div>
       </div>
@@ -33,7 +33,7 @@
             class="btn rounded-pill fw-bold text-white border-4 after"
             targer="_blank"
             href="<%- page.result.after.link %>"
-            >看改造版本</a
+            ><%- __('page.result.after') %></a
           >
         </div>
       </div>

@@ -1,7 +1,12 @@
 <% if (homepage.mockup == "mobile") { %>
 <div class="iphone">
   <img src="/image/iphone.png" class="frame" />
-  <img src="/image/<%- homepage.image %>" class="screen" />
+  <div class="out-screen">
+    <div
+      class="screen"
+      style="background: url('/image/<%- homepage.image %>')"
+    ></div>
+  </div>
 </div>
 <% } else if (homepage.mockup == "none"){ %>
 <div style="width: 80%">
@@ -10,7 +15,12 @@
 <% } else if (homepage.mockup == "mobile_with_bg"){ %>
 <div class="mobile-with-bg-iphone iphone">
   <img src="/image/iphone.png" class="frame" />
-  <img src="/image/<%- homepage.image %>" class="screen" />
+  <div class="out-screen">
+    <div
+      class="screen"
+      style="background: url('/image/<%- homepage.image %>')"
+    ></div>
+  </div>
 </div>
 
 <div

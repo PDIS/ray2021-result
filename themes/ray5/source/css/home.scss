@@ -1,8 +1,6 @@
 $width-lg: 991.5px;
 $width-md: 767.5px;
 
-
-
 main[class="home"] {
   h2 {
     font-weight: bold;
@@ -37,6 +35,10 @@ main[class="home"] {
       @media (max-width: $width-lg) {
         font-size: 20px;
       }
+    }
+
+    p {
+      text-align: unset;
     }
 
     .triangle-left {
@@ -147,7 +149,7 @@ main[class="home"] {
     }
   }
 
-  section[id="result"] {
+  section[id="achievement"] {
     a {
       text-decoration: none;
     }

@@ -1,7 +1,7 @@
 <% if (typeof page.report != "undefined") { %>
 <section id="report">
   <div class="container">
-    <h2 class="fw-bold">專案報告</h2>
+    <h2 class="fw-bold"><%- __('page.report.title') %></h2>
     <% page.report.items.forEach(function(value){ %>
     <div class="embed mb-3">
         <iframe src="<%- value %>" class="w-100 h-100"></iframe>

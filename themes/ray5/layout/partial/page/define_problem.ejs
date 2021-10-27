@@ -1,7 +1,7 @@
 <% if (typeof page.need != "undefined") { %>
 <section id="define-problem">
   <div class="container">
-    <h2 class="fw-bold">定義問題</h2>
+    <h2 class="fw-bold"><%- __('page.define_problem.title') %></h2>
     <% page.need.items.forEach(function(value){ %>
       <div class="row">
         <div class="col-lg-6">

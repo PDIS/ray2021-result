@@ -7,7 +7,7 @@ items:
   - name: 計畫緣起
     link: /#origin
   - name: 專案成果 
-    link: /#result
+    link: /#achievement
   - name: 見習心得
     link: /#experience
   - name: 歷年專案成果

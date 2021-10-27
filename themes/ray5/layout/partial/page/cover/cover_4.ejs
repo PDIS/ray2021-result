@@ -25,10 +25,17 @@
       <div class="right col-lg-7 d-flex order-lg-1">
         <div class="iphone cover-4-iphone">
           <img src="/image/iphone.png" class="frame" />
-          <img src="/image/<%- page.cover.image %>" class="screen" />
+          <div class="out-screen">
+            <div
+              class="screen"
+              style="background: url('/image/<%- page.cover.image %>')"
+            ></div>
+          </div>
         </div>
       </div>
-      <div class="left col-lg-5 d-flex align-items-center justify-content-center">
+      <div
+        class="left col-lg-5 d-flex align-items-center justify-content-center"
+      >
         <div class="title-card">
           <div class="card-text text-center text-white">
             <span class="fw-bold fs-4"><%- page.cover.department %></span>
