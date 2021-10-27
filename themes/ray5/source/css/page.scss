@@ -222,9 +222,6 @@ main[class="page"] {
     }
 
     &[class="cover-4"] {
-      .iphone {
-        height: 70vh;
-      }
       @media (min-width: 1600px) {
         .container {
           max-width: 1500px;
