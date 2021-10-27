@@ -98,6 +98,7 @@ main[class="page"] {
     &[class="cover-2"] {
       .left {
         align-items: center !important;
+        height:100%;
         @media (max-width: $width-lg) {
           align-items: flex-end !important;
           height: 50vh;
