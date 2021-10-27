@@ -171,20 +171,24 @@ main[class="home"] {
           padding: 1rem;
         }
         h3 {
-          font-size: 36px;
-          line-height: 50px;
+          font-size: 2.25rem;
           font-weight: bold;
           display: inline;
           margin-right: 1.5rem;
           @media (max-width: $width-lg) {
             display: block;
+            font-size: 1.5rem;
           }
         }
         span {
-          font-size: 24px;
+          font-size: 1.5rem;
           font-weight: bold;
           line-height: 140%;
           color: #a8a8a8;
+          @media (max-width: $width-lg) {
+            display: block;
+            font-size: 1.2rem;
+          }
         }
       }
       .content {
@@ -198,7 +202,7 @@ main[class="home"] {
           font-size: 20px;
           line-height: 30px;
           font-weight: bold;
-          margin-bottom: 1rem;
+          margin: 1rem 0;
         }
 
         p {
