@@ -4,36 +4,47 @@
     <% site.pages
         .filter((p) => { return p.layout == "page" && p.lang == page.lang })
         .forEach(function(value){ %>
-      <a href="<%- page_url(value.path) %>">
-        <div class="project d-flex border border-<%- value.color %> border-2 bg-<%- value.color %>">
-          <div class="title h-100 bg-white">
-            <h3 class="text-<%- value.color %>">
-              <%- value.title %>
-            </h3>
+    <a href="<%- page_url(value.path) %>">
+      <div class="project d-flex border border-<%- value.color %> border-2 bg-<%- value.color %>">
+        <div class="title h-100 bg-white">
+          <h3 class="text-<%- value.color %>">
+            <%- value.title %>
+          </h3>
+          <span>
+            <%- value.cover.department %>
             <span>
-              <%- value.cover.department %>
-            <span>
-          </div>
-          <div class="content position-sticky">
-            <div class="row">
-              <div class="col-lg-6 order-lg-1 d-flex align-items-center <%- value.mockup != "mobile_with_bg" ? "justify-content-center" : "" %>">
-                <%- partial('component/homepage_mockup', {homepage: value.homepage}) %>
-              </div>
-              <div class="col-lg-6 d-flex justify-content-center align-items-center">
-                <div>
-                  <h4>
-                    <%- value.introduction.subtitle %>
-                  </h4>
-                  <p>
-                    <%- value.introduction.description %>
-                  </p>
+        </div>
+        <div class="content position-sticky">
+          <div class="row">
+            <div class="col-lg-6 order-lg-1 d-flex align-items-center <%- value.mockup != "mobile_with_bg" ? "justify-content-center" : "" %>">
+              <%- partial('component/homepage_mockup', {homepage: value.homepage}) %>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+              <div>
+                <h4>
+                  <%- value.introduction.subtitle %>
+                </h4>
+                <p>
+                  <%- value.introduction.description %>
+                </p>
+                <div class="d-flex">
+                  <% value.introduction.members.forEach(function(m){ %>
+                  <div class="avatar">
+                    <div class="circle-avatar mb-2">
+                      <div style="background:url('/image/<%- m.image %>')"></div>
+                    </div>
+                    <span>
+                      <%- m.name %>
+                    </span>
+                  </div>
+                  <% }) %>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
-      </a>
-      <% }) %>
+      </div>
+    </a>
+    <% }) %>
   </div>
 </section>
