@@ -151,7 +151,6 @@ main[class="page"] {
       .left {
         align-items: center !important;
         @media (max-width: $width-lg) {
-          align-items: flex-end !important;
           height: 50vh;
         }
       }

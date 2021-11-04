@@ -31,7 +31,12 @@
 
     .btn-outline-#{$name} {
       color: var(--bs-#{$name});
+      background: white;
       border-color: var(--bs-#{$name});
+      &:hover {
+        background-color: unset;
+        border-color: unset;
+      }
     }
 
     @if $name != primary {
