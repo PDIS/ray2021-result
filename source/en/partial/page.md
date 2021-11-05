@@ -4,10 +4,10 @@ id: page
 lang: en
 
 prestudy:
-  title: Preliminary research
+  title: Preliminary Study
 
 define_problem:
-  title: Define the problem
+  title: Problem Definitions
 
 hifi_prototype:
   title: High-fidelity prototype
@@ -16,17 +16,17 @@ wireframe:
   title: Wireframe
 
 result:
-  title: Let's take a look at the results of the transformation in practice!
-  before: Current website
-  after: Improve version
+  title: Now, let's manipulate the results of the revamp!
+  before: Visit the Current Website
+  after: Visit the Revamped Version
 
 report:
   title: Project report
 
 experience:
-  title: Internship record and experience sharing
+  title: Internship Records and Experience Sharing
 
 other:
-  title: Let's take a look at the wonderful results of other groups!
-  go_project: Go to achievement
+  title: So, let's see what the other groups have achieved!
+  go_project: Go to result
 ---

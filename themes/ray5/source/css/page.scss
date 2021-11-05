@@ -101,7 +101,7 @@ main[class="page"] {
     &[class="cover-2"] {
       .left {
         align-items: center !important;
-        height:100%;
+        height: 100%;
         @media (max-width: $width-lg) {
           align-items: flex-end !important;
           height: 50vh;
@@ -222,6 +222,7 @@ main[class="page"] {
 
     &[class="cover-4"] {
       .iphone {
+        max-width: 40vh;
         @media (max-width: $width-lg) {
           max-width: 30vh;
         }
@@ -343,7 +344,7 @@ main[class="page"] {
             padding: 0 1.5rem;
           }
           @media (max-width: $width-lg) {
-            &:not(:last-child){
+            &:not(:last-child) {
               margin-bottom: 3rem;
             }
           }
@@ -490,6 +491,9 @@ main[class="page"] {
       font-weight: bold;
       font-size: 18px;
       margin-bottom: 2rem;
+      span {
+        font-size: 1rem;
+      }
     }
     .mockup-card {
       @media (max-width: $width-lg) {

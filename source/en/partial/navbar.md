@@ -6,11 +6,11 @@ lang: en
 items:
   - name: Origin
     link: /en/#origin
-  - name: Achievement 
+  - name: Results 
     link: /en/#achievement
-  - name: Experience
+  - name: Impressions
     link: /en/#experience
-  - name: Past achievements
+  - name: Results of the Previous Projects
     items:
       - name: 2017 RAY 1
         link: https://ray2017.pdis.nat.gov.tw/
