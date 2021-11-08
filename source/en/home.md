@@ -3,14 +3,14 @@ layout: index
 title: Rescue Action by Youth .gov 2021
 date: 2020-10-17
 thumbnail: butter.png
-description: Young Student Examination Government Website Project. Defying the pandemic to embark on an online collaboration. Challenging the possibility of revamping public sector websites on the cloud!
+description:
 lang: en
 permalink: en/index.html
 
 cover:
   title: RAY 5.0
   image: butter.png
-  subtitle: Rescue Action by Youth .gov 2021<br>Young Student Examination Government Website Project
+  subtitle: Rescue Action by Youth .gov 2021<br>Young Student Physical Examination Government Website Project
   description: Defying the pandemic to embark on an online collaboration<br>Challenging the possibility of revamping public sector websites on the cloud!
   go_achievement: Go to results
 
