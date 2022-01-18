@@ -1,0 +1,287 @@
+main[class=home] h2 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  margin-top: 7.5rem;
+  margin-bottom: 5rem;
+}
+main[class=home] section[id=cover] {
+  height: 100vh;
+}
+main[class=home] section[id=cover] h1 {
+  font-size: 64px;
+  font-weight: 900;
+  color: #505050;
+  letter-spacing: 0.4px;
+  margin: 1rem 0;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+@media (max-width: 991.5px) {
+  main[class=home] section[id=cover] h1 {
+    font-size: 36px;
+  }
+}
+main[class=home] section[id=cover] .content {
+  font-weight: bold;
+  font-size: 24px;
+  color: #505050;
+  letter-spacing: 0.38px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+@media (max-width: 991.5px) {
+  main[class=home] section[id=cover] .content {
+    font-size: 18px;
+  }
+}
+main[class=home] section[id=cover] p {
+  text-align: unset;
+}
+main[class=home] section[id=cover] .triangle-left {
+  bottom: 0;
+  z-index: -1;
+  border-style: solid;
+  border-width: 35vh 0 0 55vw;
+  border-color: transparent transparent transparent #eb6047;
+  opacity: 0.8;
+}
+@media (max-width: 991.5px) {
+  main[class=home] section[id=cover] .triangle-left {
+    border-width: 15vh 0 0 60vw;
+  }
+}
+main[class=home] section[id=cover] .triangle-right {
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  border-style: solid;
+  border-width: 0 0 80vh 90vw;
+  border-color: transparent transparent #bc3017 transparent;
+  opacity: 0.8;
+}
+@media (max-width: 991.5px) {
+  main[class=home] section[id=cover] .triangle-right {
+    border-width: 0 0 15vh 60vw;
+  }
+}
+main[class=home] section[id=cover] .cover-mockup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 991.5px) {
+  main[class=home] section[id=cover] .cover-mockup {
+    align-items: flex-end !important;
+  }
+}
+main[class=home] section[id=cover] .cover-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 991.5px) {
+  main[class=home] section[id=cover] .cover-text {
+    align-items: flex-start !important;
+  }
+}
+main[class=home] section[id=origin] .container > .row {
+  margin-bottom: 5rem;
+}
+@media (min-width: 991.5px) {
+  main[class=home] section[id=origin] .container > .row > div {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+}
+main[class=home] section[id=origin] .container h3 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 50px;
+  text-align: right;
+  letter-spacing: 0.4px;
+  margin-bottom: 2rem;
+}
+@media (max-width: 991.5px) {
+  main[class=home] section[id=origin] .container h3 {
+    text-align: left;
+  }
+}
+main[class=home] section[id=origin] .container h4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 36px;
+  color: #a8a8a8;
+  margin-bottom: 1rem;
+}
+main[class=home] section[id=origin] .container p {
+  font-size: 1.125rem;
+  line-height: 27px;
+  text-align: justify;
+  margin-bottom: 0;
+}
+@media (max-width: 991.5px) {
+  main[class=home] section[id=origin] .container p {
+    margin-bottom: 2.5rem;
+  }
+}
+main[class=home] section[id=origin] .container br {
+  display: block;
+  margin: 1rem 0;
+  content: " ";
+}
+main[class=home] section[id=origin] .container .image-outer {
+  max-width: 360px;
+  width: 100%;
+}
+main[class=home] section[id=origin] .container .image-outer .image {
+  background-size: cover !important;
+  background-position: center !important;
+  padding-bottom: 80%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+main[class=home] section[id=achievement] a {
+  text-decoration: none;
+}
+main[class=home] section[id=achievement] .project {
+  margin-bottom: 5rem;
+  flex-direction: column-reverse;
+}
+@media (max-width: 991.5px) {
+  main[class=home] section[id=achievement] .project {
+    flex-direction: column;
+  }
+}
+main[class=home] section[id=achievement] .project:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-10px);
+}
+main[class=home] section[id=achievement] .project .title {
+  padding: 1rem 5rem;
+}
+@media (max-width: 991.5px) {
+  main[class=home] section[id=achievement] .project .title {
+    padding: 1rem;
+  }
+}
+main[class=home] section[id=achievement] .project .title h3 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  display: inline;
+  margin-right: 1.5rem;
+}
+@media (max-width: 991.5px) {
+  main[class=home] section[id=achievement] .project .title h3 {
+    display: block;
+    font-size: 1.5rem;
+  }
+}
+main[class=home] section[id=achievement] .project .title span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 140%;
+  color: #a8a8a8;
+}
+@media (max-width: 991.5px) {
+  main[class=home] section[id=achievement] .project .title span {
+    display: block;
+    font-size: 1.2rem;
+  }
+}
+main[class=home] section[id=achievement] .project .content {
+  color: white;
+  padding: 3.75rem 5rem;
+}
+@media (max-width: 991.5px) {
+  main[class=home] section[id=achievement] .project .content {
+    padding: 2rem;
+  }
+}
+main[class=home] section[id=achievement] .project .content h4 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+main[class=home] section[id=achievement] .project .content p {
+  line-height: 32px;
+  text-align: justify;
+}
+main[class=home] section[id=achievement] .project .content .mobile-with-bg {
+  right: 0;
+  width: calc((100% - 10rem) / 2 - 115px + 5rem);
+  height: 400px;
+  z-index: -1;
+  position: absolute;
+  background-size: cover !important;
+  opacity: 0.7;
+}
+@media (max-width: 991.5px) {
+  main[class=home] section[id=achievement] .project .content .mobile-with-bg {
+    width: calc((100% - 4rem) - 115px + 2rem);
+  }
+}
+main[class=home] section[id=achievement] .project .content .mobile-with-bg-iphone {
+  width: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+main[class=home] section[id=achievement] .project .content .avatar {
+  text-align: center;
+  margin-right: 1.5rem;
+}
+main[class=home] section[id=achievement] .project .content .avatar .circle-avatar {
+  width: 60px;
+}
+main[class=home] section[id=experience] {
+  margin-bottom: 7.5rem;
+}
+main[class=home] section[id=experience] .exp-card {
+  margin-bottom: 3rem;
+}
+@media (min-width: 991.5px) {
+  main[class=home] section[id=experience] .exp-card:nth-child(odd) {
+    padding-right: 2.5rem;
+  }
+  main[class=home] section[id=experience] .exp-card:nth-child(even) {
+    padding-left: 2.5rem;
+  }
+}
+main[class=home] section[id=experience] .exp-card .exp-card-text {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+main[class=home] section[id=experience] .exp-card .exp-card-text .avatar {
+  text-align: center;
+  margin-right: 1.5rem;
+}
+@media (max-width: 767.5px) {
+  main[class=home] section[id=experience] .exp-card .exp-card-text .avatar .circle-avatar {
+    width: 80px;
+  }
+}
+main[class=home] section[id=experience] .exp-card .exp-card-text a {
+  text-decoration: none;
+  color: inherit;
+}
+main[class=home] section[id=experience] .exp-card .exp-card-text .content {
+  flex: 0 1 100%;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+  padding: 3rem 1rem;
+  height: 100%;
+}
+@media (max-width: 991.5px) {
+  main[class=home] section[id=experience] .exp-card .exp-card-text .content {
+    padding: 1rem;
+  }
+}
+main[class=home] section[id=experience] .exp-card .exp-card-text .content h3 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #3085bd;
+}

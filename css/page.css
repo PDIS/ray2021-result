@@ -1,0 +1,498 @@
+main[class=page] h2 {
+  font-size: 2.375em;
+  color: #3085bd;
+  margin-top: 8.75rem;
+  margin-bottom: 3.75rem;
+  line-height: 3.125rem;
+}
+main[class=page] section[id=cover] {
+  height: 100vh;
+}
+main[class=page] section[id=cover] p {
+  text-align: unset;
+}
+main[class=page] section[id=cover][class=cover-1] .left {
+  height: 100%;
+  position: relative;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-1] .left {
+    height: 60vh;
+  }
+  main[class=page] section[id=cover][class=cover-1] .left img {
+    max-width: 500px;
+    bottom: 0;
+    position: absolute;
+  }
+}
+main[class=page] section[id=cover][class=cover-1] .right {
+  height: 100%;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-1] .right {
+    height: 40vh;
+  }
+}
+main[class=page] section[id=cover][class=cover-1] .cover-bg {
+  z-index: -1;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+main[class=page] section[id=cover][class=cover-1] .cover-bg .cover-bg-color {
+  background: #eb6047;
+  height: 100%;
+  width: 70%;
+  float: right;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-1] .cover-bg .cover-bg-color {
+    width: 50%;
+  }
+}
+main[class=page] section[id=cover][class=cover-1] .card-text h1 {
+  font-weight: bold;
+  font-size: 38px;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-1] .card-text h1 {
+    font-size: 24px;
+  }
+}
+main[class=page] section[id=cover][class=cover-1] .card-text p {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-1] .card-text p {
+    font-size: 16px;
+  }
+}
+main[class=page] section[id=cover][class=cover-1] .card-bg {
+  position: absolute;
+  background: #87d5d5;
+  height: 45%;
+  width: 90%;
+  border-radius: 50%;
+  transform: translate(3%, 4%);
+  z-index: -1;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-1] .card-bg {
+    height: 90%;
+  }
+}
+main[class=page] section[id=cover][class=cover-1] .card-bg-border {
+  position: absolute;
+  height: 45%;
+  width: 90%;
+  border: 5px solid #34abab;
+  border-radius: 50%;
+  z-index: -1;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-1] .card-bg-border {
+    height: 90%;
+  }
+}
+main[class=page] section[id=cover][class=cover-2] .left {
+  align-items: center !important;
+  height: 100%;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-2] .left {
+    align-items: flex-end !important;
+    height: 50vh;
+  }
+}
+main[class=page] section[id=cover][class=cover-2] .right {
+  justify-content: end !important;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-2] .right {
+    height: 50vh;
+    justify-content: center !important;
+  }
+}
+@media (min-width: 1600px) {
+  main[class=page] section[id=cover][class=cover-2] .container {
+    max-width: 1500px;
+  }
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-2] .card-text {
+    background: #f7f7f7;
+    padding: 2rem 3rem;
+  }
+}
+main[class=page] section[id=cover][class=cover-2] .cover-bg {
+  z-index: -1;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+main[class=page] section[id=cover][class=cover-2] .cover-bg .cover-bg-color {
+  border-bottom: 100vh solid #555;
+  border-right: 15vw solid transparent;
+  width: 35%;
+  height: 0;
+  margin-left: 37%;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-2] .cover-bg .cover-bg-color {
+    margin-left: 50%;
+    width: 50%;
+    border-right: unset;
+  }
+}
+main[class=page] section[id=cover][class=cover-3] .left {
+  align-items: center !important;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-3] .left {
+    height: 50vh;
+  }
+}
+main[class=page] section[id=cover][class=cover-3] .right {
+  justify-content: end !important;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-3] .right {
+    height: 50vh;
+    justify-content: center !important;
+  }
+}
+@media (min-width: 1600px) {
+  main[class=page] section[id=cover][class=cover-3] .container {
+    max-width: 1500px;
+  }
+}
+main[class=page] section[id=cover][class=cover-3] .cover-bg {
+  z-index: -1;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+main[class=page] section[id=cover][class=cover-3] .cover-bg .cover-bg-color {
+  height: 100%;
+  width: 63%;
+  float: right;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-3] .cover-bg .cover-bg-color {
+    margin-left: 50%;
+    width: 50%;
+    border-right: unset;
+  }
+}
+main[class=page] section[id=cover][class=cover-3] .title-card {
+  background: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-radius: 10px;
+  position: absolute;
+  width: calc(100% + 10px);
+  min-height: 20vw;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-3] .title-card {
+    padding: 1rem;
+  }
+}
+main[class=page] section[id=cover][class=cover-3] .title-card .card-text {
+  text-align: center;
+}
+main[class=page] section[id=cover][class=cover-3] .title-card .card-bg {
+  position: absolute;
+  background: #9d9d9d;
+  height: 100%;
+  border-style: solid;
+  border-radius: 10px;
+  width: 100%;
+  bottom: -25px;
+  z-index: -1;
+  right: -20px;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-3] .title-card {
+    max-width: 80%;
+  }
+}
+main[class=page] section[id=cover][class=cover-4] .iphone {
+  max-width: 40vh;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-4] .iphone {
+    max-width: 30vh;
+  }
+}
+@media (min-width: 1600px) {
+  main[class=page] section[id=cover][class=cover-4] .container {
+    max-width: 1500px;
+  }
+}
+main[class=page] section[id=cover][class=cover-4] .cover-4-iphone {
+  margin-left: 0 !important;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-4] .cover-4-iphone {
+    margin-left: auto !important;
+    transform: translateY(5vh);
+  }
+}
+main[class=page] section[id=cover][class=cover-4] .cover-4-iphone-bg {
+  right: 0;
+  width: calc((100% - 10rem) / 2 - 50px + 5rem);
+  top: 15vh;
+  height: 70vh;
+  z-index: 0;
+  position: absolute;
+  background-size: cover !important;
+  opacity: 0.7;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-4] .cover-4-iphone-bg {
+    width: calc((100% - 4rem) - 50px + 2rem);
+    height: 50vh;
+  }
+}
+main[class=page] section[id=cover][class=cover-4] .right {
+  height: 100%;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-4] .right {
+    height: 70vh;
+  }
+}
+main[class=page] section[id=cover][class=cover-4] .left {
+  height: 100%;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=cover][class=cover-4] .left {
+    height: 30vh;
+  }
+}
+main[class=page] section[id=introduction] {
+  margin-top: 7.5rem;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=introduction] .left {
+    margin-bottom: 2.25rem;
+  }
+}
+@media (min-width: 991.5px) {
+  main[class=page] section[id=introduction] .left {
+    padding-right: 1.875rem;
+  }
+}
+main[class=page] section[id=introduction] .right {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  grid-gap: 3rem;
+}
+@media (min-width: 991.5px) {
+  main[class=page] section[id=introduction] .right {
+    padding-left: 1.875rem;
+  }
+}
+main[class=page] section[id=prestudy] .carousel-control-next,
+main[class=page] section[id=prestudy] .carousel-control-prev {
+  width: 5%;
+}
+main[class=page] section[id=prestudy] .carousel-inner {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+main[class=page] section[id=prestudy] .carousel-indicators {
+  position: unset;
+}
+main[class=page] section[id=define-problem] .row {
+  margin-bottom: 5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 450px;
+  max-width: 1000px;
+  margin: auto;
+}
+main[class=page] section[id=define-problem] .row div h3 {
+  line-height: 2.5rem;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=define-problem] .row div h3 {
+    margin-top: 7rem;
+  }
+}
+main[class=page] section[id=define-problem] .row div p {
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+main[class=page] section[id=wireframe] .container .row {
+  margin-bottom: 5rem;
+}
+main[class=page] section[id=wireframe] .container-fluid {
+  max-width: 1600px;
+}
+@media (min-width: 991.5px) {
+  main[class=page] section[id=wireframe] .container-fluid .row > div {
+    padding: 0 1.5rem;
+  }
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=wireframe] .container-fluid .row > div:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+main[class=page] section[id=divider] .image {
+  margin-top: 8.75rem;
+  width: 100%;
+  padding-bottom: 60vh;
+  background-size: cover !important;
+}
+main[class=page] section[id=hifi-prototype] .row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7.5rem;
+}
+main[class=page] section[id=hifi-prototype] .row .col-55 {
+  flex: 0 0 auto;
+  width: 55%;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=hifi-prototype] .row .col-55 {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+main[class=page] section[id=hifi-prototype] .row .col-45 {
+  flex: 0 0 auto;
+  width: 45%;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=hifi-prototype] .row .col-45 {
+    width: 100%;
+    order: 1;
+  }
+}
+main[class=page] section[id=hifi-prototype] .row:nth-child(odd) > div:first-child {
+  order: 1;
+}
+main[class=page] section[id=result] {
+  background: #f7f7f7;
+}
+main[class=page] section[id=result] h3 {
+  padding-top: 5rem;
+  margin-bottom: 5rem;
+}
+main[class=page] section[id=result] .container {
+  max-width: 1100px;
+}
+main[class=page] section[id=result] .btn {
+  margin-top: 2rem;
+  padding: 0.5rem 2rem;
+  margin-bottom: 5rem;
+}
+main[class=page] section[id=report] .embed {
+  padding-bottom: 56.25%;
+  position: relative;
+}
+main[class=page] section[id=report] .embed iframe {
+  position: absolute;
+}
+main[class=page] section[id=experience] {
+  margin-bottom: 8.75rem;
+}
+main[class=page] section[id=experience] .exp-card {
+  margin-bottom: 3rem;
+}
+@media (min-width: 991.5px) {
+  main[class=page] section[id=experience] .exp-card:nth-child(odd) {
+    padding-right: 2.5rem;
+  }
+  main[class=page] section[id=experience] .exp-card:nth-child(even) {
+    padding-left: 2.5rem;
+  }
+}
+main[class=page] section[id=experience] .exp-card .exp-card-text {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+main[class=page] section[id=experience] .exp-card .exp-card-text .avatar {
+  text-align: center;
+  margin-right: 1.5rem;
+}
+@media (max-width: 767.5px) {
+  main[class=page] section[id=experience] .exp-card .exp-card-text .avatar .circle-avatar {
+    width: 80px;
+  }
+}
+main[class=page] section[id=experience] .exp-card .exp-card-text a {
+  text-decoration: none;
+  color: inherit;
+}
+main[class=page] section[id=experience] .exp-card .exp-card-text .content {
+  flex: 0 1 100%;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+  padding: 3rem 1rem;
+  height: 100%;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=experience] .exp-card .exp-card-text .content {
+    padding: 1rem;
+  }
+}
+main[class=page] section[id=experience] .exp-card .exp-card-text .content h3 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #3085bd;
+}
+main[class=page] section[id=picture] {
+  margin-bottom: 8.75rem;
+}
+main[class=page] section[id=picture] .image {
+  padding-bottom: 56.25%;
+  background-size: cover !important;
+}
+main[class=page] section[id=other] {
+  margin-bottom: 10rem;
+}
+main[class=page] section[id=other] h2 {
+  margin-top: 0;
+  margin-bottom: 3.75rem;
+  font-weight: bold;
+  font-size: 24px;
+  color: black !important;
+}
+main[class=page] section[id=other] h3 {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+main[class=page] section[id=other] h3 span {
+  font-size: 1rem;
+}
+@media (max-width: 991.5px) {
+  main[class=page] section[id=other] .mockup-card {
+    margin-bottom: 5rem;
+  }
+}
+main[class=page] section[id=other] .mockup-card .mockup {
+  height: 300px;
+}
+main[class=page] section[id=other] .mockup-card .mockup .iphone {
+  width: 150px;
+}
+main[class=page] section[id=other] .mockup-card .mockup .macbook {
+  max-width: 400px;
+}

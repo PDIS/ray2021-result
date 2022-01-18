@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap&subset=chinese-traditional);
+body {
+  font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+}
+
+p {
+  text-align: justify;
+}
+
+.macbook {
+  position: relative;
+  width: 100%;
+}
+.macbook img {
+  width: 100%;
+}
+.macbook div {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 12%;
+  width: 75%;
+  height: 75%;
+  background-size: cover !important;
+}
+
+.iphone {
+  position: sticky;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  margin: auto;
+  align-items: center !important;
+  display: flex;
+}
+@media (max-width: 991.5px) {
+  .iphone {
+    max-width: 250px;
+  }
+}
+.iphone .frame {
+  max-width: 100%;
+  max-height: 100%;
+}
+.iphone .out-screen {
+  z-index: -1;
+  padding: 5% 6%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.iphone .out-screen .screen {
+  width: 100%;
+  height: 100%;
+  background-size: cover !important;
+}
+
+.circle-avatar {
+  margin: auto;
+  width: 100px;
+}
+.circle-avatar div {
+  width: 100%;
+  padding-top: 100%;
+  border-radius: 50%;
+  background-size: cover !important;
+}
+
+@media (max-width: 767.5px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (max-width: 767.5px) {
+  .navbar .collapse {
+    background: unset;
+  }
+  .navbar .show,
+.navbar .collapsing {
+    background: #f8f9fa;
+  }
+}
+footer {
+  background-color: #eb6047;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: white;
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 991.5px) {
+  footer p:last-of-type {
+    margin-bottom: 0;
+  }
+}
